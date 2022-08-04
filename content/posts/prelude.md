@@ -5,7 +5,7 @@ draft: false
 description: ""
 ---
 
-![Peace sign near the beach](hero.jpg "比一個 Peace 是為了拍照")
+![比一個 Peace 是為了拍照](hero.jpg "比一個 Peace 是為了拍照")
 
 故事是這樣的<br>
 從大概小學五年級開始<br>
