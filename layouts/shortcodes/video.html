@@ -1,0 +1,9 @@
+<video class="my-0 rounded-md" autoplay loop>
+  <source src="{{ .Get "src" }}" type="video/mp4">
+  {{ with .Get "title" }}
+  <p>{{ . }}</p>
+  {{ end }}
+</video>
+{{ with .Get "title" }}
+<figcaption>{{ . }}</figcaption>
+{{ end }}
