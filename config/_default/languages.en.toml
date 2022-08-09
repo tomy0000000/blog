@@ -8,7 +8,7 @@ rtl = false
 title = "Tomy's Blog"
 # logo = "img/logo.jpg"
 # description = "My awesome website"
-# copyright = "Copy, _right?_ :thinking_face:"
+copyright = 'Copyright © 2022 Tomy Hsieh. See [copyright]({{< ref "copyright" >}}) for more.'
 
 # dateFormat = "2 January 2006"
 
