@@ -5,7 +5,7 @@ draft: false
 description: ""
 ---
 
-{{< video src="timelapse-hualien.mp4" title="海崖谷日出縮時" >}}
+{{< video src="timelapse-hualien.mp4" title="海崖谷日出縮時" autoplay=true loop=true >}}
 
 事件發生的當天，有著一個美麗的清晨。
 
