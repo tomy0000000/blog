@@ -2,6 +2,7 @@ languageCode = "zh-tw"
 languageName = "中文 (台灣)"
 displayName = "中文"
 isoCode = "zh-TW"
+hasCJKLanguage = true
 weight = 2
 rtl = false
 
