@@ -2,13 +2,14 @@ languageCode = "en"
 languageName = "English"
 displayName = "English"
 isoCode = "en"
-weight = 1
+weight = 2
 rtl = false
+hasCJKLanguage = false
 
 title = "Tomy's Blog"
 # logo = "img/logo.jpg"
 # description = "My awesome website"
-copyright = 'Copyright © 2022 Tomy Hsieh. See [copyright]({{< ref "copyright" >}}) for more.'
+copyright = '<a href="{{< relref "copyright" >}}" class="hover:underline hover:decoration-primary-400 hover:text-primary-500">Copyright</a> © 2022 Tomy Hsieh.'
 
 # dateFormat = "2 January 2006"
 
