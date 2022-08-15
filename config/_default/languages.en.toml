@@ -11,6 +11,7 @@ title = "Tomy's Blog"
 # description = "My awesome website"
 copyright = '<a href="{{< relref "copyright" >}}" class="hover:underline hover:decoration-primary-400 hover:text-primary-500">Copyright</a> © 2022 Tomy Hsieh.'
 
+publishDate = 2022-08-04T06:25:42+08:00
 # dateFormat = "2 January 2006"
 
 [author]
@@ -61,3 +62,11 @@ copyright = '<a href="{{< relref "copyright" >}}" class="hover:underline hover:d
   #   { whatsapp = "https://wa.me/phone-number" },
   #   { youtube = "https://youtube.com/username" },
   ]
+
+[rss]
+  image = "rss-image-144x144.png"
+  imageTitle = "Tomy's Logo"
+  imageWidth = 144
+  imageHeight = 144
+  imageDescription = ""
+  ttl = 60
