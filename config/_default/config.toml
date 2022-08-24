@@ -1,5 +1,5 @@
 # -- Site Configuration --
-# Refer to the theme docs for more details about each of these parameters.
+# https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # https://jpanther.github.io/congo/docs/configuration/#site-configuration
 
 baseURL = "https://blog.tomy.me/"
@@ -12,6 +12,9 @@ paginate = 10
 summaryLength = 0
 
 googleAnalytics = "G-B7DGGHK2JX"
+
+[Social]
+  twitter = "tomy0000000"  # For twitter:site
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
