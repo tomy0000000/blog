@@ -46,15 +46,26 @@
     {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
     {{- end -}}
     {{- range $pages -}}
+    {{ $page := . }}
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
-      <description>{{ .Summary | html }}</description>
+      <description>{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}</description>
       {{ with .Site.Author.email }}<author>{{ . }}{{ with $.Site.Author.name }} ({{ . }}){{ end }}</author>{{ end }}
       {{- with .Params.categories -}}{{ range . }}<category>{{ . }}</category>{{ end }}{{ end }}
-      <enclosure />
-      <!-- FIXME -->
-      <guid>{{ .File.TranslationBaseName }}</guid>
+      {{- range .Params.images -}}{{ $image := cond (or (hasPrefix . "http://") (hasPrefix . "https://")) (resources.GetRemote .) ($page.Resources.GetMatch .) }}
+      {{ if $image }}{{ $imageURL := cond (or (hasPrefix . "http://") (hasPrefix . "https://")) . $image.Permalink }}
+      <enclosure url="{{ $imageURL }}" length="{{ len $image.Content }}" type="{{ $image.MediaType }}" />
+      {{ else }}{{ warnf "Post OPG image is set, but resource does not exist." $page.File.Path }}{{ end }}{{ end }}
+      {{- with .Params.audio -}}{{ $audio := cond (or (hasPrefix . "http://") (hasPrefix . "https://")) (resources.GetRemote .) ($page.Resources.GetMatch .) }}
+      {{ if $audio }}{{ $audioURL := cond (or (hasPrefix . "http://") (hasPrefix . "https://")) . $audio.Permalink }}
+      <enclosure url="{{ $audioURL }}" length="{{ len $audio.Content }}" type="{{ $audio.MediaType }}" />
+      {{ else }}{{ warnf "Post OPG audio is set, but resource does not exist." $page.File.Path }}{{ end }}{{ end }}
+      {{- range .Params.videos -}}{{ $video := cond (or (hasPrefix . "http://") (hasPrefix . "https://")) (resources.GetRemote .) ($page.Resources.GetMatch .) }}
+      {{ if $video }}{{ $videoURL := cond (or (hasPrefix . "http://") (hasPrefix . "https://")) . $video.Permalink }}
+      <enclosure url="{{ $videoURL }}" length="{{ len $video.Content }}" type="{{ $video.MediaType }}" />
+      {{ else }}{{ warnf "Post OPG video is set, but resource does not exist." $page.File.Path }}{{ end }}{{ end }}
+      <guid>{{ .File.ContentBaseName }}</guid>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
     </item>
     {{ end }}
