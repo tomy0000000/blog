@@ -31,11 +31,11 @@
 # the copyright notice. Configure as per the main menu above.
 
 [[footer]]
-  name = "🏷 Tags"
+  name = "🏷 標籤"
   pageRef = "tags"
   weight = 10
 
 [[footer]]
-  name = "📖 Series"
+  name = "📖 系列文"
   pageRef = "series"
   weight = 10
