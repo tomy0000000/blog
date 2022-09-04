@@ -1,6 +1,7 @@
 # -- Site Configuration --
 # https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # https://jpanther.github.io/congo/docs/configuration/#site-configuration
+theme = "congo"
 
 baseURL = "https://blog.tomy.me/"
 defaultContentLanguage = "zh-tw"
