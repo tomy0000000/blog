@@ -7,7 +7,6 @@ rtl = false
 hasCJKLanguage = true
 
 title = "Tomy's Blog"
-# logo = "img/logo.jpg"
 # description = "My awesome website"
 copyright = '<a href="{{< relref "copyright" >}}" class="hover:underline hover:decoration-primary-400 hover:text-primary-500">Copyright</a> © 2022 Tomy Hsieh.'
 

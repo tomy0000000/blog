@@ -17,11 +17,12 @@ mainSections = ["posts"]
 
 [header]
   layout = "basic" # valid options: basic, hamburger, custom
+  # logo = "img/tomy.png"
 
 [footer]
   showCopyright = true
   showThemeAttribution = true
-  showAppearanceSwitcher = true
+  showAppearanceSwitcher = false
   showScrollToTop = true
 
 [homepage]

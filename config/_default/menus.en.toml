@@ -25,6 +25,10 @@
 #   pageRef = "tags"
 #   weight = 30
 
+[[main]]
+  weight = 99
+  [main.params]
+    action = "appearance"
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
