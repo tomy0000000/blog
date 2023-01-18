@@ -24,3 +24,7 @@ googleAnalytics = "G-B7DGGHK2JX"
 
 [Social]
   twitter = "tomy0000000"  # For twitter:site
+
+[privacy]
+  [privacy.youtube]
+    privacyEnhanced = true
