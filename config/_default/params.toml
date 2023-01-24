@@ -16,7 +16,7 @@ mainSections = ["posts"]
 # robots = ""
 
 [header]
-  layout = "basic" # valid options: basic, hamburger, custom
+  layout = "hybrid" # valid options: basic, hamburger, hybrid, custom
   # logo = "img/tomy.png"
 
 [footer]
