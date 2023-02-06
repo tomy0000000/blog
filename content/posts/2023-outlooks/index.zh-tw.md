@@ -5,6 +5,9 @@ description: "三個字 好好生活"
 images: ["https://og-image.tomy.tech/2023%20%E5%B1%95%E6%9C%9B.png?theme=dracula&md=1&fontSize=100px&images=https%3A%2F%2Ftomy.me%2Ftomy-circle-white.png", "2023-cookie.jpg"]
 series: ["🔭 回顧 & 展望"]
 tags: ["🇫🇷 法國", "🏛 Master's"]
+feature: "2023-cookie.jpg"
+featureAlt: "2023 餅乾"
+coverCaption: "就用這片可愛的巧克力 🍪 開啟 2023 吧 (◍•ᴗ•◍)"
 ---
 
 今年的計畫很簡單，因為我已經錄取至少一間美國的 Master's 了，其他學校應該過完年會陸續開獎，細節就之後再寫一篇文章吧。總之確定的就是大概 8 9 月會飛出去唸書。
@@ -12,8 +15,6 @@ tags: ["🇫🇷 法國", "🏛 Master's"]
 所以在那之前就是一片空白，基本上跟 Gap ~~year~~ three quarter 差不多。也許之後可能會安排去打工度假、環個島、Workation、實習，但這些東西目前八字都還沒一撇，所以大概是也沒什麼好寫的。
 
 但在這個特別的時間點，應該是很適合好好的回顧一下這幾年的生活，還有接下來要達成的一些目標。
-
-![2023 餅乾](2023-cookie.jpg "就用這片可愛的巧克力 🍪 開啟 2023 吧 (◍•ᴗ•◍)")
 
 ## 🎯 重視短期目標
 
