@@ -3,8 +3,12 @@ title: "2022 九合一選舉心得"
 date: 2022-11-27T00:50:19+08:00
 description: "雖然今年挺無聊的 QQ"
 images: ["https://og-image.tomy.tech/2022%20%E4%B9%9D%E5%90%88%E4%B8%80%E9%81%B8%E8%88%89%E5%BF%83%E5%BE%97.png?theme=dracula&md=1&fontSize=100px&images=https%3A%2F%2Ftomy.me%2Ftomy-circle-white.png"]
-tags: ["政治"]
+tags: ["📜 政治"]
 ---
+
+{{< alert >}}
+**Warning!** 本文章涉及我個人的政治觀點，可能既不客觀又不合理，如果你難以忽略我可能跟你保持不一樣的想法，不推薦繼續閱讀
+{{< /alert >}}
 
 雖然是不至於到忘記自己投給誰，但發現如果不寫一下推導的過程，還是有可能忘記自己是怎麼決定要投給誰的。
 
