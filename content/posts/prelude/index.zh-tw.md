@@ -1,11 +1,11 @@
 ---
 title: "Prelude"
 date: 2021-02-22T02:58:35+08:00
-draft: false
-description: ""
+description: "踏上寫作的不歸路 (?)"
+feature: "hero.jpg"
+featureAlt: "比一個 Peace 是為了拍照"
+coverCaption: "比一個 Peace 是為了拍照"
 ---
-
-![比一個 Peace 是為了拍照](hero.jpg "比一個 Peace 是為了拍照")
 
 故事是這樣的<br>
 從大概小學五年級開始<br>
