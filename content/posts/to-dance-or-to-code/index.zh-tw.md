@@ -1,11 +1,13 @@
 ---
-title: "⌨️ vs. 🕺🏻"
+title: "要寫程式，還是跳舞呢"
 date: 2021-03-30T02:19:33+08:00
-draft: false
-description: ""
+description: "原來一切都是我自己種的孽"
+images: ["https://og-image.tomy.tech/%E8%A6%81%E5%AF%AB%E7%A8%8B%E5%BC%8F%EF%BC%8C%E9%82%84%E6%98%AF%E8%B7%B3%E8%88%9E%E5%91%A2.png?theme=dracula&md=1&fontSize=100px&images=https%3A%2F%2Ftomy.me%2Ftomy-circle-white.png"]
+tags: ["🧩 記憶碎片"]
+feature: "feature.jpg"
+featureAlt: "淫亂宿舍實錄"
+coverCaption: "淫亂宿舍實錄"
 ---
-
-![淫亂宿舍實錄](hero.jpg "淫亂宿舍實錄")
 
 先說，這篇沒有 BL 的劇情，但我實在找不到其他合理的照片了
 

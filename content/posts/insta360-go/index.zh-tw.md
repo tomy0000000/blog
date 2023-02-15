@@ -1,25 +1,40 @@
 ---
 title: "Insta360 Go"
 date: 2021-03-17T05:44:03+08:00
-draft: false
-description: ""
+lastmod: 2021-03-17T05:44:03+08:00
+description: "中規中矩，沒有令人失望反而是它的驚喜點"
+videos: ["timelapse-penghu.mp4", "501-scored.mp4", "timelapse-ais3.mp4", "how-it-almost-went-off.mp4", "drama-club-daily.mp4"]
+keywords: [] # For SEO in meta tag
+series: []  # For series taxonomy, and og:see_also (first 6 links will be used)
+tags: ["🌟 產品體驗"]
+feature: "https://og-image.tomy.tech/Insta360%20Go.png?theme=dracula&md=1&fontSize=100px&images=https%3A%2F%2Ftomy.me%2Ftomy-circle-white.png"
+featureAlt: "" # Alt text (non-visible) for feature image
+coverCaption: "" # Description (visible) for feature image
 ---
 
 最近 Insta360 GO 的第二代上市了，趁這個時間來蹭點話題熱度應該是再適合不過啦
 
 {{< video src="timelapse-penghu.mp4" title="澎湖的不知道哪裡到哪裡" autoplay=true loop=true >}}
 
+## 🗼 360 相片初體驗
+
 先來點前情提要好了，雖然我在差不多國中就已經過了會追求攝影規格的階段，但卻還是不小心花了不少銀子在玩相關的東西 (X)。那時我對 Google Earth 提供的街景攝影很有興趣，所以從國外買了一個叫做 Motrr Galileo 的雲台，可以讓 iPhone 4S 拍出類似的東西，只是很可惜後來支援軟體的新創 Sphere 沒過多久就被 Google 收購了，所以很可惜這東西也是買了沒多久就流產了。
 
 {{< video src="501-scored.mp4" title="酒精加持的最後一發射中 501 的最後 1 分" controls=true >}}
+
+## 👽 VR 時代的來臨
 
 後來多虧 Oculus 一炮而紅，所有跟 VR、360 有關的東西價錢全翻了一倍，我就沒什麼機會再去玩了。特別是 RICOH Theta 系列的相機印象中大概高一就被加進我的玩具清單了，本來以為這東西價錢會在普及之後降到一個比較比較不那麼盤的價錢，結果 Insta360 就這麼半路殺出來了搏版面了，但價錢還是很貴，所以我還沒找到一個理由說服自己買 One 系列的相機，以下歡迎乾爹贊助 (X)。另外就是我對中國品牌還是有點感冒，但去年看到 Insta360 GO 剛推出就簽下 Apple Store 獨家的合約，又滿符合我對第一人稱攝影的想像，於是就只好鮮蝦挺 (X)。
 
 {{< video src="timelapse-ais3.mp4" title="AIS3 沒在上課的瞎忙縮時" autoplay=true loop=true >}}
 
+## 👍🏻 優點
+
 先講優點，作為一個這麼小的相機，攝影的品質當然就不是首要的重點，但拍路過的可愛妹子絕對是夠的 (欸不是)，縮時和慢動作的效果也比想像中的來的不錯，而且 App 提供很多炫砲的剪輯效果，又可以無腦直出 FB、IG，很方便，美中不足的大概就是目前電腦版的剪輯軟體支援度還沒有手機這麼高。
 
 {{< video src="how-it-almost-went-off.mp4" title="子毅現身說法這玩意兒差點噴飛" controls=true >}}
+
+## 👎🏻 缺點
 
 再來是缺點的部分，第一人稱的佩戴方式大概有兩種，一種是用藏在衣服裡磁吸掛繩，位置大概會在胸口附近，視野稍微低一點，另一種是用夾子夾在頭巾或是帽緣，但考量到這個方法戴起來智障度偏高，而且我私心覺得對會出現在鏡頭前的人敵意太高，就先不討論。磁吸的雖然蠻穩的，但還是會有死角容易掉，所以重點提示一下。一種是搬東西或提東西的時候如果靠著胸口，再來是整理衣服的時候，這個我覺得是最危險的，比方說從椅子站起來或是上完廁所，從腰際往外一擺一定是馬上下來，我就經常忘記然後掉下來，其中一次還直接掉進味增湯 (可惡沒錄到)。最 G8 的是才剛買不到半年其中一次下去，鏡頭直接就爆了，運送維修又噴了將近一半的價錢，聽到報價真的是起賭爛。
 
@@ -27,6 +42,10 @@ description: ""
 
 {{< video src="drama-club-daily.mp4" title="劇坊日常之醜狗吉娃娃憤怒社團 (?)" controls=true >}}
 
+## 🫱🏻‍🫲🏽 社會接納度
+
 雖然我應該也算是挺常戴在身上的，但有些人似乎神經滿大條的，完全不會發現 (?)，有些人則是遠遠的就看到，靠近之後第一句話就問，雖然這個議題國外在 Google Glass 出來的時候就吵過一次了，但我蠻好奇台灣人對這種鏡頭的排斥感如何，歡迎大家去我的限動投票。
+
+## 總結
 
 總結的話，為了寫這篇文我才第一次把影片一個一個打開來看，但我也是在這個時候才覺得這種簡單、不多餘的紀錄生活瑣碎片段的概念其實滿棒的，我很喜歡。如果 60 分代表我在買之前有信心這東西可以至少玩個半年才腰斬或玩膩，而實際體驗比預期的稍微好一咪咪，再加上它的確達成了前面所說的目的，沒有膨風，所以就姑且給個 70 分吧。
