@@ -15,15 +15,12 @@
   pageRef = "posts"
   weight = 10
 
-# [[main]]
-#   name = "🗂 Categories"
-#   pageRef = "categories"
-#   weight = 20
-
-# [[main]]
-#   name = "Tags"
-#   pageRef = "tags"
-#   weight = 30
+[[main]]
+  name = "關於"
+  pageRef = "about"
+  weight = 20
+  [main.params]
+    icon = "circle-info"
 
 [[main]]
   weight = 99
