@@ -1,13 +1,13 @@
 ---
-# https://gohugo.io/content-management/front-matter/
-# https://jpanther.github.io/congo/docs/front-matter/
 title: "我逝去的高中畢典"
 date: 2021-07-28T04:11:42+08:00
-description: ""  # For og:description
-images: ["https://og-image.tomy.tech/%E6%88%91%E9%80%9D%E5%8E%BB%E7%9A%84%E9%AB%98%E4%B8%AD%E7%95%A2%E5%85%B8.png?theme=dracula&md=1&fontSize=150px&images=https%3A%2F%2Ftomy.me%2Ftomy-circle-white.png", "morning-poker-game.jpg"]
+description: "都是這麼倏忽即逝的吧"
+images: ["https://og-image.tomy.tech/%E6%88%91%E9%80%9D%E5%8E%BB%E7%9A%84%E9%AB%98%E4%B8%AD%E7%95%A2%E5%85%B8.png?theme=dracula&md=1&fontSize=150px&images=https%3A%2F%2Ftomy.me%2Ftomy-circle-white.png"]
+tags: ["🧩 記憶碎片"]
+feature: "morning-poker-game.jpg"
+featureAlt: "最後一次在教室打牌"
+coverCaption: "畢業典禮早上的日常老二牌局，📸：馨霈"
 ---
-
-![畢業典禮早上的日常老二牌局，📸：馨霈](morning-poker-game.jpg "畢業典禮早上的日常老二牌局，📸：馨霈")
 
 故事要從 2017 年的某個早上說起。
 

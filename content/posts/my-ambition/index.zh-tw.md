@@ -1,15 +1,13 @@
 ---
-# https://jpanther.github.io/congo/docs/front-matter/
-# https://gohugo.io/content-management/front-matter/
 title: "我的志向"
-description: ""
 date: 2021-04-20T23:57:39+08:00
-draft: false
-images: 
-videos: 
+description: "好像是有一點太舒服了"
+images: ["https://og-image.tomy.tech/%E6%88%91%E7%9A%84%E5%BF%97%E5%90%91.png?theme=dracula&md=1&fontSize=100px&images=https%3A%2F%2Ftomy.me%2Ftomy-circle-white.png"]
+tags: ["🧩 記憶碎片"]
+feature: "feature.jpg"
+featureAlt: "聲音的建築展"
+coverCaption: "聲音的建築展"
 ---
-
-![聲音的建築展](hero.jpg "聲音的建築展")
 
 最近寫的題材好像有點硬核，又太臭太長了，換一下心情寫短篇故事好了。
 
