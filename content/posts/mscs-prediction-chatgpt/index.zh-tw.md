@@ -1,5 +1,5 @@
 ---
-title: "CS 碩士申請大預測 - ChatGPT，以及如何誘騙 (?) ChatGPT 回答預測型問題"
+title: "CS 碩士申請大預測 - ChatGPT × 教 ChatGPT 擲筊"
 date: 2023-02-12T21:08:29+08:00
 lastmod: 2023-02-12T21:08:29+08:00
 description: "如果人工智慧也是一種神的話，那當然也要來預測一下吧"
