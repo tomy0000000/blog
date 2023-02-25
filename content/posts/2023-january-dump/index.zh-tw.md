@@ -6,7 +6,7 @@ description: "2023 的起步看起來是平步青雲 (?"
 images: ["villa32.jpg", "lin-an-tai-house.jpg"]
 series: ["📰 每月報報"]
 tags: ["🧳 旅遊"]
-feature: "https://og-image.tomy.tech/2023%20%E5%B9%B4%201%20%E6%9C%88%E5%A0%B1%E5%A0%B1.png?theme=dracula&md=1&fontSize=100px&images=https%3A%2F%2Ftomy.me%2Ftomy-circle-white.png"
+feature: "https://og.tomy.tech/api/blog?title=2023%20%E5%B9%B4%201%20%E6%9C%88%E5%A0%B1%E5%A0%B1"
 ---
 
 到底為什麼可以拖了半個月才寫出來 xDDDDDD

@@ -2,7 +2,7 @@
 title: "我的志向"
 date: 2021-04-20T23:57:39+08:00
 description: "好像是有一點太舒服了"
-images: ["https://og-image.tomy.tech/%E6%88%91%E7%9A%84%E5%BF%97%E5%90%91.png?theme=dracula&md=1&fontSize=100px&images=https%3A%2F%2Ftomy.me%2Ftomy-circle-white.png"]
+images: ["https://og.tomy.tech/api/blog?title=%E6%88%91%E7%9A%84%E5%BF%97%E5%90%91"]
 tags: ["🧩 記憶碎片"]
 feature: "feature.jpg"
 featureAlt: "聲音的建築展"

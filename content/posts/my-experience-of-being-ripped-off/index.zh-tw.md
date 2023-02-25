@@ -2,7 +2,7 @@
 title: "盤子心法"
 date: 2021-07-13T03:12:06+08:00
 description: "當了多年的盤子，現在的我是怎麼買東西的"
-images: ["https://og-image.tomy.tech/%E7%9B%A4%E5%AD%90%E5%BF%83%E6%B3%95.png?theme=dracula&md=1&fontSize=100px&images=https%3A%2F%2Ftomy.me%2Ftomy-circle-white.png"]
+images: ["https://og.tomy.tech/api/blog?title=%E7%9B%A4%E5%AD%90%E5%BF%83%E6%B3%95"]
 tags: ["🧑🏻‍🏫 人生體悟"]
 feature: "feature.jpg"
 featureAlt: "看起來未來感十足的咖啡廳座位"

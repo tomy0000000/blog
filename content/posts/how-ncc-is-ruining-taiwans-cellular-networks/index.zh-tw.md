@@ -3,7 +3,7 @@ title: "NCC 是怎麼毀掉台灣的 4G 和 5G 網路"
 date: 2021-04-16T05:21:39+08:00
 lastmod: 2021-04-16T05:21:39+08:00
 description: "順便把消費者當韭菜收割"
-images: ["https://og-image.tomy.tech/NCC%20%E6%98%AF%E6%80%8E%E9%BA%BC%E6%AF%80%E6%8E%89%E5%8F%B0%E7%81%A3%E7%9A%84%204G%20%E5%92%8C%205G%20%E7%B6%B2%E8%B7%AF.png?theme=dracula&md=1&fontSize=100px&images=https%3A%2F%2Ftomy.me%2Ftomy-circle-white.png"]
+images: ["https://og.tomy.tech/api/blog?title=NCC%20%E6%98%AF%E6%80%8E%E9%BA%BC%E6%AF%80%E6%8E%89%E5%8F%B0%E7%81%A3%E7%9A%84%204G%20%E5%92%8C%205G%20%E7%B6%B2%E8%B7%AF"]
 tags: ["🔍 社會觀察"]
 feature: "feature.jpg"
 featureAlt: "你很雞掰，你知道嗎"

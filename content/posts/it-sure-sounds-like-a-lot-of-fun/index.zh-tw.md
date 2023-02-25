@@ -3,7 +3,7 @@ title: "可是聽起來超好玩ㄉ"
 date: 2021-07-21T01:48:04+08:00
 lastmod: 2021-07-21T01:48:04+08:00
 description: "一個你只要不說就不會有事但你說了的故事"
-images: ["https://og-image.tomy.tech/%E5%8F%AF%E6%98%AF%E8%81%BD%E8%B5%B7%E4%BE%86%E8%B6%85%E5%A5%BD%E7%8E%A9%E3%84%89.png?theme=dracula&md=1&fontSize=150px&images=https%3A%2F%2Ftomy.me%2Ftomy-circle-white.png"]
+images: ["https://og.tomy.tech/api/blog?title=%E5%8F%AF%E6%98%AF%E8%81%BD%E8%B5%B7%E4%BE%86%E8%B6%85%E5%A5%BD%E7%8E%A9"]
 tags: ["🧩 記憶碎片"]
 feature: "feature.jpg"
 featureAlt: "草莓 kisses 巧克力冰沙"

@@ -4,7 +4,7 @@
 title: "2020 🇯🇵 日本 - 前言"
 date: 2021-08-07T21:42:33+08:00
 description: "緣起、為什麼是日本"
-images: ["https://og-image.tomy.tech/2020%20%F0%9F%87%AF%F0%9F%87%B5%20%E6%97%A5%E6%9C%AC%20-%20%E5%89%8D%E8%A8%80.png?theme=dracula&md=1&fontSize=125px&images=https%3A%2F%2Ftomy.me%2Ftomy-circle-white.png"]
+images: ["https://og.tomy.tech/api/blog?title=2020%20%F0%9F%87%AF%F0%9F%87%B5%20%E6%97%A5%E6%9C%AC%20-%20%E5%89%8D%E8%A8%80"]
 series: ["2020 🇯🇵 日本"]
 tags: ["🧳 旅遊"]
 ---
