@@ -1,5 +1,5 @@
 ---
-title: "Writings"
+title: "Posts"
 description: "Index of all my articles/posts."
 ---
 
