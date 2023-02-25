@@ -3,7 +3,7 @@ title: "圖解居家辦公作息"
 date: 2021-07-04T19:50:01+08:00
 lastmod: 2021-07-04T19:50:01+08:00
 description: "以及我如何兩度跨越國際換日線"
-images: ["https://og-image.tomy.tech/%E5%9C%96%E8%A7%A3%E5%B1%85%E5%AE%B6%E8%BE%A6%E5%85%AC%E4%BD%9C%E6%81%AF.png?theme=dracula&md=1&fontSize=100px&images=https%3A%2F%2Ftomy.me%2Ftomy-circle-white.png"]
+images: ["https://og.tomy.tech/api/blog?title=%E5%9C%96%E8%A7%A3%E5%B1%85%E5%AE%B6%E8%BE%A6%E5%85%AC%E4%BD%9C%E6%81%AF"]
 feature: "feature.jpg"
 featureAlt: "ほろよい"
 coverCaption: "ほろよい"

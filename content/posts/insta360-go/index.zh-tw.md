@@ -6,7 +6,7 @@ description: "中規中矩，沒有令人失望反而是它的驚喜點"
 videos: ["timelapse-penghu.mp4", "501-scored.mp4", "timelapse-ais3.mp4", "how-it-almost-went-off.mp4", "drama-club-daily.mp4"]
 series: []  # For series taxonomy, and og:see_also (first 6 links will be used)
 tags: ["🌟 產品體驗"]
-feature: "https://og-image.tomy.tech/Insta360%20Go.png?theme=dracula&md=1&fontSize=100px&images=https%3A%2F%2Ftomy.me%2Ftomy-circle-white.png"
+feature: "http://og.tomy.tech/api/blog?title=Insta360%20Go"
 featureAlt: "" # Alt text (non-visible) for feature image
 coverCaption: "" # Description (visible) for feature image
 ---

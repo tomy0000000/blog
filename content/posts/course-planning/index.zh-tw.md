@@ -3,7 +3,7 @@ title: "選課大作戰"
 date: 2021-03-02T00:39:44+08:00
 lastmod: 2021-03-02T00:39:44+08:00
 description: "難怪人家都說，資工系沒有搶不到的課"
-images: ["https://og-image.tomy.tech/%E9%81%B8%E8%AA%B2%E5%A4%A7%E4%BD%9C%E6%88%B0.png?theme=dracula&md=1&fontSize=100px&images=https%3A%2F%2Ftomy.me%2Ftomy-circle-white.png"]
+images: ["https://og.tomy.tech/api/blog?title=%E9%81%B8%E8%AA%B2%E5%A4%A7%E4%BD%9C%E6%88%B0"]
 videos: ["timelapse-hualien.mp4"]
 tags: ["🏛 中興", "✅ 選課"]
 feature: "timelapse-hualien.mp4"

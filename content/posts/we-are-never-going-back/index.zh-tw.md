@@ -3,7 +3,7 @@ title: "施主 我們再也回不去了"
 date: 2022-08-05T00:40:55+08:00
 lastmod: 2022-08-05T00:40:55+08:00
 description: "外送平台如何把疫情當作溫水，把台灣人當成青蛙給煮了"
-images: ["https://og-image.tomy.tech/%E6%96%BD%E4%B8%BB%20%E6%88%91%E5%80%91%E5%86%8D%E4%B9%9F%E5%9B%9E%E4%B8%8D%E5%8E%BB%E4%BA%86.png?theme=dracula&md=1&fontSize=125px&images=https%3A%2F%2Ftomy.me%2Ftomy-circle-white.png"]
+images: ["https://og.tomy.tech/api/blog?title=%E6%96%BD%E4%B8%BB%20%E6%88%91%E5%80%91%E5%86%8D%E4%B9%9F%E5%9B%9E%E4%B8%8D%E5%8E%BB%E4%BA%86"]
 tags: ["🔍 社會觀察"]
 feature: "feature.png"
 featureAlt: "施主 我們再也回不去了"

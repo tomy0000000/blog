@@ -4,7 +4,7 @@ date: 2023-02-12T00:55:06+08:00
 lastmod: 2023-02-12T00:55:06+08:00
 description: "讓諸神來預測一下我會上哪些學校吧"
 tags: ["🏛 Master's"]
-feature: "https://og-image.tomy.tech/CS%20%E7%A2%A9%E5%A3%AB%E7%94%B3%E8%AB%8B%E5%A4%A7%E9%A0%90%E6%B8%AC%3Cbr%2F%3E%E8%B3%87%E6%96%99%E6%94%B6%E9%9B%86%E7%AF%87.png?theme=dracula&md=1&fontSize=100px&images=https%3A%2F%2Ftomy.me%2Ftomy-circle-white.png"
+feature: "https://og.tomy.tech/api/blog?title=CS%20%E7%A2%A9%E5%A3%AB%E7%94%B3%E8%AB%8B%E5%A4%A7%E9%A0%90%E6%B8%AC%EF%BC%9A%E8%B3%87%E6%96%99%E6%94%B6%E9%9B%86%E7%AF%87"
 featureAlt: "CS 碩士申請大預測 - 資料收集篇"
 ---
 
