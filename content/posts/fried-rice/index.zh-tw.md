@@ -7,7 +7,6 @@ lastmod: 2023-01-24T20:53:40+08:00
 description: "說起料理，第一話當然就是要從炒飯開始啦"
 images: ["fried-rice.jpg"]
 videos: ["https://youtu.be/IzlW-sZzVD8?t=1034"]
-keywords: ["炒飯"]
 series: ["🍳 料理"]
 feature: "golden-fried-rice.png"
 featureAlt: "中華一番的黃金炒飯"
