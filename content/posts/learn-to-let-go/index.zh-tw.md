@@ -4,6 +4,7 @@ date: 2021-03-07T20:44:27+08:00
 lastmod: 2021-03-07T20:44:27+08:00
 description: "長壽的秘訣就是得過且過 (?"
 images: ["https://og.tomy.tech/api/blog?title=%E5%AD%B8%E8%91%97%E6%94%BE%E6%89%8B"]
+series: ["🍫 生活"]
 tags: ["🧑🏻‍🏫 人生體悟", "🧩 記憶碎片"]
 feature: "feature.jpg"
 featureAlt: "社課就是要吃貝果 🥯 (?"

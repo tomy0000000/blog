@@ -3,7 +3,7 @@ title: "2023 展望"
 date: 2023-01-11T16:54:58+08:00
 description: "三個字 好好生活"
 images: ["https://og.tomy.tech/api/blog?title=2023%20%E5%B1%95%E6%9C%9B"]
-series: ["🔭 回顧 & 展望"]
+series: ["🍫 生活", "🔭 回顧 & 展望"]
 tags: ["🇫🇷 法國", "🏛 Master's"]
 feature: "2023-cookie.jpg"
 featureAlt: "2023 餅乾"

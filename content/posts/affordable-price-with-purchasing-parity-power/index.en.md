@@ -3,6 +3,7 @@ title: "Affordable price with Purchasing Parity Power"
 description: "Breakdown of Gumroad and Dracula UI's Purchasing Parity Power Discounting Logic"
 date: 2022-08-24T03:09:42+08:00
 images: ["https://og.tomy.tech/api/blog?title=Affordable%20price%20with%20Purchasing%20Parity%20Power"]
+series: ["🍫 Life"]
 ---
 
 So I've been wanting to get the [Dracula UI](https://draculatheme.com/ui) for a while. Since I was building up my personal blog now, and I really doesn't want to just follow the default that comes with the theme, so I decided to get the palette from it, and see if I can make it work on my blog.
