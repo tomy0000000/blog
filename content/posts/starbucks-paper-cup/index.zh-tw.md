@@ -1,10 +1,9 @@
 ---
-# https://gohugo.io/content-management/front-matter/
-# https://jpanther.github.io/congo/docs/front-matter/
 title: "🥤 星巴克的外帶杯真是越來越不行"
 date: 2022-12-29T16:28:05+08:00
 description: "這麼貴的飲料，杯子這麼爛是可以的嗎"
 images: ["https://og.tomy.tech/api/blog?title=%E6%98%9F%E5%B7%B4%E5%85%8B%E7%9A%84%E5%A4%96%E5%B8%B6%E6%9D%AF%E7%9C%9F%E7%9A%84%E6%98%AF%E8%B6%8A%E4%BE%86%E8%B6%8A%E4%B8%8D%E8%A1%8C"]
+series: ["🍫 生活"]
 tags: ["🌟 產品體驗"]
 ---
 

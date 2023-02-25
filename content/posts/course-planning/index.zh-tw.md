@@ -5,6 +5,7 @@ lastmod: 2021-03-02T00:39:44+08:00
 description: "難怪人家都說，資工系沒有搶不到的課"
 images: ["https://og.tomy.tech/api/blog?title=%E9%81%B8%E8%AA%B2%E5%A4%A7%E4%BD%9C%E6%88%B0"]
 videos: ["timelapse-hualien.mp4"]
+series: ["🍫 生活"]
 tags: ["🏛 中興", "✅ 選課"]
 feature: "timelapse-hualien.mp4"
 featureAlt: "海崖谷日出縮時"

@@ -1,13 +1,11 @@
 ---
-# https://gohugo.io/content-management/front-matter/
-# https://jpanther.github.io/congo/docs/front-matter/
 title: "🥡 炒飯"
 date: 2023-01-24T20:53:40+08:00
 lastmod: 2023-01-24T20:53:40+08:00
 description: "說起料理，第一話當然就是要從炒飯開始啦"
 images: ["fried-rice.jpg"]
 videos: ["https://youtu.be/IzlW-sZzVD8?t=1034"]
-series: ["🍳 料理"]
+series: ["🍫 生活", "🍳 料理"]
 feature: "golden-fried-rice.png"
 featureAlt: "中華一番的黃金炒飯"
 coverCaption: "說起料理，第一話當然就是要從[炒飯](https://youtu.be/IzlW-sZzVD8?t=1034)開始啦"

@@ -3,6 +3,7 @@ title: "要寫程式，還是跳舞呢"
 date: 2021-03-30T02:19:33+08:00
 description: "原來一切都是我自己種的孽"
 images: ["https://og.tomy.tech/api/blog?title=%E8%A6%81%E5%AF%AB%E7%A8%8B%E5%BC%8F%EF%BC%8C%E9%82%84%E6%98%AF%E8%B7%B3%E8%88%9E%E5%91%A2"]
+series: ["🍫 生活"]
 tags: ["🧩 記憶碎片"]
 feature: "feature.jpg"
 featureAlt: "淫亂宿舍實錄"
