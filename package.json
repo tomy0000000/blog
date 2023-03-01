@@ -1,0 +1,12 @@
+{
+  "name": "tomy-blog",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm-run-all --parallel *:dev",
+    "hugo:dev": "hugo server -D",
+    "hugo:build": "hugo",
+    "css:dev": "NODE_ENV=development ./themes/congo/node_modules/tailwindcss/lib/cli.js -c ./themes/congo/tailwind.config.js -i ./themes/congo/assets/css/main.css -o ./assets/css/compiled/main.css --jit -w",
+    "css:build": "NODE_ENV=production ./themes/congo/node_modules/tailwindcss/lib/cli.js -c ./themes/congo/tailwind.config.js -i ./themes/congo/assets/css/main.css -o ./assets/css/compiled/main.css --jit"
+  }
+}
