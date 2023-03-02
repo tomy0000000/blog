@@ -13,12 +13,12 @@
   {{- $pages = $pages | first $limit -}}
 {{- end -}}
 {{- $title := .Site.Title -}}
-{{- if and .Title (ne  .Title  .Site.Title) -}}
-  {{- $title := printf "%s on %s" .Title .Site.Title -}}
+{{- if ne  .Title  .Site.Title -}}
+  {{- $title = printf "%s on %s" .Title .Site.Title -}}
 {{- end -}}
 {{- $description := .Site.Params.description | default (printf "Recent content on %s" $title ) -}}
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>{{ $title }}</title>
     <link>{{ .Permalink }}</link>
@@ -28,7 +28,7 @@
     {{ with .Site.Author.email }}<managingEditor>{{ . }}{{ with $.Site.Author.name }} ({{ . }}){{ end }}</managingEditor>{{ end }}
     {{ with .Site.Author.email }}<webMaster>{{ . }}{{ with $.Site.Author.name }} ({{ . }}){{ end }}</webMaster>{{ end }}
     {{ with .Site.Params.publishDate -}}<pubDate>{{ .Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>{{ end }}
-    {{ if not .Date.IsZero }}<lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
+    <lastBuildDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
     {{ range .Site.Taxonomies.categories -}}
     <category>{{ .Page.Title }}</category>
     {{ end -}}
@@ -56,7 +56,8 @@
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
-      <description>{{ with .Content }}{{ printf "<![CDATA[%s]]>" . | safeHTML }}{{ else }}{{if .IsPage}}{{ printf "<![CDATA[%s]]>" .Summary | safeHTML }}{{ end }}{{ end }}</description>
+      <description>{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ end }}{{ end }}</description>
+      <content:encoded>{{ with .Content }}{{ printf "<![CDATA[%s]]>" . | safeHTML }}{{ else }}{{ if .IsPage }}{{ printf "<![CDATA[%s]]>" .Summary | safeHTML }}{{ end }}{{ end }}</content:encoded>
       {{ with .Site.Author.email -}}<author>{{ . }}{{ with $.Site.Author.name }} ({{ . }}){{ end }}</author>{{ end }}
       {{ with .Params.categories -}}{{ range . }}<category>{{ . }}</category>{{ end }}{{ end }}
       {{- $feature := .Params.feature | default .Params.cover -}}
