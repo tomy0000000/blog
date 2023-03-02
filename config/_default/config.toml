@@ -16,9 +16,9 @@ summaryLength = 0
   home = ["HTML", "RSS", "JSON"]
 
 [taxonomies]
-  # category = 'categories'
-  series = 'series'
-  tag = 'tags'
+  category = "categories"
+  series = "series"
+  tag = "tags"
 
 [Social]
   twitter = "tomy0000000"  # For twitter:site
