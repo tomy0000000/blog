@@ -32,11 +32,16 @@
 # the copyright notice. Configure as per the main menu above.
 
 [[footer]]
-  name = "🏷 標籤"
-  pageRef = "tags"
+  name = "🗄️ 分類"
+  pageRef = "categories"
   weight = 10
 
 [[footer]]
-  name = "📖 系列文"
+  name = "📖 系列"
   pageRef = "series"
-  weight = 10
+  weight = 20
+
+[[footer]]
+  name = "🏷 標籤"
+  pageRef = "tags"
+  weight = 30
