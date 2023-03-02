@@ -3,12 +3,10 @@ title: "Yubikey 硬體金鑰"
 date: 2023-02-26T22:14:33+08:00
 lastmod: 2023-02-26T22:14:33+08:00
 description: "邁向無密碼的時代"
-images:
-  [
-    "https://og.tomy.tech/api/blog?title=Yubikey%20%E5%BF%AB%E9%80%9F%E6%8C%87%E5%8D%97",
-  ]
+images: ["https://og.tomy.tech/api/blog?title=Yubikey%20%E5%BF%AB%E9%80%9F%E6%8C%87%E5%8D%97"]
 videos: ["https://www.dailymotion.com/video/x8in4qr"]
-series: ["📱 科技", "🌟 產品體驗"]
+categories: ["📱 科技"]
+series: ["🌟 產品體驗"]
 feature: "feature.jpg"
 featureAlt: "YubiKey 5Ci Launch Edition"
 coverCaption: "YubiKey 5Ci 上市限定版"

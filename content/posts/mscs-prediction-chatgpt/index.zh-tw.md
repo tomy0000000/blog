@@ -3,7 +3,7 @@ title: "CS 碩士申請大預測 - ChatGPT × 教 ChatGPT 擲筊"
 date: 2023-02-12T21:08:29+08:00
 lastmod: 2023-02-12T21:08:29+08:00
 description: "如果人工智慧也是一種神的話，那當然也要來預測一下吧"
-series: ["🍫 生活"]
+categories: ["🍫 生活"]
 tags: ["🏛 Master's", "🇺🇳 NLP"]
 feature: "https://og.tomy.tech/api/blog?title=CS%20%E7%A2%A9%E5%A3%AB%E7%94%B3%E8%AB%8B%E5%A4%A7%E9%A0%90%E6%B8%AC%EF%BC%9AChatGPT"
 featureAlt: "CS 碩士申請大預測 - ChatGPT"
