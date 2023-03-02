@@ -4,7 +4,7 @@ date: 2022-08-05T00:40:55+08:00
 lastmod: 2022-08-05T00:40:55+08:00
 description: "外送平台如何把疫情當作溫水，把台灣人當成青蛙給煮了"
 images: ["https://og.tomy.tech/api/blog?title=%E6%96%BD%E4%B8%BB%20%E6%88%91%E5%80%91%E5%86%8D%E4%B9%9F%E5%9B%9E%E4%B8%8D%E5%8E%BB%E4%BA%86"]
-series: ["🍫 生活"]
+categories: ["🍫 生活"]
 tags: ["🔍 社會觀察"]
 feature: "feature.png"
 featureAlt: "施主 我們再也回不去了"

@@ -2,7 +2,7 @@
 title: "Prelude"
 date: 2021-02-22T02:58:35+08:00
 description: "踏上寫作的不歸路 (?)"
-series: ["🍫 生活"]
+categories: ["🍫 生活"]
 feature: "hero.jpg"
 featureAlt: "比一個 Peace 是為了拍照"
 coverCaption: "比一個 Peace 是為了拍照"

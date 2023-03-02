@@ -4,7 +4,7 @@ date: 2023-02-22T01:12:23+08:00
 lastmod: 2023-02-22T01:12:23+08:00
 description: "全自動家庭手工代工業開張啦 (?)"
 videos: ["https://www.dailymotion.com/video/x8ii41a"]
-series: ["📱 科技"]
+categories: ["📱 科技"]
 tags: ["📟 CLI"]
 feature: "https://og.tomy.tech/api/blog?title=%E6%89%B9%E6%AC%A1%E5%BE%9E%20PDF%20%E8%BD%89%E6%AA%94%E5%87%BA%E6%96%87%E5%AD%97%E4%BE%86"
 featureAlt: "批次從 PDF 轉檔出文字來"

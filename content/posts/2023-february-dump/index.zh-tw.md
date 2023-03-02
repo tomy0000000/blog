@@ -4,7 +4,8 @@ date: 2023-03-01T12:30:51+08:00
 lastmod: 2023-03-01T12:30:51+08:00
 description: "3 個字，頹廢到爆"
 images: ["reading-by-the-beach.jpg"]
-series: ["🍫 生活", "📰 每月報報"]
+categories: ["🍫 生活"]
+series: ["📰 每月報報"]
 feature: "https://og.tomy.tech/api/blog?title=2023%20%E5%B9%B4%202%20%E6%9C%88%E5%A0%B1%E5%A0%B1"
 ---
 

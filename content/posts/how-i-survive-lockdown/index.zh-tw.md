@@ -4,7 +4,7 @@ date: 2021-07-04T19:50:01+08:00
 lastmod: 2021-07-04T19:50:01+08:00
 description: "以及我如何兩度跨越國際換日線"
 images: ["https://og.tomy.tech/api/blog?title=%E5%9C%96%E8%A7%A3%E5%B1%85%E5%AE%B6%E8%BE%A6%E5%85%AC%E4%BD%9C%E6%81%AF"]
-series: ["🍫 生活"]
+categories: ["🍫 生活"]
 feature: "feature.jpg"
 featureAlt: "ほろよい"
 coverCaption: "ほろよい"

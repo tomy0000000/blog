@@ -4,7 +4,7 @@ date: 2021-03-17T05:44:03+08:00
 lastmod: 2021-03-17T05:44:03+08:00
 description: "中規中矩，沒有令人失望反而是它的驚喜點"
 videos: ["timelapse-penghu.mp4", "501-scored.mp4", "timelapse-ais3.mp4", "how-it-almost-went-off.mp4", "drama-club-daily.mp4"]
-series: ["📱 科技"]
+categories: ["📱 科技"]
 tags: ["🌟 產品體驗"]
 feature: "http://og.tomy.tech/api/blog?title=Insta360%20Go"
 featureAlt: "" # Alt text (non-visible) for feature image
