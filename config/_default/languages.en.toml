@@ -7,7 +7,7 @@ rtl = false
 hasCJKLanguage = false
 
 title = "Tomy's Blog"
-# description = "My awesome website"
+description = "Tomy Hsieh's marvelous blog"
 copyright = '<a href="{{< relref "copyright" >}}" class="hover:underline hover:decoration-primary-400 hover:text-primary-500">Copyright</a> © 2022 Tomy Hsieh.'
 
 publishDate = 2022-08-04T06:25:42+08:00
@@ -64,8 +64,7 @@ publishDate = 2022-08-04T06:25:42+08:00
 
 [rss]
   image = "rss-image-144x144.png"
-  imageTitle = "Tomy's Logo"
   imageWidth = 144
   imageHeight = 144
-  imageDescription = ""
+  imageDescription = "Tomy's Logo"
   ttl = 60

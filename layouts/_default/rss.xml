@@ -1,0 +1,78 @@
+{{- $pctx := . -}}
+{{- if .IsHome -}}
+  {{ $pctx = .Site }}
+{{- end -}}
+{{- $pages := slice -}}
+{{- if or $.IsHome $.IsSection -}}
+  {{- $pages = $pctx.RegularPages -}}
+{{- else -}}
+  {{- $pages = $pctx.Pages -}}
+{{- end -}}
+{{- $limit := .Site.Config.Services.RSS.Limit -}}
+{{- if ge $limit 1 -}}
+  {{- $pages = $pages | first $limit -}}
+{{- end -}}
+{{- $title := .Site.Title -}}
+{{- if and .Title (ne  .Title  .Site.Title) -}}
+  {{- $title := printf "%s on %s" .Title .Site.Title -}}
+{{- end -}}
+{{- $description := .Site.Params.description | default (printf "Recent content on %s" $title ) -}}
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ $title }}</title>
+    <link>{{ .Permalink }}</link>
+    <description>{{ $description }}</description>
+    {{ with .Site.LanguageCode -}}<language>{{ . }}</language>{{ end }}
+    {{ with .Site.Copyright -}}<copyright>{{ . | markdownify | plainify }}</copyright>{{ end }}
+    {{ with .Site.Author.email }}<managingEditor>{{ . }}{{ with $.Site.Author.name }} ({{ . }}){{ end }}</managingEditor>{{ end }}
+    {{ with .Site.Author.email }}<webMaster>{{ . }}{{ with $.Site.Author.name }} ({{ . }}){{ end }}</webMaster>{{ end }}
+    {{ with .Site.Params.publishDate -}}<pubDate>{{ .Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>{{ end }}
+    {{ if not .Date.IsZero }}<lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
+    {{ range .Site.Taxonomies.categories -}}
+    <category>{{ .Page.Title }}</category>
+    {{ end -}}
+    <generator>Hugo -- gohugo.io (customized by tomy0000000)</generator>
+    <docs>https://www.rssboard.org/rss-specification</docs>
+    {{ with .Site.Params.rss.ttl }}<ttl>{{ . }}</ttl>{{ end }}
+    {{- if .Site.Params.rss.image -}}
+    {{- $fullpath := printf "%s/%s" "static" .Site.Params.rss.image -}}
+    {{- if os.FileExists $fullpath -}}
+    <image>
+      <url>{{ $fullpath | absURL }}</url>
+      <title>{{ $title }}</title>
+      <link>{{ .Permalink }}</link>
+      {{ with .Site.Params.rss.imageWidth }}<width>{{ . }}</width>{{ end }}
+      {{ with .Site.Params.rss.imageHeight }}<height>{{ . }}</height>{{ end }}
+      <description>{{ with .Site.Params.rss.imageDescription }}{{ . }}{{ else }}{{ $description }}{{ end }}</description>
+    </image>
+    {{- end -}}
+    {{- end -}}
+    {{- with .OutputFormats.Get "RSS" -}}
+    {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+    {{- end -}}
+    {{- range $pages -}}
+    {{- $page := . -}}
+    <item>
+      <title>{{ .Title }}</title>
+      <link>{{ .Permalink }}</link>
+      <description>{{ with .Content }}{{ printf "<![CDATA[%s]]>" . | safeHTML }}{{ else }}{{if .IsPage}}{{ printf "<![CDATA[%s]]>" .Summary | safeHTML }}{{ end }}{{ end }}</description>
+      {{ with .Site.Author.email -}}<author>{{ . }}{{ with $.Site.Author.name }} ({{ . }}){{ end }}</author>{{ end }}
+      {{ with .Params.categories -}}{{ range . }}<category>{{ . }}</category>{{ end }}{{ end }}
+      {{- $feature := .Params.feature | default .Params.cover -}}
+      {{- with $feature -}}
+        {{- if or (hasPrefix . "http://") (hasPrefix . "https://") -}}
+          {{- $image := resources.GetRemote . -}}
+          <enclosure url="{{ . }}" length="{{ len $image.Content }}" type="{{ $image.MediaType }}" />
+        {{- else -}}
+          {{- $image := $page.Resources.GetMatch . -}}
+          <enclosure url="{{ $image.Permalink }}" length="{{ len $image.Content }}" type="{{ $image.MediaType }}" />
+        {{- end -}}
+      {{- end }}
+      {{ with .File -}}<guid isPermaLink="false">{{ .ContentBaseName }}</guid>{{ end }}
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+    </item>
+    {{- end }}
+  </channel>
+</rss>
+<!-- Modified from https://github.com/gohugoio/hugo/blob/5f42590144579c318a444ea2ce46d5c3fbbbfe6e/tpl/tplimpl/embedded/templates/_default/rss.xml -->
