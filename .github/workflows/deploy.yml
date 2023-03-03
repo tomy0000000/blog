@@ -1,4 +1,4 @@
-name: Deploy Hugo site to Pages
+name: 🚀 Deploy
 
 on:
   push:
@@ -20,39 +20,38 @@ defaults:
 
 jobs:
   build:
+    name: 🛠 Build
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: 🛒 Checkout
         uses: actions/checkout@v3
         with:
           submodules: recursive
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+      - name: ⚙️ Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          hugo-version: "latest"
-          extended: true
-      
-      - name: Setup Pages
-        id: pages
-        uses: actions/configure-pages@v1
-      
-      - name: Build with Hugo
+          node-version: 16
+
+      - name: 📦 Install dependencies
         run: |
-          hugo --gc --minify --baseURL ${{ steps.pages.outputs.base_url }}
-      
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
-        with:
-          path: ./public
+          cd themes/congo
+          npm ci
+
+      - name: 🏗️ Build CSS
+        run: npm run css:build
+
+      - name: 🏗️ Build site
+        uses: tomy0000000/actions/hugo-github-pages@main
 
   deploy:
+    name: 🚀 Deploy
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
     steps:
-      - name: Deploy to GitHub Pages
+      - name: 🚀 Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
