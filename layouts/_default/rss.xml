@@ -13,7 +13,7 @@
   {{- $pages = $pages | first $limit -}}
 {{- end -}}
 {{- $title := .Site.Title -}}
-{{- if ne  .Title  .Site.Title -}}
+{{- if and .Title (ne .Title .Site.Title) -}}
   {{- $title = printf "%s on %s" .Title .Site.Title -}}
 {{- end -}}
 {{- $description := .Site.Params.description | default (printf "Recent content on %s" $title ) -}}
