@@ -6,7 +6,7 @@ description: "邁向無密碼的時代"
 images: ["https://og.tomy.tech/api/blog?title=Yubikey%20%E5%BF%AB%E9%80%9F%E6%8C%87%E5%8D%97"]
 videos: ["https://www.dailymotion.com/video/x8in4qr"]
 categories: ["📱 科技"]
-series: ["🌟 產品體驗"]
+tags: ["🌟 產品體驗"]
 feature: "feature.jpg"
 featureAlt: "YubiKey 5Ci Launch Edition"
 coverCaption: "YubiKey 5Ci 上市限定版"
@@ -16,13 +16,13 @@ coverCaption: "YubiKey 5Ci 上市限定版"
 
 ## 💾 軟體
 
-| 名稱                        |                                                                                   |
-| --------------------------- | --------------------------------------------------------------------------------- |
-| Yubikey Manager             | 功能最完整，裝這個就好                                                            |
-| YubiKey Personalization GUI | UI 有點醜但跟 Yubikey Manager 有點像。反正目前沒發現只有這個才有的功能，不用裝    |
-| YubiKey PIV Manager         | 管理 PIV 功能用的，其實 Yubikey Manager 就有提供了，不用裝                        |
+| 名稱                        |                                                                                        |
+| --------------------------- | -------------------------------------------------------------------------------------- |
+| Yubikey Manager             | 功能最完整，裝這個就好                                                                 |
+| YubiKey Personalization GUI | UI 有點醜但跟 Yubikey Manager 有點像。反正目前沒發現只有這個才有的功能，不用裝         |
+| YubiKey PIV Manager         | 管理 PIV 功能用的，其實 Yubikey Manager 就有提供了，不用裝                             |
 | Yubico Authenticator        | 提供網頁登入時的各項功能，細節下面 [FIDO2]({{< ref "#fido2--otp" >}}) 會講，有需要再裝 |
-| `pkman` CLI                 | 選配，維護還不錯的 CLI。不想跟 GUI 鬼扯的時候，這個還不錯用                       |
+| `pkman` CLI                 | 選配，維護還不錯的 CLI。不想跟 GUI 鬼扯的時候，這個還不錯用                            |
 
 不想看那麼多的話，下面這個貼到終端機就對了：
 
@@ -31,7 +31,7 @@ brew install --cask yubico-yubikey-manager
 pipx install yubikey-manager
 ```
 
-## *️⃣ PIN 碼
+## \*️⃣ PIN 碼
 
 [參考文檔](https://support.yubico.com/hc/en-us/articles/4402836718866-Understanding-YubiKey-PINs)
 
