@@ -19,14 +19,27 @@ layout: "simple"
 
 ## 🌱 RSS 種子
 
-主要的 RSS 種子在
+主要的 RSS 種子在[這裡]({{< ref path="/" outputFormat="rss" >}})：
 
 ```xml
 {{< ref path="/" outputFormat="rss" >}}
 ```
 
-你也可以在分類、系列、標籤的連結後面加上 `index.xml` 來找到個別的 RSS 種子，如：
+你也可以在分類、系列、標籤的連結後面加上 `index.xml` 來找到個別的 RSS 種子
 
-- [🤖 開發]({{< ref "/categories/科技" >}})：`{{< ref path="/categories/科技" outputFormat="rss" >}}`
-- [🍳 料理]({{< ref "/series/料理" >}})：`{{< ref path="/series/料理" outputFormat="rss" >}}`
-- [🌟 產品體驗]({{< ref "/tags/產品體驗" >}})：`{{< ref path="/tags/產品體驗" outputFormat="rss" >}}`
+如 [📱 科技]({{< ref "/categories/科技" >}})的頁面連結為
+
+```xml
+{{< ref "/categories/科技" >}}
+```
+
+則它的 RSS 種子則為
+
+```xml
+{{< ref path="/categories/科技" outputFormat="rss" >}}
+```
+
+其他例子：
+
+- [🍳 料理]({{< ref path="/series/料理" outputFormat="rss" >}}) (系列)
+- [🌟 產品體驗]({{< ref path="/tags/產品體驗" outputFormat="rss" >}}) (標籤)

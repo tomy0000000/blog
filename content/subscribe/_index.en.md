@@ -23,6 +23,16 @@ The main RSS feed is located at
 {{< ref path="/" outputFormat="rss" >}}
 ```
 
-You can also find the RSS feed of each category, series, or tag by adding `index.xml` to the end of the URL, for example:
+You can also find the RSS feed of each category, series, or tag by adding `index.xml` to the end of the URL.
 
-- [🤖 Development]({{< ref "/categories/development" >}})：`{{< ref path="/categories/development" outputFormat="rss" >}}`
+For example, the URL of the [🤖 Development]({{< ref "/categories/development" >}}) page is
+
+```xml
+{{< ref "/categories/development" >}}
+```
+
+Then its RSS feed is
+
+```xml
+{{< ref path="/categories/development" outputFormat="rss" >}}
+```
