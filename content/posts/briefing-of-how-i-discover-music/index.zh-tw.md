@@ -1,6 +1,6 @@
 ---
 title: "我曾經是這麼發掘新歌的"
-date: 2021-04-10T02:41:34+08:00
+date: 2021-04-10T02:40:32+08:00
 lastmod: 2021-04-10T02:41:34+08:00
 description: "現在要找到好聽的歌似乎沒這麼容易了"
 images: ["https://og.tomy.tech/api/blog?title=%E6%88%91%E6%9B%BE%E7%B6%93%E6%98%AF%E9%80%99%E9%BA%BC%E7%99%BC%E6%8E%98%E6%96%B0%E6%AD%8C%E7%9A%84"]

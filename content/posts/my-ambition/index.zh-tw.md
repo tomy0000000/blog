@@ -1,6 +1,7 @@
 ---
 title: "我的志向"
-date: 2021-04-20T23:57:39+08:00
+date: 2021-04-20T23:54:29+08:00
+lastmod: 2021-04-20T23:57:39+08:00
 description: "好像是有一點太舒服了"
 images: ["https://og.tomy.tech/api/blog?title=%E6%88%91%E7%9A%84%E5%BF%97%E5%90%91"]
 categories: ["🍫 生活"]
