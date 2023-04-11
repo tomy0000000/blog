@@ -9,7 +9,7 @@ There was a moment when I almost opened an online privacy policy generator, but 
 
 I have no interest in any individual visiting and reading my blog, which is why I don't collect any "particular" info about anyone.
 
-But I do interested in the whole picture of my audiences, which is why I track visitors with my self-hosted Plausible Analytics instance. If you're interested in why I chose Plausible, you can read my post: [Website Analytics: An Overview](/en/posts/website-analytics/).
+But I do interested in the whole picture of my audiences, which is why I track visitors with my self-hosted Plausible Analytics instance. If you're interested in why I chose Plausible, you can read my post: [Website Analytics: An Overview]({{< ref "posts/website-analytics" >}}).
 
 ## TL;DR
 
