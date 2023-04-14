@@ -9,7 +9,7 @@ layout: "simple"
 
 我對於誰來看這個網站實在是沒什麼興趣，所以這個網站並不會收集任何關於「個人」的資料。
 
-但我確實對我的「整個」觀眾群有興趣，因此我使用了我自己架設的 [Plausible Analytics](https://plausible.io/) 來追蹤訪客的特徵資訊。如果你對於我為什麼選擇使用 Plausible 感興趣，可以看看我寫的[網站分析工具大車拼]({{< ref "posts/website-analytics" >}})。
+但我確實對我的「整個」觀眾群有興趣，因此我使用了我自己架設的 [Plausible Analytics](https://plausible.io/) 來追蹤訪客的特徵資訊。
 
 ## TL;DR
 
