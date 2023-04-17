@@ -1,0 +1,17 @@
+<video class="my-0 rounded-md"
+  {{ if .Get "autoplay" }}
+    autoplay playsinline muted
+  {{ else if .Get "muted" }}
+    muted
+  {{ end }}
+  {{ with .Get "loop" }} loop {{ end }}
+  {{ with .Get "controls" }} controls {{ end }}
+>
+  <source src="{{ .Get "src" }}" type="video/mp4">
+  {{ with .Get "title" }}
+  <p>{{ . }}</p>
+  {{ end }}
+</video>
+{{ with .Get "title" }}
+<figcaption>{{ . }}</figcaption>
+{{ end }}
