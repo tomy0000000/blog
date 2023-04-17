@@ -1,46 +1,90 @@
+{{ $page := . }}
+{{- /*  Basic  */ -}}
 <meta property="og:title" content="{{ .Title }}" />
-<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
-
+{{- /*  Image  */ -}}
 {{- with $.Params.images -}}
-{{- range first 6 . }}<meta property="og:image" content="{{ . | absURL }}" />{{ end -}}
+  {{- range first 6 . -}}
+    {{- $image := cond (or (hasPrefix . "http://") (hasPrefix . "https://")) (resources.GetRemote .) ($page.Resources.GetMatch .) -}}
+    {{- if (and $image (eq $image.ResourceType "image")) -}}
+      {{- $imageURL := cond (or (hasPrefix . "http://") (hasPrefix . "https://")) . $image.Permalink -}}
+      <meta property="og:image" content="{{ $imageURL }}" />
+      <meta property="og:image:secure_url" content="{{ $imageURL }}" />
+      <meta property="og:image:type" content="{{ $image.MediaType }}" />
+      <meta property="og:image:width" content="{{ $image.Width }}" />
+      <meta property="og:image:height" content="{{ $image.Height }}" />
+    {{- else -}}
+      {{ warnf (printf "OPG image is set in '%s', but resource '%s' does not exist or is not image." $page.File.Path .) }}
+    {{- end -}}
+  {{- end -}}
 {{- else -}}
-{{- $images := $.Resources.ByType "image" -}}
-{{- $featured := $images.GetMatch "*feature*" -}}
-{{- if not $featured }}{{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}{{ end -}}
-{{- with $featured -}}
-<meta property="og:image" content="{{ $featured.Permalink }}"/>
-{{- else -}}
-{{- with $.Site.Params.images }}<meta property="og:image" content="{{ index . 0 | absURL }}"/>{{ end -}}
-{{- end -}}
+  {{- $images := $.Resources.ByType "image" -}}
+  {{- $featured := $images.GetMatch "*feature*" -}}
+  {{- if not $featured }}{{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}{{ end -}}
+  {{- with $featured -}}
+    <meta property="og:image" content="{{ $featured.Permalink }}" />
+    <meta property="og:image:secure_url" content="{{ $featured.Permalink }}" />
+    <meta property="og:image:type" content="{{ $featured.MediaType }}" />
+    <meta property="og:image:width" content="{{ $featured.Width }}" />
+    <meta property="og:image:height" content="{{ $featured.Height }}" />
+  {{- else -}}
+    {{- with $.Site.Params.images -}}
+      {{- $image := index . 0 -}}
+      <meta property="og:image" content="{{ $image | absURL }}"/>
+      <meta property="og:image:secure_url" content="{{ $image | absURL }}" />
+      <meta property="og:image:type" content="{{ $image.MediaType }}" />
+      <meta property="og:image:width" content="{{ $image.Width }}" />
+      <meta property="og:image:height" content="{{ $image.Height }}" />
+    {{- end -}}
+  {{- end -}}
 {{- end -}}
 
-{{- if .IsPage }}
-{{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
-<meta property="article:section" content="{{ .Section }}" />
-{{ with .PublishDate }}<meta property="article:published_time" {{ .Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />{{ end }}
-{{ with .Lastmod }}<meta property="article:modified_time" {{ .Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />{{ end }}
-{{- end -}}
-
+{{- /*  Optional Metadata  */ -}}
 {{- with .Params.audio }}<meta property="og:audio" content="{{ . }}" />{{ end }}
-{{- with .Params.locale }}<meta property="og:locale" content="{{ . }}" />{{ end }}
+<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
+{{- /*  Locale  */ -}}
+{{- with .Lang -}}
+  {{- $territory := substr . 3 5 -}}
+  {{- $locale := replace (replace . "-" "_") $territory ($territory | upper) -}}
+  <meta property="og:locale" content="{{ $locale }}" />
+{{- end -}}
+{{- if .IsTranslated -}}
+  {{- $pageLang := .Lang -}}
+  {{- range .AllTranslations -}}
+    {{- if ne .Lang $pageLang -}}
+      {{- $territory := substr .Language.Params.languageCode 3 5 -}}
+      {{- $locale := replace (replace .Language.Params.languageCode "-" "_") $territory ($territory | upper) -}}
+      <meta property="og:locale:alternate" content="{{ $locale }}" />
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
 {{- with .Site.Params.title }}<meta property="og:site_name" content="{{ . }}" />{{ end }}
 {{- with .Params.videos }}{{- range . }}
 <meta property="og:video" content="{{ . | absURL }}" />
 {{ end }}{{ end }}
-
 {{- /* If it is part of a series, link to related articles */}}
 {{- $permalink := .Permalink }}
 {{- $siteSeries := .Site.Taxonomies.series }}
 {{- if $siteSeries }}
 {{ with .Params.series }}{{- range $name := . }}
-  {{- $series := index $siteSeries ($name | urlize) }}
+  {{- $series := index $siteSeries ((urls.Parse ($name | urlize)).Path) }}
   {{- range $page := first 6 $series.Pages }}
     {{- if ne $page.Permalink $permalink }}<meta property="og:see_also" content="{{ $page.Permalink }}" />{{ end }}
   {{- end }}
 {{ end }}{{ end }}
-{{- end }}
-
+{{- end -}}
+{{- /*  Object Types properties  */ -}}
+{{- if .IsPage -}}
+  {{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
+  {{ with .PublishDate }}<meta property="article:published_time" {{ .Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />{{ end }}
+  {{ with .Lastmod }}<meta property="article:modified_time" {{ .Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />{{ end }}
+  {{ with .ExpiryDate }}<meta property="article:expiration_time" {{ .Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />{{ end }}
+  <meta property="article:author" content="{{ .Site.Author.name }}" />
+  <meta property="article:section" content="{{ .Section }}" />
+  {{- range $tag := .Params.tags -}}
+    <meta property="article:tag" content="{{ $tag }}" />
+  {{- end -}}
+{{- end -}}
 {{- /* Facebook Page Admin ID for Domain Insights */}}
 {{- with .Site.Social.facebook_admin }}<meta property="fb:admins" content="{{ . }}" />{{ end }}
