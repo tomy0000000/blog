@@ -71,7 +71,7 @@
     </nav>
   {{ end }}
   <div class="flex items-center justify-between">
-    <div>
+    <div class="mr-auto">
       {{/* Copyright */}}
       {{ if .Site.Params.footer.showCopyright | default true }}
         <p class="text-sm text-neutral-500 dark:text-neutral-400">
@@ -95,6 +95,18 @@
         </p>
       {{ end }}
     </div>
+    {{ if .IsTranslated }}
+      <select class="bg-transparent" onchange="window.location = this.value;">
+        {{ $pageLang := .Lang }}
+        {{ range .AllTranslations }}
+          {{ if ne .Lang $pageLang }}
+          <option value="{{ .RelPermalink }}">{{ .Language.Params.displayName | emojify }}</option>
+          {{ else }}
+          <option value="{{ .RelPermalink }}" selected>{{ .Language.Params.displayName | emojify }}</option>
+          {{ end }}
+        {{ end }}
+      </select>
+    {{ end }}
     {{/* Appearance switcher */}}
     {{ if .Site.Params.footer.showAppearanceSwitcher | default false }}
       <div
