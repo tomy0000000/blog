@@ -67,7 +67,7 @@
     </div>
     {{ if .Params.showSummary | default (.Site.Params.list.showSummary | default false) }}
       <div class="prose py-1 dark:prose-invert">
-        {{ .Summary | emojify }}
+        {{ .Summary | default .Description | emojify }}
       </div>
     {{ end }}
   </div>
