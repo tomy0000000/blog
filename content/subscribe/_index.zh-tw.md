@@ -105,6 +105,12 @@ layout: "simple"
   </form>
 </div>
 
+## 🏪 閱讀平台
+
+- [Google News](https://news.google.com/publications/CAAqBwgKMLOAywsw45viAw)
+- [Feedly](https://feedly.com/i/subscription/feed%2F{{< ref path="/" outputFormat="rss" >}})
+  - 如果你想要使用 Feedly 訂閱特定分類的文章，可以參考下面的指南找到個別的 RSS 種子
+
 ## 🌱 RSS 種子
 
 主要的 RSS 種子在[這裡]({{< ref path="/" outputFormat="rss" >}})：
