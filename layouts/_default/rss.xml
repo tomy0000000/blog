@@ -70,6 +70,9 @@
           <enclosure url="{{ $image.Permalink }}" length="{{ len $image.Content }}" type="{{ $image.MediaType }}" />
         {{- end -}}
       {{- end }}
+      {{- range .Resources.ByType "image" -}}
+        <enclosure url="{{ .Permalink }}" length="{{ len .Content }}" type="{{ .MediaType }}" />
+      {{- end -}}
       {{ with .File -}}<guid isPermaLink="false">{{ .ContentBaseName }}</guid>{{ end }}
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
     </item>
