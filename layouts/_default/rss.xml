@@ -18,7 +18,7 @@
 {{- end -}}
 {{- $description := .Site.Params.description | default (printf "Recent content on %s" $title ) -}}
 {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>{{ $title }}</title>
     <link>{{ .Permalink }}</link>
@@ -76,17 +76,14 @@
       {{- with $feature -}}
         {{- if or (hasPrefix . "http://") (hasPrefix . "https://") -}}
           {{- $image := resources.GetRemote . -}}
-          <media:content url="{{ . }}" medium="image">
-          <media:content url="{{ . }}" type="{{ $image.MediaType }}">
+          <media:content url="{{ . }}" fileSize="{{ len $image.Content }}" type="{{ $image.MediaType }}" medium="image" />
         {{- else -}}
           {{- $image := $page.Resources.GetMatch . -}}
-          <media:content url="{{ $image.Permalink }}" medium="image">
-          <media:content url="{{ $image.Permalink }}" type="{{ $image.MediaType }}">
+          <media:content url="{{ $image.Permalink }}" fileSize="{{ len $image.Content }}" type="{{ $image.MediaType }}" medium="image" />
         {{- end -}}
       {{- end }}
       {{- range .Resources.ByType "image" -}}
-        <media:content url="{{ .Permalink }}" medium="image">
-          <media:content url="{{ .Permalink }}" type="{{ .MediaType }}">
+        <media:content url="{{ .Permalink }}" fileSize="{{ len .Content }}" type="{{ .MediaType }}" medium="image" />
       {{- end -}}
       {{ with .File -}}<guid isPermaLink="false">{{ .ContentBaseName }}</guid>{{ end }}
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
