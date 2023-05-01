@@ -7,10 +7,12 @@ images: ["https://og.tomy.tech/api/blog?title=%E9%81%B8%E8%AA%B2%E5%A4%A7%E4%BD%
 videos: ["timelapse-hualien.mp4"]
 categories: ["🍫 生活"]
 tags: ["🏛 中興", "✅ 選課"]
-feature: "timelapse-hualien.mp4"
-featureAlt: "海崖谷日出縮時"
-coverCaption: "海崖谷日出縮時"
 ---
+
+<figure>
+    <video src="timelapse-hualien.mp4"></video>
+</figure>
+<figcaption>海崖谷日出縮時</figcaption>
 
 事件發生的當天，有著一個美麗的清晨。
 
