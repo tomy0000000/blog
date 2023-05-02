@@ -5,7 +5,6 @@ description: "打造促進創新的環境真的很難"
 categories: ["📱 科技"]
 series: ["🗼 電信業的困境"]
 tags: ["🗼 電信"]
-feature: "https://og.tomy.tech/api/blog?title=%E9%9B%BB%E4%BF%A1%E6%A5%AD%E7%9A%84%E5%9B%B0%E5%A2%83"
 featureAlt: "電信業的困境"
 ---
 

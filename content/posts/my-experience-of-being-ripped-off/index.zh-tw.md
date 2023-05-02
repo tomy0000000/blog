@@ -3,7 +3,6 @@ title: "盤子心法"
 date: 2021-07-13T03:11:30+08:00
 lastmod: 2021-07-13T03:12:06+08:00
 description: "當了多年的盤子，現在的我是怎麼買東西的"
-images: ["https://og.tomy.tech/api/blog?title=%E7%9B%A4%E5%AD%90%E5%BF%83%E6%B3%95"]
 categories: ["🍫 生活"]
 tags: ["🧑🏻‍🏫 人生體悟"]
 feature: "feature.jpg"

@@ -2,7 +2,6 @@
 title: "Affordable price with Purchasing Parity Power"
 description: "Breakdown of Gumroad and Dracula UI's Purchasing Parity Power Discounting Logic"
 date: 2022-08-24T03:09:42+08:00
-images: ["https://og.tomy.tech/api/blog?title=Affordable%20price%20with%20Purchasing%20Parity%20Power"]
 categories: ["🍫 Life"]
 ---
 

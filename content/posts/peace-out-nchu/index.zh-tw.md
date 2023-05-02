@@ -3,7 +3,6 @@ title: "再會啦！中興大學"
 date: 2021-12-31T20:22:41+08:00
 lastmod: 2021-12-31T20:59:16.000+08:00
 description: "請記得我曾經來過"
-images: ["https://og.tomy.tech/api/blog?title=%E5%86%8D%E6%9C%83%E5%95%A6%EF%BC%81%E4%B8%AD%E8%88%88%E5%A4%A7%E5%AD%B8"]
 categories: ["🍫 生活"]
 tags: ["🏛 中興"]
 feature: "feature.jpg"

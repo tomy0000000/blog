@@ -2,7 +2,6 @@
 title: "我逝去的高中畢典"
 date: 2021-07-28T04:11:42+08:00
 description: "都是這麼倏忽即逝的吧"
-images: ["https://og.tomy.tech/api/blog?title=%E6%88%91%E9%80%9D%E5%8E%BB%E7%9A%84%E9%AB%98%E4%B8%AD%E7%95%A2%E5%85%B8"]
 categories: ["🍫 生活"]
 tags: ["🧩 記憶碎片"]
 feature: "morning-poker-game.jpg"
