@@ -60,30 +60,18 @@
       <content:encoded>{{ with .Content }}{{ printf "<![CDATA[%s]]>" . | safeHTML }}{{ else }}{{ if .IsPage }}{{ printf "<![CDATA[%s]]>" .Summary | safeHTML }}{{ end }}{{ end }}</content:encoded>
       {{ with .Site.Author.email -}}<author>{{ . }}{{ with $.Site.Author.name }} ({{ . }}){{ end }}</author>{{ end }}
       {{ with .Params.categories -}}{{ range . }}<category>{{ . }}</category>{{ end }}{{ end }}
-      {{- $feature := .Params.feature | default .Params.cover -}}
-      {{- with $feature -}}
-        {{- if or (hasPrefix . "http://") (hasPrefix . "https://") -}}
-          {{- $image := resources.GetRemote . -}}
-          <enclosure url="{{ . }}" length="{{ len $image.Content }}" type="{{ $image.MediaType }}" />
-        {{- else -}}
-          {{- $image := $page.Resources.GetMatch . -}}
-          <enclosure url="{{ $image.Permalink }}" length="{{ len $image.Content }}" type="{{ $image.MediaType }}" />
-        {{- end -}}
-      {{- end }}
-      {{- range .Resources.ByType "image" -}}
+      {{- $og_url := print "https://og.tomy.tech/api/blog?title=" (urlquery .Title) }}
+      {{- $og_image := resources.GetRemote $og_url -}}
+      {{- $images := union (.Resources.ByType "image") (slice $og_image) -}}
+      {{- range $images -}}
         <enclosure url="{{ .Permalink }}" length="{{ len .Content }}" type="{{ .MediaType }}" />
       {{- end -}}
-      {{- with $feature -}}
-        {{- if or (hasPrefix . "http://") (hasPrefix . "https://") -}}
-          {{- $image := resources.GetRemote . -}}
-          <media:content url="{{ . }}" fileSize="{{ len $image.Content }}" type="{{ $image.MediaType }}" medium="image" />
+      {{- range $images -}}
+        {{- if ne .MediaType.SubType "svg" -}}
+          <media:content url="{{ .Permalink }}" fileSize="{{ len .Content }}" type="{{ .MediaType }}" medium="image" height="{{ .Height }}" width="{{ .Width }}" />
         {{- else -}}
-          {{- $image := $page.Resources.GetMatch . -}}
-          <media:content url="{{ $image.Permalink }}" fileSize="{{ len $image.Content }}" type="{{ $image.MediaType }}" medium="image" />
+          <media:content url="{{ .Permalink }}" fileSize="{{ len .Content }}" type="{{ .MediaType }}" medium="image" />
         {{- end -}}
-      {{- end }}
-      {{- range .Resources.ByType "image" -}}
-        <media:content url="{{ .Permalink }}" fileSize="{{ len .Content }}" type="{{ .MediaType }}" medium="image" />
       {{- end -}}
       {{ with .File -}}<guid isPermaLink="false">{{ .ContentBaseName }}</guid>{{ end }}
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
