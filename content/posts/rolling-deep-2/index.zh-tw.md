@@ -2,7 +2,6 @@
 title: "人生第二隻抹茶冰淇淋"
 date: 2021-09-06T04:16:54+08:00
 description: "其實不如印象中的苦澀"
-images: ["https://og.tomy.tech/api/blog?title=%E4%BA%BA%E7%94%9F%E7%AC%AC%E4%BA%8C%E9%9A%BB%E6%8A%B9%E8%8C%B6%E5%86%B0%E6%B7%87%E6%B7%8B"]
 videos: ["https://www.dailymotion.com/video/x8ivh0i"]
 categories: ["🍫 生活"]
 series: ["🇯🇵 2020 日本"]

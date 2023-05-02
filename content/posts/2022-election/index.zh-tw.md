@@ -2,7 +2,6 @@
 title: "2022 九合一選舉心得"
 date: 2022-11-27T00:50:19+08:00
 description: "雖然今年挺無聊的 QQ"
-images: ["https://og.tomy.tech/api/blog?title=2022%20%E4%B9%9D%E5%90%88%E4%B8%80%E9%81%B8%E8%88%89%E5%BF%83%E5%BE%97"]
 categories: ["🍫 生活"]
 tags: ["📜 政治"]
 ---

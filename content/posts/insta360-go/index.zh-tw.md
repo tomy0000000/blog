@@ -6,9 +6,6 @@ description: "中規中矩，沒有令人失望反而是它的驚喜點"
 videos: ["timelapse-penghu.mp4", "501-scored.mp4", "timelapse-ais3.mp4", "how-it-almost-went-off.mp4", "drama-club-daily.mp4"]
 categories: ["📱 科技"]
 tags: ["🌟 產品體驗"]
-feature: "http://og.tomy.tech/api/blog?title=Insta360%20Go"
-featureAlt: "" # Alt text (non-visible) for feature image
-coverCaption: "" # Description (visible) for feature image
 ---
 
 最近 Insta360 GO 的第二代上市了，趁這個時間來蹭點話題熱度應該是再適合不過啦

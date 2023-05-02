@@ -6,7 +6,6 @@ description: "My first experience with CTF, and probably the last one."
 images: ["scoreboard.png"]
 categories: ["🤖 Development"]
 tags: ["🛡 Cyber Security", "🚩 CTF"]
-feature: "https://og.tomy.tech/api/blog?title=AIS3%202020%20PreExam%20Write%20Up"
 featureAlt: "AIS3 2020 PreExam Write Up"
 ---
 

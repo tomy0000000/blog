@@ -3,7 +3,6 @@ title: "火車印象"
 date: 2021-09-16T03:10:53+08:00
 lastmod: 2021-09-16T05:00:47+08:00
 description: "醒夫的童年印象是紙船，我的是火車"
-images: ["https://og.tomy.tech/api/blog?title=%E7%81%AB%E8%BB%8A%E5%8D%B0%E8%B1%A1"]
 videos: ["https://www.dailymotion.com/video/x8iv4gx"]
 categories: ["🍫 生活"]
 series: ["🇯🇵 2020 日本"]

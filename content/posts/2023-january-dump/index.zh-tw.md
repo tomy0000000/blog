@@ -7,7 +7,6 @@ images: ["villa32.jpg", "lin-an-tai-house.jpg"]
 categories: ["🍫 生活"]
 series: ["📰 每月報報"]
 tags: ["🧳 旅遊"]
-feature: "https://og.tomy.tech/api/blog?title=2023%20%E5%B9%B4%201%20%E6%9C%88%E5%A0%B1%E5%A0%B1"
 ---
 
 到底為什麼可以拖了半個月才寫出來 xDDDDDD

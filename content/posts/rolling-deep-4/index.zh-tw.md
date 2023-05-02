@@ -2,7 +2,6 @@
 title: "為了一場雪"
 date: 2021-09-23T20:59:16+08:00
 description: "就這麼輕鬆甚至有點隨便的把行程改掉吧"
-images: ["https://og.tomy.tech/api/blog?title=%E7%82%BA%E4%BA%86%E4%B8%80%E5%A0%B4%E9%9B%AA"]
 categories: ["🍫 生活"]
 series: ["🇯🇵 2020 日本"]
 tags: ["🧳 旅遊"]

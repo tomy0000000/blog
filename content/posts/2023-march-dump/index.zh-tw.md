@@ -5,7 +5,6 @@ description: "我真的太難了我"
 videos: ["https://youtu.be/-n84EMKIXQM"]
 categories: ["🍫 生活"]
 series: ["📰 每月報報"]
-feature: "https://og.tomy.tech/api/blog?title=2023%20%E5%B9%B4%203%20%E6%9C%88%E5%A0%B1%E5%A0%B1"
 ---
 
 這個月基本上沒太大進展，我覺得可以歸咎於兩大原因
