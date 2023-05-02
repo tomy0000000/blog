@@ -5,8 +5,8 @@
 <meta property="og:url" content="{{ .Permalink }}" />
 {{- /*  Image  */ -}}
 {{- $og_url := print "https://og.tomy.tech/api/blog?title=" (urlquery .Title) }}
-{{- $og_image := resources.GetRemote $og_url -}}
-{{- $images := union ($page.Resources.ByType "image") (slice $og_image) -}}
+{{/*  {{- $og_image := resources.GetRemote $og_url -}}  */}}
+{{- $images := union ($page.Resources.ByType "image") nil -}}
 {{- range $images -}}
   <meta property="og:image" content="{{ .Permalink }}" />
   {{- if (hasPrefix .Permalink "https") -}}

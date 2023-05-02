@@ -61,8 +61,8 @@
       {{ with .Site.Author.email -}}<author>{{ . }}{{ with $.Site.Author.name }} ({{ . }}){{ end }}</author>{{ end }}
       {{ with .Params.categories -}}{{ range . }}<category>{{ . }}</category>{{ end }}{{ end }}
       {{- $og_url := print "https://og.tomy.tech/api/blog?title=" (urlquery .Title) }}
-      {{- $og_image := resources.GetRemote $og_url -}}
-      {{- $images := union (.Resources.ByType "image") (slice $og_image) -}}
+      {{/* {{- $og_image := resources.GetRemote $og_url -}} */}}
+      {{- $images := union (.Resources.ByType "image") nil -}}
       {{- range $images -}}
         <enclosure url="{{ .Permalink }}" length="{{ len .Content }}" type="{{ .MediaType }}" />
       {{- end -}}
