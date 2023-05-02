@@ -4,42 +4,20 @@
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 {{- /*  Image  */ -}}
-{{- with $.Params.images -}}
-  {{- range first 6 . -}}
-    {{- $image := cond (or (hasPrefix . "http://") (hasPrefix . "https://")) (resources.GetRemote .) ($page.Resources.GetMatch .) -}}
-    {{- if (and $image (eq $image.ResourceType "image")) -}}
-      {{- $imageURL := cond (or (hasPrefix . "http://") (hasPrefix . "https://")) . $image.Permalink -}}
-      <meta property="og:image" content="{{ $imageURL }}" />
-      <meta property="og:image:secure_url" content="{{ $imageURL }}" />
-      <meta property="og:image:type" content="{{ $image.MediaType }}" />
-      <meta property="og:image:width" content="{{ $image.Width }}" />
-      <meta property="og:image:height" content="{{ $image.Height }}" />
-    {{- else -}}
-      {{ warnf (printf "OPG image is set in '%s', but resource '%s' does not exist or is not image." $page.File.Path .) }}
-    {{- end -}}
+{{- $og_url := print "https://og.tomy.tech/api/blog?title=" (urlquery .Title) }}
+{{- $og_image := resources.GetRemote $og_url -}}
+{{- $images := union ($page.Resources.ByType "image") (slice $og_image) -}}
+{{- range $images -}}
+  <meta property="og:image" content="{{ .Permalink }}" />
+  {{- if (hasPrefix .Permalink "https") -}}
+  <meta property="og:image:secure_url" content="{{ .Permalink }}" />
   {{- end -}}
-{{- else -}}
-  {{- $images := $.Resources.ByType "image" -}}
-  {{- $featured := $images.GetMatch "*feature*" -}}
-  {{- if not $featured }}{{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}{{ end -}}
-  {{- with $featured -}}
-    <meta property="og:image" content="{{ $featured.Permalink }}" />
-    <meta property="og:image:secure_url" content="{{ $featured.Permalink }}" />
-    <meta property="og:image:type" content="{{ $featured.MediaType }}" />
-    <meta property="og:image:width" content="{{ $featured.Width }}" />
-    <meta property="og:image:height" content="{{ $featured.Height }}" />
-  {{- else -}}
-    {{- with $.Site.Params.images -}}
-      {{- $image := index . 0 -}}
-      <meta property="og:image" content="{{ $image | absURL }}"/>
-      <meta property="og:image:secure_url" content="{{ $image | absURL }}" />
-      <meta property="og:image:type" content="{{ $image.MediaType }}" />
-      <meta property="og:image:width" content="{{ $image.Width }}" />
-      <meta property="og:image:height" content="{{ $image.Height }}" />
-    {{- end -}}
+  <meta property="og:image:type" content="{{ .MediaType }}" />
+  {{- if ne .MediaType.SubType "svg" -}}
+    <meta property="og:image:width" content="{{ .Width }}" />
+    <meta property="og:image:height" content="{{ .Height }}" />
   {{- end -}}
 {{- end -}}
-
 {{- /*  Optional Metadata  */ -}}
 {{- with .Params.audio }}<meta property="og:audio" content="{{ . }}" />{{ end }}
 <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
