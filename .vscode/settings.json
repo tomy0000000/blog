@@ -1,6 +1,5 @@
 {
   "editor.formatOnSave": false,
-  "explorer.excludeGitIgnore": false,
   "files.exclude": {
     "themes": true,
   },

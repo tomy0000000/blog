@@ -7,8 +7,8 @@ lastmod: {{ .Date }}
 draft: true  # Delete this line to publish
 # For og:description
 description: ""
-# For og:image, feature image is auto-included, supports 6 other images
-images: ["https://og.tomy.tech/api/blog"]
+# For og:image, images are auto-included, only lists external images here
+images: [""]
 # For og:audio, only support one audio
 audio: ""
 # For og:video, support multiple videos
