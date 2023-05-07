@@ -1,0 +1,27 @@
+{{/*  https://www.reddit.com/r/redditdev/comments/34c0pm  */}}
+{{/*  Ideally .Page.Site.Config.Privacy.Reddit  */}}
+{{- $pc := .Page.Site.Params.privacy.reddit -}}
+{{- if not $pc.Disable -}}
+  {{- if .IsNamedParams -}}
+    {{- $sub := .Get "sub" -}}
+    {{- $id := .Get "id" -}}
+    {{- $live := .Get "live" -}}
+    {{- if and $sub $id -}}
+      {{- $url := printf "https://www.reddit.com/r/%v/comments/%v" $sub $id -}}
+      {{- $query := querify "url" $url "live" (default false $live) "omitscript" $pc.Simple "maxheight" 3600 -}}
+      {{- $request := printf "https://www.reddit.com/oembed?%s" $query -}}
+      {{- $json := getJSON $request -}}
+      {{/*  Strip off the fixed height style  */}}
+      {{- $embed := replaceRE `\sstyle="height:\d*px"\s` "" $json.html -}}
+      {{ $embed | safeHTML -}}
+    {{- else -}}
+      {{- template "error" . -}}
+    {{- end -}}
+  {{- else -}}
+    {{- template "error" . -}}
+  {{- end -}}
+{{- end -}}
+
+{{- define "error" -}}
+  {{- errorf "The %q shortcode requires two named parameters: sub and id. See %s" .Name .Position -}}
+{{- end -}}
