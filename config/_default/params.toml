@@ -69,3 +69,8 @@ mainSections = ["posts"]
   # bing = ""
   # pinterest = ""
   # yandex = ""
+
+[privacy]
+  [privacy.reddit]
+    disable = false
+    simple = false
