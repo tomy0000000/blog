@@ -193,7 +193,7 @@ print(s.recv(1024).strip().decode())
 
 啊執行起來就會像下面這樣
 
-<script src="https://asciinema.org/a/339381.js" id="asciicast-339381" async></script>
+{{< asciinema id="339381" >}}
 
 這一次 Iteration 的答案是`i`哦，你猜對了嗎：）
 

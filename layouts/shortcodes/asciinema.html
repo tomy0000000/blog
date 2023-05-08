@@ -1,0 +1,45 @@
+{{/*  https://asciinema.org/docs/embedding  */}}
+{{/*  Ideally .Page.Site.Config.Privacy.Asciinema  */}}
+{{- $pc := .Page.Site.Params.privacy.asciinema -}}
+{{- if not $pc.Disable -}}
+  {{- if .IsNamedParams -}}
+    {{- $id := .Get "id" -}}
+    {{- $startAt := (default 0 (.Get "startAt")) -}}
+    {{- $autoplay := (default false (.Get "autoplay")) -}}
+    {{- $preload := (default true (.Get "preload")) -}}
+    {{- $loop := (default false (.Get "loop")) -}}
+    {{- $speed := (default 1 (.Get "speed")) -}}
+    {{- $idleTimeLimit := .Get "idleTimeLimit" -}}
+    {{- $theme := .Get "theme" -}}
+    {{- $cols := .Get "cols" -}}
+    {{- $rows := .Get "rows" -}}
+    {{- $caption := .Get "caption" }}
+    {{- if $id -}}
+      <script
+        src="https://asciinema.org/a/{{ $id }}.js"
+        id="asciicast-{{ $id }}"
+        data-startAt="{{ $startAt }}"
+        data-autoplay="{{ $autoplay }}"
+        data-preload="{{ $preload }}"
+        data-loop="{{ $loop }}"
+        data-speed="{{ $speed }}"
+        {{ if $idleTimeLimit }}data-idleTimeLimit="{{ $idleTimeLimit }}"{{ end }}
+        {{ if $theme }}data-theme="{{ $theme }}"{{ end }}
+        {{ if $cols }}data-cols="{{ $cols }}"{{ end }}
+        {{ if $rows }}data-rows="{{ $rows }}"{{ end }}
+        async
+      ></script>
+      {{- if $caption -}}
+        <figcaption class="text-center">{{ $caption | markdownify }}</figcaption>
+      {{- end -}}
+    {{- else -}}
+      {{- template "__asciinema_error" . -}}
+    {{- end -}}
+  {{- else -}}
+    {{- template "__asciinema_error" . -}}
+  {{- end -}}
+{{- end -}}
+
+{{- define "__asciinema_error" -}}
+  {{- errorf "The %q shortcode requires one named parameters: id. See %s" .Name .Position -}}
+{{- end -}}
