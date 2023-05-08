@@ -8,20 +8,20 @@
     {{- $live := .Get "live" -}}
     {{- if and $sub $id -}}
       {{- $url := printf "https://www.reddit.com/r/%v/comments/%v" $sub $id -}}
-      {{- $query := querify "url" $url "live" (default false $live) "omitscript" $pc.Simple "maxheight" 3600 -}}
+      {{- $query := querify "url" $url "live" (default false $live) "omitscript" $pc.Simple -}}
       {{- $request := printf "https://www.reddit.com/oembed?%s" $query -}}
       {{- $json := getJSON $request -}}
       {{/*  Strip off the fixed height style  */}}
       {{- $embed := replaceRE `\sstyle="height:\d*px"\s` "" $json.html -}}
       {{ $embed | safeHTML -}}
     {{- else -}}
-      {{- template "error" . -}}
+      {{- template "__reddit_error" . -}}
     {{- end -}}
   {{- else -}}
-    {{- template "error" . -}}
+    {{- template "__reddit_error" . -}}
   {{- end -}}
 {{- end -}}
 
-{{- define "error" -}}
+{{- define "__reddit_error" -}}
   {{- errorf "The %q shortcode requires two named parameters: sub and id. See %s" .Name .Position -}}
 {{- end -}}
