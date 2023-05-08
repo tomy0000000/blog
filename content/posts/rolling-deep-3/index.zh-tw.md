@@ -14,7 +14,7 @@ coverCaption: "應該是整趟旅程最有紀念感的時刻 (˶‾᷄ ⁻̫ ‾
 
 ## Day 4
 
-<script src="https://geo.dailymotion.com/player/xc41k.js" data-video="x8iv4gx"></script>
+{{< dailymotion id="x8iv4gx" >}}
 <figcaption class="text-center">這小王八蛋一定想不到他的 21 歲生日會在真實世界的那台列車上醒來</figcaption>
 
 285 系列車是我們家少數不是新幹線的列車組，少了流線型的車頭和簡潔的配色，它當然就不是我小時候最喜歡拿起來把玩的那一列火車。但因為它的車頭是方形的，再加上它可以放比其他列車更大顆的電池，所以~~可以用來撞我弟的車~~比較不容易出軌

@@ -51,7 +51,7 @@ pipx install pdfminer  # You can use pip if you want
 
 聽起來是不是有點抽象，請看影片：
 
-<script src="https://geo.dailymotion.com/player/xc41k.js" data-video="x8ii41a"></script>
+{{< dailymotion id="x8ii41a" >}}
 
 ## 🎉 完成
 

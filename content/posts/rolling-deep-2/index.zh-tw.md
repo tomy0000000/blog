@@ -34,8 +34,8 @@ coverCaption: "你看這北七沒丟麵包屑還想拍免錢的"
 
 ## Day 3
 
-<script src="https://geo.dailymotion.com/player/xc41k.js" data-video="x8ivh0i"></script>
-<figcaption class="text-center">你在南方的豔陽裡，鴿子紛飛 (?)</figcaption>
+{{< dailymotion id="x8ivh0i" caption="你在南方的豔陽裡，鴿子紛飛 (?)" >}}
+<figcaption class="text-center"></figcaption>
 
 第三天轉戰大阪。不知道為什麼我的地圖上大阪的點特別的稀少，所以我這一天在大阪的行程算是相對寬鬆的，早上睡到半自然醒，然後去了大阪城公園，然後就很隨性的在公園的大噴水池前面吃著 LAWSON 的烤串當早午餐，然後一邊看日本小孩餵鴿子和追著鴿子跑 XDDDDDD。不知道是我在台灣很少有這麼 chill 的行程，還是我總覺得台灣人好像不太喜歡在公園遛小孩，這麼熱鬧的公園場景好像實在是沒在台灣看過
 
