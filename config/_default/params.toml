@@ -74,3 +74,6 @@ mainSections = ["posts"]
   [privacy.reddit]
     disable = false
     simple = false
+  [privacy.dailymotion]
+    disable = false
+    playerId = "xc41k" # https://www.dailymotion.com/partner/x2r8l7z/embed/players/configurator/xc41k

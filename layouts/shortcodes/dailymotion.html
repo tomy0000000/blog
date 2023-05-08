@@ -1,0 +1,43 @@
+{{/*  https://developers.dailymotion.com/player/#player-embed-script-video-embed  */}}
+{{/*  Ideally .Page.Site.Config.Privacy.DailyMotion  */}}
+{{- $pc := .Page.Site.Params.privacy.dailymotion -}}
+{{- if not $pc.Disable -}}
+  {{- if .IsNamedParams -}}
+    {{- $playerId := (default $pc.playerId (.Get "playerId")) -}}
+    {{- $id := .Get "id" -}}
+    {{- $caption := .Get "caption" }}
+    {{- if and $playerId $id -}}
+      <script src="https://geo.dailymotion.com/player/{{ $playerId }}.js" data-video="{{ $id }}"></script>
+      {{- if $caption -}}
+        <figcaption class="text-center">{{ $caption | markdownify }}</figcaption>
+      {{- end -}}
+      {{ template "__dailymotion_css" . }}
+    {{- else -}}
+      {{- template "__dailymotion_error" . -}}
+    {{- end -}}
+  {{- else -}}
+    {{- template "__dailymotion_error" . -}}
+  {{- end -}}
+{{- end -}}
+
+{{- define "__dailymotion_error" -}}
+  {{- errorf "The %q shortcode requires two named parameters: playerId and id. See %s (Hint: you may also configure playerId in site params as privacy.dailymotion.playerId)" .Name .Position -}}
+{{- end -}}
+
+{{- define "__dailymotion_css" -}}
+  {{- if not (.Page.Scratch.Get "__dailymotion_css") -}}
+    {{/* Only include once */}}
+    {{- .Page.Scratch.Set "__dailymotion_css" true }}
+    <style type="text/css">
+      {{/*  Equivelent to figure's tailwind classes: `mx-auto my-0 rounded-md`  */}}
+      .dailymotion-player-root,
+      .dailymotion-player-wrapper {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        border-radius: 0.375rem;
+      }
+    </style>
+  {{- end -}}
+{{- end -}}

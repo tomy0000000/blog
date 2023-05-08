@@ -138,7 +138,7 @@ Yubico Authenticator 的另外一個功能就是可以把 [OTP 密碼]({{< ref "
 
 唯一一個我看的懂的是 Static password，我是把裡面的密碼設定為系統管理者密碼，這樣遇到需要輸入系統管理者密碼的時候，可以透過觸碰金鑰的方式來輸入。
 
-<script src="https://geo.dailymotion.com/player/xc41k.js" data-video="x8in4qr"></script>
+{{< dailymotion id="x8in4qr" >}}
 
 需要注意的是，它在輸入之後會自動按 `enter/return ⏎`，還有就是在一般沒有隱藏輸入的地方 (比方說一般的文字輸入框或是文字編輯器) 也會觸發，所以我是這個功能設定在 slot 2 (長按) 的欄位，避免誤觸。
 
