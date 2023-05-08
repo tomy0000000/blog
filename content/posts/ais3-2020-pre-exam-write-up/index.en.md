@@ -195,7 +195,7 @@ I'm using Keyboard Maestro on Mac, but I believe any QuickMacro on any platform 
 
 It'll work like this:
 
-<script src="https://asciinema.org/a/339381.js" id="asciicast-339381" async></script>
+{{< asciinema id="339381" >}}
 
 During this iteration, the corrrect letter is `i`, which is kind of hard to find the difference.
 
