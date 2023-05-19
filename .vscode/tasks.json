@@ -1,0 +1,86 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "New post",
+      "type": "shell",
+      "command": "hugo",
+      "args": [
+        "new",
+        "posts/${input:Title}/index.${input:Language}.md",
+        "&&",
+        "code",
+        "content/posts/${input:Title}/index.${input:Language}.md"
+      ],
+      "presentation": {
+        "reveal": "silent",
+        "focus": false
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Open in MarkEdit",
+      "type": "shell",
+      "command": "open",
+      "args": [
+        "-a",
+        "MarkEdit",
+        "${file}"
+      ],
+      "presentation": {
+        "reveal": "silent",
+        "focus": false
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Open in Typora",
+      "type": "shell",
+      "command": "open",
+      "args": [
+        "-a",
+        "Typora",
+        "${file}"
+      ],
+      "presentation": {
+        "reveal": "silent",
+        "focus": false
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Update post date",
+      "type": "shell",
+      "command": "sed",
+      "args": [
+        "-i",
+        {
+          "value": "/date:.*/c\\date: $(gdate +%Y-%m-%dT%H:%M:%S%:z)",
+          "quoting": "weak"
+        },
+        "${file}"
+      ],
+      "presentation": {
+        "reveal": "silent",
+        "focus": false
+      },
+      "problemMatcher": []
+    }
+  ],
+  "inputs": [
+    {
+      "id": "Title",
+      "type": "promptString",
+      "description": "Title of the post"
+    },
+    {
+      "id": "Language",
+      "type": "pickString",
+      "description": "Language of the post",
+      "options": ["en", "zh-tw"],
+      "default": "zh-tw"
+    }
+  ]
+}
