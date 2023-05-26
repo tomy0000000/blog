@@ -46,7 +46,9 @@ TODO
 
 ## Show post description as subtitles
 
-TODO
+`description` front matter act as sub-title for each post in this blog, the modification add a line under the post title as follow.
+
+![subtitle](https://github.com/tomy0000000/blog/assets/23290356/28726984-9eba-4a85-9c23-a5e87be1c517)
 
 ## Custom post listing
 
