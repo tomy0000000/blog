@@ -1,49 +1,54 @@
-# Customized
+# 🪄 Customization
 
 This README outlines some modifications explicitly made for this blog that differ from upstream.
 
 ## Quick Reference
 
-| File Path | Upstream Hash | Modifications |      |
-| --------- | ------------- | ------------- | ---- |
-|           |               |               |      |
+| File Path                                                            | Upstream Hash                                           | Last Updated | Link                                                                       |
+| -------------------------------------------------------------------- | ------------------------------------------------------- | ------------ | -------------------------------------------------------------------------- |
+| [`partials/analytics.html`](partials/analytics.html)                 | -                                                       |              | [#plausible-analytics](#plausible-analytics)                               |
+| [`archetypes/default.md`](../archetypes/default.md)                  | jpanther/congo@02084066c7f64f256d3373bc0540c29b7a1ed313 | 2023/05/27   | [#custom-post-template](#custom-post-template)                             |
+| [`layouts/\_default/rss.xml`](_default/rss.xml)                      | gohugoio/hugo@9906c1ae52e44f2e8ed45873ea36cd83a9e9bcc0  |              | [#custom-rss-template](#custom-rss-template)                               |
+| [`layouts/partials/head.html`](partials/head.html)                   | jpanther/congo@02084066c7f64f256d3373bc0540c29b7a1ed313 |              | [#custom-head](#custom-head)                                               |
+| [`layouts/partials/opengraph.html`](partials/opengraph.html)         | gohugoio/hugo@9906c1ae52e44f2e8ed45873ea36cd83a9e9bcc0  |              | [#custom-open-graph-snippets](#custom-open-graph-snippets)                 |
+| [`layouts/partials/twitter_cards.html`](partials/twitter_cards.html) | gohugoio/hugo@f6745ad3588a7b3aaae228fec18fe0027affd566  |              | [#custom-twitter-metas](#custom-twitter-metas)                             |
+| [`layouts/_default/single.html`](_default/single.html)               | jpanther/congo@7e970f4c9718a690a61845eb109817446339fb92 |              | [#show-post-description-as-subtitles](#show-post-description-as-subtitles) |
+| [`layouts/partials/article-link.html`](partials/article-link.html)   | jpanther/congo@02084066c7f64f256d3373bc0540c29b7a1ed313 |              | [#custom-post-listing](#custom-post-listing)                               |
+| [`layouts/partials/footer.html`](partials/footer.html)               | jpanther/congo@02084066c7f64f256d3373bc0540c29b7a1ed313 |              | [#custom-footer](#custom-footer)                                           |
+| [`layouts/partials/header/hybrid.html`](partials/header/hybrid.html) | jpanther/congo@c3cf869ab209b8eeec8846d2bb2e1882d1cd70c2 |              | [#custom-footer](#custom-footer)                                           |
 
 ## Plausible Analytics
 
-A partial snippet [`partials/analytics.html`](partials/analytics.html) is added to collect data for plausible analytics. See [Congo's documentation](https://jpanther.github.io/congo/docs/partials/#custom-analytics-providers) for more.
+A partial snippet is added to collect data for plausible analytics. See [Congo's documentation](https://jpanther.github.io/congo/docs/partials/#custom-analytics-providers) for more.
 
 ## Custom post template
 
-[`archetypes/default.md`](../archetypes/default.md), extended from Congo's default ([0208406](https://github.com/jpanther/congo/blob/02084066c7f64f256d3373bc0540c29b7a1ed313/archetypes/default.md)).
+Extended from [Congo's default front matter](https://jpanther.github.io/congo/docs/front-matter/).
 
 ## Custom RSS template
 
-M [layouts/_default/rss.xml](https://github.com/gohugoio/hugo/blob/9906c1ae52e44f2e8ed45873ea36cd83a9e9bcc0/tpl/tplimpl/embedded/templates/_default/rss.xml)
+TODO
 
 ## Custom `<head>`
 
 to include the customized Open Graph elements and Twitter `<meta>`s
 
-M [layouts/partials/head.html](https://github.com/jpanther/congo/blob/02084066c7f64f256d3373bc0540c29b7a1ed313/layouts/partials/head.html)
-
 ## Custom Open Graph snippets
 
-M [layouts/partials/opengraph.html](https://github.com/gohugoio/hugo/blob/9906c1ae52e44f2e8ed45873ea36cd83a9e9bcc0/tpl/tplimpl/embedded/templates/opengraph.html)
+TODO
 
 ## Custom Twitter `<meta>`s
 
-M [layouts/partials/twitter_cards.html](https://github.com/gohugoio/hugo/blob/f6745ad3588a7b3aaae228fec18fe0027affd566/tpl/tplimpl/embedded/templates/twitter_cards.html)
+TODO
 
 ## Show post description as subtitles
 
-M [layouts/_default/single.html](https://github.com/jpanther/congo/blob/7e970f4c9718a690a61845eb109817446339fb92/layouts/_default/single.html)
+TODO
 
 ## Custom post listing
 
 - Do not show feature image
 - Show post description when there is no summary for post
-
-M [layouts/partials/article-link.html](https://github.com/jpanther/congo/blob/02084066c7f64f256d3373bc0540c29b7a1ed313/layouts/partials/article-link.html)
 
 ## Custom footer
 
@@ -53,9 +58,6 @@ M [layouts/partials/article-link.html](https://github.com/jpanther/congo/blob/02
 - Made with Love in Taiwan badge
 
 See [Congo's documentation](https://jpanther.github.io/congo/docs/partials/#head-and-footer) for how extended footer works.
-
-M [layouts/partials/footer.html](https://github.com/jpanther/congo/blob/02084066c7f64f256d3373bc0540c29b7a1ed313/layouts/partials/footer.html)
-M [layouts/partials/header/hybrid.html](https://github.com/jpanther/congo/blob/c3cf869ab209b8eeec8846d2bb2e1882d1cd70c2/layouts/partials/header/hybrid.html)
 
 ## Shortcodes
 
@@ -68,4 +70,3 @@ M [layouts/partials/header/hybrid.html](https://github.com/jpanther/congo/blob/c
 ### Reddit
 
 ### Video
-
