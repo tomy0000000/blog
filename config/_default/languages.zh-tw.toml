@@ -1,17 +1,28 @@
 languageCode = "zh-tw"
 languageName = "中文 (台灣)"
-displayName = "🇹🇼 中文"
-isoCode = "zh-TW"
 weight = 1
-rtl = false
 hasCJKLanguage = true
 
 title = "Tomy's Blog"
-description = "Tomy Hsieh 的奇幻部落"
 copyright = '<a href="{{< relref "copyright" >}}" class="hover:underline hover:decoration-primary-400 hover:text-primary-500">Copyright</a> © 2022 Tomy Hsieh.'
 
-publishDate = 2022-08-04T06:25:42+08:00
-# dateFormat = "2 January 2006"
+[params]
+  displayName = "🇹🇼 中文"
+  isoCode = "zh-TW"
+  rtl = false
+
+  # dateFormat = "2 January 2006"
+
+  description = "Tomy Hsieh 的奇幻部落"
+  publishDate = 2022-08-04T06:25:42+08:00
+
+  [params.rss]
+    image = "rss-image-144x144.png"
+    imageWidth = 144
+    imageHeight = 144
+    imageDescription = "Tomy's Logo"
+    ttl = 60
+
 
 [author]
   name = "Tomy Hsieh"
@@ -61,10 +72,3 @@ publishDate = 2022-08-04T06:25:42+08:00
   #   { whatsapp = "https://wa.me/phone-number" },
   #   { youtube = "https://youtube.com/username" },
   ]
-
-[rss]
-  image = "rss-image-144x144.png"
-  imageWidth = 144
-  imageHeight = 144
-  imageDescription = "Tomy's Logo"
-  ttl = 60
