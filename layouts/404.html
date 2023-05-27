@@ -1,0 +1,14 @@
+{{ define "main" }}
+  {{ $image := resources.Get "img/undraw_taken_re_yn20.svg" }}
+  <div class="prose dark:prose-invert mx-auto text-center">
+    <figure><img src="{{ $image.Permalink }}" alt="UFO stole this illustration"></figure>
+    <hgroup>
+      <h1 class="">{{ i18n "error.404_title" | emojify }}</h1>
+      <a
+        rel="me"
+        href="{{ "" | relLangURL }}"
+        >{{ i18n "error.404_description" | emojify }}</a
+      >
+    </hgroup>
+  </div>
+{{ end }}
