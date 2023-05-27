@@ -3,6 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "scripts": {
+    "setup": "ln -s themes/congo/tailwind.config.js .",
     "dev": "npm-run-all --parallel *:dev",
     "hugo:dev": "hugo server --bind 0.0.0.0 --buildDrafts",
     "hugo:build": "hugo",
