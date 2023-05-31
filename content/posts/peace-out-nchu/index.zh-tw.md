@@ -16,7 +16,7 @@ featureAlt: "朦朧未對焦的團體畢業照"
 
 可是如果沒有人記得，那他還存在過嗎？
 
-![資工系魯蛇](cs-department-1.jpg)
+![資工系魯蛇](cs-department.jpg)
 ![劇坊我的愛](drama-1.jpg)
 ![劇坊我的愛](drama-2.jpg)
 ![NLP 實驗室](nlplab-1.jpg)

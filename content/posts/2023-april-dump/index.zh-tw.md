@@ -49,8 +49,6 @@ AppShelf 是我去年從歐洲交換回來的時候想到的小專案，一個�
 
 之後有空再來寫 Ruby on Rails 和 PicoCSS 的心得文好了 😛
 
-
-
 ### ⚠️ 降低寫作摩擦力
 
 完成度...大概一半一半吧。
@@ -68,17 +66,17 @@ AppShelf 是我去年從歐洲交換回來的時候想到的小專案，一個�
 下個月要開始上 CMU 的遠距先修課了，感覺時間不會太多，可能需要調整一下追蹤進度的方式，才有機會達標。
 
 1. 既然部落格都已經正式上路了，當然就要來認真寫文章了，目前預計 5 月要發的文章：
-    - 怎樣叫國際化 Pt.2
+    - [怎樣叫國際化 Pt.2]({{< relref "posts/the-sense-of-internationalized-2" >}})
     - AppShelf 介紹文
-    - 胡志明市
+    - [🇻🇳 西貢]({{< relref "posts/saigon" >}})
     - MSCS 之前預測文的實驗結果
-    - MSCS 申請心得文
-    - The Ethical Traveler 的閱讀心得
+    - MSCS 申請心得文 ([上篇]({{< relref "posts/mscs-applying-reflection-i" >}})、[下篇]({{< relref "posts/mscs-applying-reflection-ii" >}}))
+    - [The Ethical Traveler 的閱讀心得]({{< relref "posts/ethical-travel" >}})
     - _____開箱文
 2. 把 Side Project 的網站整理更新一下，準備年底用來投實習
 3. 同樣為了投實習，應該差不多要開始刷題了，5月下半月回台灣 LeetCode 刷個 20 題應該不難 吧 嗎
 
-## 👻 那些我在 Reddit 上看到的酷酷文
+## 👻 那些我在 Reddit 上看到的酷酷貼文
 
 每月報報每次都不小心寫的好正經哦，不如最近滑 Reddit 看到好多好有趣的文，就來轉貼一些有趣的文緩和一下，順便增加點閱率吧 👍🏻 ~~(等等太隨便了吧~~
 
