@@ -1,25 +1,13 @@
 ---
 title: "2023 年 5 月報報"
 date: 2023-05-31T17:50:34+08:00
-lastmod: 2023-05-31T17:50:34+08:00
-# For og:description
-description: ""
-# For og:image, images are auto-included, only lists external images here
-images: [""]
-# For og:audio, only support one audio
-audio: ""
-# For og:video, support multiple videos
-videos: []
+lastmod: 2023-06-07T20:55:32+08:00
+description: "強勢回歸台灣！！！"
 categories: ["🍫 生活"]
 series: ["📰 每月報報"]
-# Tags taxonomy
-tags: []
-# Feature image for thumbnail in list page, RSS, and top of the content
-feature: ""
-# Alt text (non-visible) for feature image
-featureAlt: ""
-# Description (visible) for feature image
-coverCaption: ""
+tags: ["💚 蘇打綠"]
+feature: "round-2.jpg"
+featureAlt: "蘇打綠 《round 2"
 ---
 
 5 月前半個月在[🇻🇳 西貢]({{< relref "posts/saigon" >}})，心得已經出刊了，有興趣的可以去看看，這裡不多贅述。後半個月回台灣之後處理了不少雜事，大部分都是跟之後出國有關的前置手續：
