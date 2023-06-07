@@ -21,6 +21,31 @@
       "problemMatcher": []
     },
     {
+      "label": "New monthly dump post",
+      "type": "shell",
+      "command": "hugo",
+      "args": [
+        "new",
+        {
+          "value": "posts/$(date +%Y)-$(LANG=EN date +%B | tr '[:upper:]' '[:lower:]')-dump/index.zh-tw.md",
+          "quoting": "weak"
+        },
+        "--kind",
+        "monthly-dump",
+        "&&",
+        "code",
+        {
+          "value": "content/posts/$(date +%Y)-$(LANG=EN date +%B | tr '[:upper:]' '[:lower:]')-dump/index.zh-tw.md",
+          "quoting": "weak"
+        },
+      ],
+      "presentation": {
+        "reveal": "silent",
+        "focus": false
+      },
+      "problemMatcher": []
+    },
+    {
       "label": "Update post date",
       "type": "shell",
       "command": "sed",
