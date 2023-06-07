@@ -5,7 +5,7 @@
   "scripts": {
     "setup": "ln -s themes/congo/tailwind.config.js .",
     "dev": "npm-run-all --parallel *:dev",
-    "hugo:dev": "hugo server --bind 0.0.0.0 --buildDrafts",
+    "hugo:dev": "hugo server --bind 0.0.0.0 --buildDrafts --gc --minify",
     "hugo:build": "hugo",
     "css:dev": "NODE_ENV=development ./themes/congo/node_modules/tailwindcss/lib/cli.js -c ./themes/congo/tailwind.config.js -i ./themes/congo/assets/css/main.css -o ./assets/css/compiled/main.css --jit -w",
     "css:build": "NODE_ENV=production ./themes/congo/node_modules/tailwindcss/lib/cli.js -c ./themes/congo/tailwind.config.js -i ./themes/congo/assets/css/main.css -o ./assets/css/compiled/main.css --jit"
