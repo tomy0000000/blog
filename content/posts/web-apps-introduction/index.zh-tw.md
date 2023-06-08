@@ -1,6 +1,7 @@
 ---
 title: "Web Apps 的前世今生"
 date: 2023-06-07T18:01:12+08:00
+lastmod: 2023-06-08T23:45:46+08:00
 description: "與他們的產地"
 categories: ["📱 科技"]
 series: ["⚛ Web Apps 101"]
