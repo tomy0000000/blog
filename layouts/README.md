@@ -25,6 +25,7 @@ Extended from [Congo's default front matter](https://jpanther.github.io/congo/do
 ## Custom CSS
 
 - Show `<abbr>` in tooltip on click
+- Add icons indicating external links
 
 Custom CSS are loaded and compiled with Tailwind CSS according to [Congo's Documentation](https://jpanther.github.io/congo/docs/advanced-customisation/#overriding-the-stylesheet).
 
