@@ -29,13 +29,18 @@ abbr[title]:focus::after {
 
 /* Add icons to indicate external links */
 /* https://christianoliff.com/blog/styling-external-links-with-an-icon-in-css/ */
-article a[href^="http"]:not([aria-label])::after,
-article a[href^="https://"]:not([aria-label])::after
-{
+article p a[href^="http"]:not([aria-label])::after,
+article figcaption a[href^="http"]:not([aria-label])::after {
   content: url("/img/arrow-up-right-from-square-solid.svg");
   width: 0.6em;
   height: 0.6em;
   margin-inline-start: 0.25em;
   margin-inline-end: 0.25em;
   display: inline-block;
+}
+
+/* Hugo sometimes renders empty p tags,  */
+p:empty,
+a:empty {
+  display: none;
 }
