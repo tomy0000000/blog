@@ -20,7 +20,7 @@ coverCaption: "YubiKey 5Ci 上市限定版"
 | Yubikey Manager             | 功能最完整，裝這個就好                                                                 |
 | YubiKey Personalization GUI | UI 有點醜但跟 Yubikey Manager 有點像。反正目前沒發現只有這個才有的功能，不用裝         |
 | YubiKey PIV Manager         | 管理 PIV 功能用的，其實 Yubikey Manager 就有提供了，不用裝                             |
-| Yubico Authenticator        | 提供網頁登入時的各項功能，細節下面 [FIDO2]({{< ref "#fido2--otp" >}}) 會講，有需要再裝 |
+| Yubico Authenticator        | 提供網頁登入時的各項功能，細節下面 [FIDO2]({{< relref "#fido2--otp" >}}) 會講，有需要再裝 |
 | `pkman` CLI                 | 選配，維護還不錯的 CLI。不想跟 GUI 鬼扯的時候，這個還不錯用                            |
 
 不想看那麼多的話，下面這個貼到終端機就對了：
@@ -111,7 +111,7 @@ FIDO2 是一個專案 (或協定、標準)，<abbr title="Fast IDentity Online">
 
 需要注意的是，有的網站 (比如 Microsoft 和 Mailcow) 會在使用硬體金鑰的時候要求進一步驗證，這時候就會用到 FIDO2 PIN 碼，而在登入的同時，網站和帳號也會寫入這支金鑰。至於有哪些帳號登錄在金鑰上，可以在 Yubico Authenticator 中的 WebAuthn 分頁中查看。
 
-Yubico Authenticator 的另外一個功能就是可以把 [OTP 密碼]({{< ref "#一次性密碼" >}}) 存入金鑰裡，然後這個金鑰在任何裝有 Yubico Authenticator 的地方都可以存取這些 OTP，缺點是最多只支援 32 個帳號。
+Yubico Authenticator 的另外一個功能就是可以把 [OTP 密碼]({{< relref "#一次性密碼" >}}) 存入金鑰裡，然後這個金鑰在任何裝有 Yubico Authenticator 的地方都可以存取這些 OTP，缺點是最多只支援 32 個帳號。
 
 但我很滿意我目前使用的 1Password，所以 pass
 

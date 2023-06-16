@@ -49,4 +49,4 @@ featureAlt: "電信業的困境"
 
 ## 小結
 
-這篇拋出了問題，[下一篇]({{< ref "posts/monopolized-telecom-dilemma-solution" >}})再來討論一下該怎麼解決。
+這篇拋出了問題，[下一篇]({{< relref "posts/monopolized-telecom-dilemma-solution" >}})再來討論一下該怎麼解決。
