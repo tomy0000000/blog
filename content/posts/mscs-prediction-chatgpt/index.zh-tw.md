@@ -8,7 +8,7 @@ tags: ["🏛 Master's", "🇺🇳 NLP"]
 featureAlt: "CS 碩士申請大預測 - ChatGPT"
 ---
 
-昨天發完我[去各大廟擲筊結果]({{< ref "posts/mscs-prediction" >}})的文之後，我又想到一個 idea：
+昨天發完我[去各大廟擲筊結果]({{< relref "posts/mscs-prediction" >}})的文之後，我又想到一個 idea：
 
 > 竟然大家都把 ChatGPT 當神在拜，那我怎麼可以不把他納進我的實驗裡呢 xDDDD
 

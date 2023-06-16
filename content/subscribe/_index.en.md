@@ -5,11 +5,11 @@ layout: "simple"
 
 ## 🗄️ Categories
 
-The articles in this blog are divided into three categories, which can be found at the bottom of the [🗄️ Categories]({{< ref "/categories" >}}) page: 
+The articles in this blog are divided into three categories, which can be found at the bottom of the [🗄️ Categories]({{< relref "/categories" >}}) page: 
 
-- [🤖 Development]({{< ref "/categories/development" >}}): Technical articles about programming and development
+- [🤖 Development]({{< relref "/categories/development" >}}): Technical articles about programming and development
 
-There are also [📖 Series]({{< ref "/series" >}}) articles that circle around a specific topic.
+There are also [📖 Series]({{< relref "/series" >}}) articles that circle around a specific topic.
 
 ## 📰 Newsletter
 
@@ -20,19 +20,19 @@ There are also [📖 Series]({{< ref "/series" >}}) articles that circle around 
 The main RSS feed is located at
 
 ```xml
-{{< ref path="/" outputFormat="rss" >}}
+{{< relref path="/" outputFormat="rss" >}}
 ```
 
 You can also find the RSS feed of each category, series, or tag by adding `index.xml` to the end of the URL.
 
-For example, the URL of the [🤖 Development]({{< ref "/categories/development" >}}) page is
+For example, the URL of the [🤖 Development]({{< relref "/categories/development" >}}) page is
 
 ```xml
-{{< ref "/categories/development" >}}
+{{< relref "/categories/development" >}}
 ```
 
 Then its RSS feed is
 
 ```xml
-{{< ref path="/categories/development" outputFormat="rss" >}}
+{{< relref path="/categories/development" outputFormat="rss" >}}
 ```

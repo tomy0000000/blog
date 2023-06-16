@@ -8,7 +8,7 @@ tags: ["🗼 電信", "🇪🇺 歐洲", "🇫🇷 法國", "🔍 社會觀察",
 featureAlt: "電信業的困境解方"
 ---
 
-[前一篇]({{< ref "posts/monopolized-telecom-dilemma" >}})提了問題，這一篇來寫寫我的解方
+[前一篇]({{< relref "posts/monopolized-telecom-dilemma" >}})提了問題，這一篇來寫寫我的解方
 
 ## 單一化基礎建設
 
