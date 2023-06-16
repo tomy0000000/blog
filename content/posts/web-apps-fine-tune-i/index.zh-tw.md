@@ -75,4 +75,4 @@ window.history.pushState({}, "", "https://www.messenger.com");
 
 ## 🎬 下集預告
 
-這一篇討論了 Web Apps 的初步設定，下一篇會進一步延伸到優化各個網站的操作細節，敬請期待 😆
+這一篇討論了 Web Apps 的初步設定，[下一篇]({{< relref "posts/web-apps-fine-tune-i" >}})會進一步延伸到優化各個網站的操作細節，敬請期待 😆
