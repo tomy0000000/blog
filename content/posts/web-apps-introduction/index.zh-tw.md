@@ -49,4 +49,4 @@ featureAlt: "Mac 版的 Web Apps 在 WWDC 2023 發表"
 
 ## 🎬 下集預告
 
-下一集進入實戰篇，來聊聊可以怎麼設定 Web Apps，讓使用體驗更接近原生 App！
+[下一集]({{< relref "posts/web-apps-fine-tune-i" >}})進入實戰篇，來聊聊可以怎麼設定 Web Apps，讓使用體驗更接近原生 App！
