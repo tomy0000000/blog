@@ -3,7 +3,6 @@
 # https://jpanther.github.io/congo/docs/configuration/#site-configuration
 theme = "congo"
 
-# baseURL = "https://blog.tomy.me/"
 defaultContentLanguage = "zh-tw"
 defaultContentLanguageInSubdir = true
 timeZone = "Asia/Taipei"
