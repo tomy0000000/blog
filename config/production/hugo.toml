@@ -1,0 +1,6 @@
+# -- Site Configuration --
+# https://gohugo.io/getting-started/configuration/#all-configuration-settings
+# https://jpanther.github.io/congo/docs/configuration/#site-configuration
+
+baseURL = "https://blog.tomy.me/"
+buildDrafts = false
