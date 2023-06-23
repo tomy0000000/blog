@@ -1,3 +1,41 @@
+@font-face {
+  font-family: "Open Huninn";
+  src: url(../font/jf-openhuninn-2.0.ttf);
+}
+
+@font-face {
+  font-family: "Cream Font";
+  src: url(../font/creamfont-2.3.otf);
+}
+
+@font-face {
+  font-family: "jf-jinxuanlatte";
+  src: url(../font/jf-jinxuanlatte-2.1-medium.otf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "jf-jinxuanlatte";
+  src: url(../font/jf-jinxuanlatte-2.1-bold.otf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "jf-jinxuanlatte";
+  src: url(../font/jf-jinxuanlatte-2.1-heavy.otf);
+  font-weight: 900;
+}
+
+
+html {
+  /* font-family: "Open Huninn"; */
+  /* font-family: "Cream Font"; */
+  /* font-family: "jf-jinxuanlatte"; */
+  /* font-family: 'Noto Sans TC', sans-serif; */
+  font-family: 'Noto Serif TC', serif;
+  font-family: 'Zen Old Mincho', serif;
+}
+
 /* Enhenced abbr element for mobile and keyboard navigation */
 /* https://bitsofco.de/making-abbr-work-for-touchscreen-keyboard-mouse/ */
 abbr[title] {
