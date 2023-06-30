@@ -45,7 +45,7 @@ featureAlt: "Mac 版的 Web Apps 在 WWDC 2023 發表"
 
 ![Mac 版的 Web Apps 在 WWDC 2023 發表](wwdc-2023-web-apps.jpg "時間快轉到 16 年後的......昨天 XDDDDD")
 
-在 WWDC 2023 中，除了發布貴鬆鬆的~~高科技潛水護目鏡~~  Vision Pro 之外，蘋果終於決定把這個 iOS 獨佔了 16 年的功能帶回 macOS，應該也可以說是 Web Apps 與 Safari 的多年之後在彼岸的另一端重逢吧。
+在 WWDC 2023 中，除了發布貴參參的~~高科技潛水護目鏡~~  Vision Pro 之外，蘋果終於決定把這個 iOS 獨佔了 16 年的功能帶回 macOS，應該也可以說是 Web Apps 與 Safari 的多年之後在彼岸的另一端重逢吧。
 
 ## 🎬 下集預告
 
