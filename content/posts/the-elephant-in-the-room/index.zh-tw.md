@@ -3,16 +3,9 @@ title: "《🐘 房間裡的大象》"
 date: 2023-07-17T17:04:05+08:00
 lastmod: 2023-07-17T17:04:05+08:00
 description: "世上許多的不幸，源自......沒有說出口的事"
-# For og:image, images are auto-included, only lists external images here
-images: [""]
-# For og:audio, only support one audio
-audio: ""
-# For og:video, support multiple videos
-videos: []
 categories: ["🍫 生活"]
 series: ["📔 閱讀"]
-# Tags taxonomy
-tags: []
+tags: ["🔍 社會觀察"]
 feature: "elephant-in-the-museum.jpg"
 featureAlt: "博物館中的大象標本"
 coverCaption: "Photo by [J. Amill Santiago](https://unsplash.com/@thetaikun?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/ZcIIcgjSCvU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)"
