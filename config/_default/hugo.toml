@@ -11,6 +11,17 @@ enableRobotsTXT = true
 paginate = 10
 summaryLength = 0
 
+[markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.cjk]
+        enable = true
+        # Wheather a single line break between CJK characters should be ignored
+        # or render as a \n character. In HTML, this \n character will be a space.
+        eastAsianLineBreaks = true
+        # Support CJK emphasis rendering
+        # e.g. 這個選項讓\ **「括弧本身」**\ 也會跟著變粗體，不需要前後空白來繞開 CommonMark 的語法。
+        escapedSpace = true
+
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
