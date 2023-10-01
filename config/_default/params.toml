@@ -27,11 +27,11 @@ mainSections = ["posts"]
 
 [homepage]
   layout = "profile" # valid options: page, profile, custom
-  showRecent = false
+  showRecent = true
 
 [article]
   showDate = true
-  showDateUpdated = false
+  showDateUpdated = true
   showAuthor = false
   showBreadcrumbs = false
   showDraftLabel = true
