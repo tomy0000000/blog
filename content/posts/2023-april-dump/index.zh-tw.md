@@ -80,7 +80,7 @@ AppShelf 是我去年從歐洲交換回來的時候想到的小專案，一個�
 
 每月報報每次都不小心寫的好正經哦，不如最近滑 Reddit 看到好多好有趣的文，就來轉貼一些有趣的文緩和一下，順便增加點閱率吧 👍🏻 ~~(等等太隨便了吧~~
 
-{{< reddit sub="Showerthoughts" id="10ne3n3" >}}
+{{< reddit sub="Showerthoughts" id="10ne3n3/people_who_wear_pyjamas_in_public_are_often" >}}
 
 > 大家常說那些穿著睡衣上街的人都放棄了人生。
 > 
