@@ -97,7 +97,7 @@ LeetCode 30 題雖然這個月沒有達成，但是實際執行之後，感覺�
 
 ## 👻 那些我在 Reddit 上看到的酷酷貼文
 
-{{< reddit sub="Showerthoughts" id="12lh4ur" >}}
+{{< reddit sub="Showerthoughts" id="12lh4ur/people_are_impressed_by_the_uniqueness_of" >}}
 
 > 大家總是對每一片雪花都有不同的形狀感覺到神奇，卻沒有人在乎每一顆馬鈴薯的形狀也是獨一無二的。
 

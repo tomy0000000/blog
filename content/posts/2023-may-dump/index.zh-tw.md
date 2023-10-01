@@ -96,7 +96,7 @@ featureAlt: "蘇打綠 《round 2"
 
 ## 👻 那些我在 Reddit 上看到的酷酷貼文
 
-{{< reddit sub="Showerthoughts" id="12fnjzx" >}}
+{{< reddit sub="Showerthoughts" id="12fnjzx/when_you_bury_your_feet_in_the_sand_at_the_beach" >}}
 
 > 當你在沙灘上把腳埋進沙子裡，其實等於把地球當成鞋子穿在腳上了呢
 
