@@ -61,8 +61,11 @@
         "reveal": "silent",
         "focus": false
       },
-      "problemMatcher": []
-    }
+      "problemMatcher": [],
+      "osx": {
+        "command": "gsed"
+      }
+    },
   ],
   "inputs": [
     {
