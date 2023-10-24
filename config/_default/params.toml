@@ -36,7 +36,7 @@ mainSections = ["posts"]
   showBreadcrumbs = false
   showDraftLabel = true
   showEdit = false
-  # editURL = "https://github.com/username/repo/"
+  editURL = "https://github.com/tomy0000000/blog/tree/main/content/"
   editAppendPath = true
   showHeadingAnchors = true
   showPagination = true
@@ -63,6 +63,11 @@ mainSections = ["posts"]
 [fathomAnalytics]
   # site = "ABC12345"
   # domain = "llama.yoursite.com"
+
+[plausibleAnalytics]
+  domain = "blog.tomy.me"
+  # event = "https://a.tomy.me/api/event"
+  script = "https://a.tomy.me/js/script.js"
 
 [verification]
   # google = ""
