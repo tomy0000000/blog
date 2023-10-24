@@ -1,5 +1,6 @@
 languageCode = "en"
-languageName = "English"
+languageName = "🇺🇸 English (US)"
+languageDirection = "ltr"
 weight = 2
 hasCJKLanguage = false
 
@@ -7,10 +8,6 @@ title = "Tomy's Blog"
 copyright = '<a href="{{< relref "copyright" >}}" class="hover:underline hover:decoration-primary-400 hover:text-primary-500">Copyright</a> © 2022 Tomy Hsieh.'
 
 [params]
-  displayName = "🇺🇸 English"
-  isoCode = "en"
-  rtl = false
-
   # dateFormat = "2 January 2006"
 
   description = "Tomy Hsieh's marvelous blog"

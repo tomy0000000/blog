@@ -1,5 +1,6 @@
 languageCode = "zh-tw"
-languageName = "中文 (台灣)"
+languageName = "🇹🇼 中文 (台灣)"
+languageDirection = "ltr"
 weight = 1
 hasCJKLanguage = true
 
@@ -7,10 +8,6 @@ title = "Tomy's Blog"
 copyright = '<a href="{{< relref "copyright" >}}" class="hover:underline hover:decoration-primary-400 hover:text-primary-500">Copyright</a> © 2022 Tomy Hsieh.'
 
 [params]
-  displayName = "🇹🇼 中文"
-  isoCode = "zh-TW"
-  rtl = false
-
   # dateFormat = "2 January 2006"
 
   description = "Tomy Hsieh 的奇幻部落"
@@ -22,7 +19,6 @@ copyright = '<a href="{{< relref "copyright" >}}" class="hover:underline hover:d
     imageHeight = 144
     imageDescription = "Tomy's Logo"
     ttl = 60
-
 
 [author]
   name = "Tomy Hsieh"
