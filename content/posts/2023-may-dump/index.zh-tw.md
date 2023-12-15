@@ -96,8 +96,6 @@ featureAlt: "蘇打綠 《round 2"
 
 ## 👻 那些我在 Reddit 上看到的酷酷貼文
 
-<!-- {{/* {{< reddit sub="Showerthoughts" id="12fnjzx/when_you_bury_your_feet_in_the_sand_at_the_beach" >}}  */}} -->
-
 <blockquote class="reddit-embed-bq" style="height:240px" data-embed-height="240"><a href="https://www.reddit.com/r/Showerthoughts/comments/12fnjzx/when_you_bury_your_feet_in_the_sand_at_the_beach/">When you bury your feet in the sand at the beach you are briefly wearing the Earth as shoes.</a><br> by<a href="https://www.reddit.com/user/EighteenRabbit/">u/EighteenRabbit</a> in<a href="https://www.reddit.com/r/Showerthoughts/">Showerthoughts</a></blockquote><script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>
 
 > 當你在沙灘上把腳埋進沙子裡，其實等於把地球當成鞋子穿在腳上了呢
