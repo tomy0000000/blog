@@ -92,7 +92,7 @@ featureAlt: "大馬路旁的綠樹逐漸轉黃"
 
 ## 🚿 每月洗澡新發現
 
-<!-- {{< reddit sub="Showerthoughts" id="172p8km/people_singing_happy_birthday_to_you_feels_like_a" >}} -->
+<!-- {{/* {{< reddit sub="Showerthoughts" id="172p8km/people_singing_happy_birthday_to_you_feels_like_a" >}}  */}} -->
 
 <blockquote class="reddit-embed-bq" style="height:240px" data-embed-height="240"><a href="https://www.reddit.com/r/Showerthoughts/comments/172p8km/people_singing_happy_birthday_to_you_feels_like_a/">People singing happy birthday to you feels like a real life unskippable ad</a><br> by<a href="https://www.reddit.com/user/strikethunder5/">u/strikethunder5</a> in<a href="https://www.reddit.com/r/Showerthoughts/">Showerthoughts</a></blockquote><script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>
 
