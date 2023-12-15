@@ -97,7 +97,7 @@ LeetCode 30 題雖然這個月沒有達成，但是實際執行之後，感覺�
 
 ## 👻 那些我在 Reddit 上看到的酷酷貼文
 
-{{/*  {{< reddit sub="Showerthoughts" id="12lh4ur/people_are_impressed_by_the_uniqueness_of" >}}  */}}
+<!-- {{< reddit sub="Showerthoughts" id="12lh4ur/people_are_impressed_by_the_uniqueness_of" >}} -->
 
 <blockquote class="reddit-embed-bq" data-embed-height="316">Posts from the <a href="https://www.reddit.com/r/Showerthoughts/comments/12lh4ur/people_are_impressed_by_the_uniqueness_of/">showerthoughts</a><br> community on Reddit</blockquote><script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>
 
