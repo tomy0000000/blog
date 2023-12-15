@@ -80,8 +80,6 @@ AppShelf 是我去年從歐洲交換回來的時候想到的小專案，一個�
 
 每月報報每次都不小心寫的好正經哦，不如最近滑 Reddit 看到好多好有趣的文，就來轉貼一些有趣的文緩和一下，順便增加點閱率吧 👍🏻 ~~(等等太隨便了吧~~
 
-<!-- {{/* {{< reddit sub="Showerthoughts" id="10ne3n3/people_who_wear_pyjamas_in_public_are_often" >}}  */}} -->
-
 <blockquote class="reddit-embed-bq" style="height:240px" data-embed-height="240"><a href="https://www.reddit.com/r/Showerthoughts/comments/10ne3n3/people_who_wear_pyjamas_in_public_are_often/">People who wear pyjamas in public are often accused of giving up on life but maybe, in fact, they're actually living their best lives.</a><br> by<a href="https://www.reddit.com/user/iklegemma/">u/iklegemma</a> in<a href="https://www.reddit.com/r/Showerthoughts/">Showerthoughts</a></blockquote><script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>
 
 > 大家常說那些穿著睡衣上街的人都放棄了人生。
