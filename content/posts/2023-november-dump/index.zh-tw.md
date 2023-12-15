@@ -41,7 +41,7 @@ The 1975 應該是我近 5 年最常聽的團之一，在我心目中的排行�
 
 娛樂性一定是少了一點，但我覺得忠實呈現每個角色在他們生命中的挑戰是正確的選擇，特別是前面三季都別有心裁的把感情的討論範圍，從情侶之間的親密關係延伸到友情、親情，如果在最後一季的時候沒有在這些細節上繼續著墨似乎就太可惜了。
 
-<!-- {{< reddit sub="NetflixSexEducation" id="16s0ynp/couldnt_agree_more" >}} -->
+<!-- {{/* {{< reddit sub="NetflixSexEducation" id="16s0ynp/couldnt_agree_more" >}}  */}} -->
 
 <blockquote class="reddit-embed-bq" style="height:500px" data-embed-height="740"><a href="https://www.reddit.com/r/NetflixSexEducation/comments/16s0ynp/couldnt_agree_more/">Couldn’t agree more!</a><br> by<a href="https://www.reddit.com/user/spimmy13/">u/spimmy13</a> in<a href="https://www.reddit.com/r/NetflixSexEducation/">NetflixSexEducation</a></blockquote><script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>
 
