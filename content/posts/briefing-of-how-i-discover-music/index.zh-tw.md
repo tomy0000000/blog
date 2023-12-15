@@ -5,8 +5,8 @@ lastmod: 2021-04-10T02:41:34+08:00
 description: "現在要找到好聽的歌似乎沒這麼容易了"
 categories: ["🍫 生活"]
 feature: "feature.jpg"
-featureAlt: "僅此紀念 2019 年結束營業的風和日麗唱片行"
-coverCaption: "僅此紀念 2019 年結束營業的風和日麗唱片行"
+featureAlt: "謹此紀念 2019 年結束營業的風和日麗唱片行"
+coverCaption: "謹此紀念 2019 年結束營業的風和日麗唱片行"
 ---
 
 剛聽完湖畔音樂季回來，那就借題發揮一下好了
