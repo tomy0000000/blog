@@ -89,7 +89,9 @@ coverCaption: "雖然匹茲堡海盜和紐約洋基都是本季的吊車尾，�
 
 ## 👻 那些我在 Reddit 上看到的酷酷貼文
 
-{{< reddit sub="Showerthoughts" id="13eicwv/millions_of_people_wake_up_at_the_exact_same" >}}
+{{/*  {{< reddit sub="Showerthoughts" id="13eicwv/millions_of_people_wake_up_at_the_exact_same" >}}  */}}
+
+<blockquote class="reddit-embed-bq" style="height:240px" data-embed-height="240"><a href="https://www.reddit.com/r/Showerthoughts/comments/13eicwv/millions_of_people_wake_up_at_the_exact_same/">Millions of people wake up at the exact same second from using their cell phone as an alarm clock.</a><br> by<a href="https://www.reddit.com/user/hateful_presley13/">u/hateful_presley13</a> in<a href="https://www.reddit.com/r/Showerthoughts/">Showerthoughts</a></blockquote><script async="" src="https://embed.reddit.com/widgets.js" charset="UTF-8"></script>
 
 > 每個整點都有數百萬的人同時被鬧鐘叫醒欸
 
