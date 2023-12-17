@@ -14,7 +14,6 @@ This README outlines some modifications explicitly made for this blog that diffe
 | [`layouts/partials/twitter_cards.html`](partials/twitter_cards.html) | [Hugo v0.112.3](https://github.com/gohugoio/hugo/blob/v0.112.3/tpl/tplimpl/embedded/templates/twitter_cards.html) | [#custom-twitter-metas](#custom-twitter-metas)                             |
 | [`layouts/_default/single.html`](_default/single.html)               | [Congo v2.7.0](https://github.com/jpanther/congo/blob/v2.7.0/layouts/_default/single.html)                        | [#show-post-description-as-subtitles](#show-post-description-as-subtitles) |
 | [`layouts/partials/article-link.html`](partials/article-link.html)   | [Congo v2.7.0](https://github.com/jpanther/congo/blob/v2.7.0/layouts/partials/article-link.html)                  | [#custom-post-listing](#custom-post-listing)                               |
-| [`layouts/partials/footer.html`](partials/footer.html)               | [Congo v2.7.4](https://github.com/jpanther/congo/blob/v2.7.4/layouts/partials/footer.html)                        | [#custom-footer](#custom-footer)                                           |
 
 ## Custom post template
 
@@ -56,11 +55,9 @@ TODO
 
 ## Custom footer
 
-- Align items to left in the small viewport
-- Translation dropdown in footer
 - Made with Love in Taiwan badge
 
-See [Congo's documentation](https://jpanther.github.io/congo/docs/partials/#head-and-footer) for how extended footer works.
+See [Congo's documentation](https://jpanther.github.io/congo/docs/partials/#head-and-footer) for how the extended footer works.
 
 ## Shortcodes
 
