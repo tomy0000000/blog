@@ -5,7 +5,7 @@ lastmod: 2024-01-02T13:50:58+08:00
 description: "2023 最後一篇報報照老規矩拖過年沒有毛病吧"
 categories: ["🍫 生活"]
 series: ["📰 每月報報"]
-tags: []
+tags: ["🧳 旅遊", "✈️ 飛行", "📚 書店"]
 feature: "jewel-changi-airport.jpg"
 featureAlt: "星耀樟宜的室內瀑布"
 coverCaption: "錢太多的地方，總是充滿世界奇觀¯\\\\\\_(ツ)\\_/¯<br/>這是新加坡樟宜機場航廈間的購物中心——星耀樟宜裡面的室內瀑布<br/>不是我 P 的也不是上網載的，我沒開濾鏡它拍起來就長這麼牛逼"
