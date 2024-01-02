@@ -24,7 +24,7 @@ copyright = '<a href="{{< relref "copyright" >}}" class="hover:underline hover:d
   name = "Tomy Hsieh"
   image = "img/tomy.png"
   # headline = "I'm only human"
-  # bio = "A little bit about you"
+  bio = "在台灣混不下去逃到美國的無業碼農<br/>目前正在找 2024 Intern，歡迎點擊 LinkedIn 聯繫賞我口飯吃：）"
   links = [
   #   { email = "mailto:hello@your_domain.com" },
   #   { link = "https://link-to-some-website.com/" },
@@ -46,7 +46,7 @@ copyright = '<a href="{{< relref "copyright" >}}" class="hover:underline hover:d
   #   { keybase = "https://keybase.io/username" },
   #   { kickstarter = "https://www.kickstarter.com/profile/username" },
   #   { lastfm = "https://lastfm.com/user/username" },
-  #   { linkedin = "https://linkedin.com/in/username" },
+    { linkedin = "https://linkedin.com/in/tomy0000000" },
   #   { mastodon = "https://mastodon.instance/@username" },
   #   { medium = "https://medium.com/username" },
   #   { microsoft = "https://www.microsoft.com/" },
