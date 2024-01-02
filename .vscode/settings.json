@@ -1,10 +1,13 @@
 {
   "editor.formatOnSave": false,
+  "files.associations": {
+    "*.html": "hugo-html"
+  },
   "files.exclude": {
     "resources": true,
-    "themes": true,
+    "themes": true
   },
-  "files.associations": {
-    "*.html": "hugo-html",
-  },
+  "yaml.schemas": {
+    "https://json.schemastore.org/github-workflow.json": ".github/workflows/deploy.yml"
+  }
 }
