@@ -32,7 +32,7 @@ mainSections = ["posts"]
 [article]
   showDate = true
   showDateUpdated = true
-  showAuthor = false
+  showAuthor = true
   showBreadcrumbs = false
   showDraftLabel = true
   showEdit = false
