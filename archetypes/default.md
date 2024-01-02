@@ -5,7 +5,7 @@ title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 lastmod: {{ .Date }}
 draft: true  # Delete this line to publish
-# For og:description
+# For og:description, markdown is NOT supported
 description: ""
 # For og:image, images are auto-included, only lists external images here
 images: [""]
