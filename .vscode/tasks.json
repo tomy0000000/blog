@@ -21,7 +21,32 @@
       "problemMatcher": []
     },
     {
-      "label": "New monthly dump post",
+      "label": "New monthly dump post (last month)",
+      "type": "shell",
+      "command": "hugo",
+      "args": [
+        "new",
+        {
+          "value": "posts/$(date -v-1m +%Y)-$(LANG=EN date -v-1m +%B | tr '[:upper:]' '[:lower:]')-dump/index.zh-tw.md",
+          "quoting": "weak"
+        },
+        "--kind",
+        "monthly-dump",
+        "&&",
+        "code",
+        {
+          "value": "content/posts/$(date -v-1m +%Y)-$(LANG=EN date -v-1m +%B | tr '[:upper:]' '[:lower:]')-dump/index.zh-tw.md",
+          "quoting": "weak"
+        }
+      ],
+      "presentation": {
+        "reveal": "silent",
+        "focus": false
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "New monthly dump post (this month)",
       "type": "shell",
       "command": "hugo",
       "args": [
@@ -37,7 +62,7 @@
         {
           "value": "content/posts/$(date +%Y)-$(LANG=EN date +%B | tr '[:upper:]' '[:lower:]')-dump/index.zh-tw.md",
           "quoting": "weak"
-        },
+        }
       ],
       "presentation": {
         "reveal": "silent",
