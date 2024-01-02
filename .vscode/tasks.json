@@ -66,6 +66,15 @@
         "command": "gsed"
       }
     },
+    {
+      "label": "Update ignore list",
+      "type": "process",
+      "command": "scripts/generate_vscode_ignore.py",
+      "presentation": {
+        "reveal": "never",
+      },
+      "problemMatcher": []
+    }
   ],
   "inputs": [
     {
