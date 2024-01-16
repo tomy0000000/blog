@@ -7,6 +7,9 @@
     "resources": true,
     "themes": true
   },
+  "github.copilot.enable": {
+    "markdown": false
+  },
   "yaml.schemas": {
     "https://json.schemastore.org/github-workflow.json": ".github/workflows/deploy.yml"
   }
