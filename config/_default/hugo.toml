@@ -11,7 +11,8 @@ enableRobotsTXT = true
 paginate = 10
 summaryLength = 0
 
-[markup.goldmark]
+[markup]
+  [markup.goldmark]
     [markup.goldmark.extensions]
       [markup.goldmark.extensions.cjk]
         enable = true
