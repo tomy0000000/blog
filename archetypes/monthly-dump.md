@@ -2,6 +2,7 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 lastmod: {{ .Date }}
+draft: true # Delete this line to publish
 # For og:description
 description: ""
 # For og:image, images are auto-included, only lists external images here
