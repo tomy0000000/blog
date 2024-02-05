@@ -2,6 +2,9 @@
   "name": "tomy-blog",
   "private": true,
   "version": "1.0.0",
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
     "setup": "ln -s themes/congo/tailwind.config.js .",
     "dev": "npm-run-all --parallel *:dev",
