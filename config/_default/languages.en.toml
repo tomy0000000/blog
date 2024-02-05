@@ -10,6 +10,7 @@ copyright = '<a href="{{< relref "copyright" >}}" class="hover:underline hover:d
 [params]
   # dateFormat = "2 January 2006"
 
+  mainSections = ["posts"]
   description = "Tomy Hsieh's marvelous blog"
   publishDate = 2022-08-04T06:25:42+08:00
 
