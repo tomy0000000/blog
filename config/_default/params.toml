@@ -11,9 +11,12 @@ autoSwitchAppearance = true
 
 enableSearch = true
 enableCodeCopy = true
+enableImageLazyLoading = true
+enableImageWebp = true
+enableQuicklink = true
 
-mainSections = ["posts"]
 # robots = ""
+fingerprintAlgorithm = "sha256"
 
 [header]
   layout = "hybrid" # valid options: basic, hamburger, hybrid, custom
