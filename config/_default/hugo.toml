@@ -3,7 +3,7 @@
 # https://jpanther.github.io/congo/docs/configuration/#site-configuration
 theme = "congo"
 
-defaultContentLanguage = "zh-tw"
+defaultContentLanguage = "zh-Hant-TW"
 defaultContentLanguageInSubdir = true
 timeZone = "Asia/Taipei"
 
