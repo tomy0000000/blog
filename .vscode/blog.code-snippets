@@ -11,5 +11,13 @@
       "<figcaption class=\"text-center\">${5}</figcaption>"
     ],
     "description": "Show two images in one row"
+  },
+  "Threads": {
+    "scope": "markdown",
+    "prefix": "threads",
+    "body": [
+      "{{< threads id=\"${1}\" author=\"${2}\" >}}"
+    ],
+    "description": "Hugo threads shortcode"
   }
 }
