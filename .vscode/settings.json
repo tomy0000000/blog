@@ -1,8 +1,5 @@
 {
   "editor.formatOnSave": false,
-  "files.associations": {
-    "*.html": "hugo-html"
-  },
   "files.exclude": {
     "resources": true,
     "themes": true
