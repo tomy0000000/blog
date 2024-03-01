@@ -58,6 +58,8 @@ layout: "simple"
         <a
           href="https://us21.campaign-archive.com/home/?u=3dabb780c14182dc8d99faeec&id=a7830419da"
           title="View previous campaigns"
+          target="_blank"
+          rel="noreferrer"
           >👀 偷看前幾期的電子報</a
         >
       </p>
@@ -95,6 +97,8 @@ layout: "simple"
             <a
               href="http://eepurl.com/ilRBAk"
               title="Mailchimp - email marketing made easy and fun"
+              target="_blank"
+              rel="noreferrer"
               ><img
                 src="https://eep.io/mc-cdn-images/template_images/branding_logo_text_dark_dtp.svg"
             /></a>
@@ -116,7 +120,7 @@ layout: "simple"
 主要的 RSS 種子在[這裡]({{< relref path="/" outputFormat="rss" >}})：
 
 ```xml
-{{< relref path="/" outputFormat="rss" >}}
+{{< ref path="/" outputFormat="rss" >}}
 ```
 
 你也可以在分類、系列、標籤的連結後面加上 `index.xml` 來找到個別的 RSS 種子
@@ -124,16 +128,16 @@ layout: "simple"
 如 [📱 科技]({{< relref "/categories/科技" >}})的頁面連結為
 
 ```xml
-{{< relref "/categories/科技" >}}
+{{< ref "/categories/科技" >}}
 ```
 
 則它的 RSS 種子則為
 
 ```xml
-{{< relref path="/categories/科技" outputFormat="rss" >}}
+{{< ref path="/categories/科技" outputFormat="rss" >}}
 ```
 
 其他例子：
 
-- [🍳 料理]({{< relref path="/series/料理" outputFormat="rss" >}}) (系列)
-- [🌟 產品體驗]({{< relref path="/tags/產品體驗" outputFormat="rss" >}}) (標籤)
+- [🍳 料理]({{< ref path="/series/料理" outputFormat="rss" >}}) (系列)
+- [🌟 產品體驗]({{< ref path="/tags/產品體驗" outputFormat="rss" >}}) (標籤)
