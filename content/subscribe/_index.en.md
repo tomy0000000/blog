@@ -8,6 +8,8 @@ layout: "simple"
 The articles in this blog are divided into three categories, which can be found at the bottom of the [🗄️ Categories]({{< relref "/categories" >}}) page: 
 
 - [🤖 Development]({{< relref "/categories/development" >}}): Technical articles about programming and development
+- [📱 Tech]({{< ref "/categories/tech" >}}): It may be an unboxing article, or experience sharing, tips of using tools, services, or platforms. Some CLI commands may be involved, but the main content of the article requires no programming experience.
+- [🍫 Life]({{< ref "/categories/life" >}}): Any other articles that do not belong to the above two categories. Basically anything that pops into my mind.
 
 There are also [📖 Series]({{< relref "/series" >}}) articles that circle around a specific topic.
 
@@ -17,10 +19,10 @@ There are also [📖 Series]({{< relref "/series" >}}) articles that circle arou
 
 ## 🌱 RSS Feed
 
-The main RSS feed is located at
+The main RSS feed is located [here]({{< relref path="/" outputFormat="rss" >}})
 
 ```xml
-{{< relref path="/" outputFormat="rss" >}}
+{{< ref path="/" outputFormat="rss" >}}
 ```
 
 You can also find the RSS feed of each category, series, or tag by adding `index.xml` to the end of the URL.
@@ -28,11 +30,11 @@ You can also find the RSS feed of each category, series, or tag by adding `index
 For example, the URL of the [🤖 Development]({{< relref "/categories/development" >}}) page is
 
 ```xml
-{{< relref "/categories/development" >}}
+{{< ref "/categories/development" >}}
 ```
 
 Then its RSS feed is
 
 ```xml
-{{< relref path="/categories/development" outputFormat="rss" >}}
+{{< ref path="/categories/development" outputFormat="rss" >}}
 ```
