@@ -65,11 +65,10 @@ window.history.pushState({}, "", "https://www.messenger.com");
 4. 最後在 App 上點右鍵 → 「取得資訊」，然後把做好的 Ionc 拉到原本的 Icon 上覆蓋上去
 5. 然後就是...Do Re Mi So 🪄
 
-{{< gallery >}}
+{{< gallery caption="這樣看起來明顯舒服多了吧 😌" >}}
 {{< figure src="icon-before.jpg" alt="Dock 中的舊 Messenger Icon" >}}
 {{< figure src="icon-after.jpg" alt="Dock 中的新 Messenger Icon" >}}
 {{< /gallery >}}
-<figcaption class="text-center">這樣看起來明顯舒服多了吧 😌</figcaption>
 
 最後提醒一點：記得把新的 Icon 備份起來，以防 Chrome 會時不時的把網站原本的 Icon 套回來
 

@@ -109,11 +109,10 @@ P.s. 推薦大家可以搭配這首歌來閱讀
 
 ## 🗺️ 結論
 
-{{< gallery >}}
+{{< gallery caption="這本書是我在曼谷的時候在一間叫做 [HARDCOVER](https://goo.gl/maps/FPJ2DiNeHDTwmuSZA) 的書店買的" >}}
     {{< figure src="harcover-at-openhouse.jpg" alt="明亮挑高的書店" >}}
     {{< figure src="hardcover-stamp.jpg" alt="書本內頁蓋著 HARDCOVER 的印章" >}}
 {{< /gallery >}}
-<figcaption class="text-center">這本書是我在曼谷的時候在一間叫做 <a href="https://goo.gl/maps/FPJ2DiNeHDTwmuSZA">HARDCOVER</a> 的書店買的</figcaption>
 
 我當時有上網查這本書在 Amazon 只要賣 US$16.95 (折合台幣 $520)，但是在那間書店要 ฿950 (折合台幣 $840)，但後來想想覺得，能在旅行途中翻到一本感興趣的書也是有緣，就別計較這麼多了吧。
 

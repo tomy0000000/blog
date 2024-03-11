@@ -106,11 +106,10 @@ featureAlt: "泰國國旗在曼谷天際線前飄揚"
 
 認真想了一下發現：如果你現在有一筆預算可以去墾丁玩，那改成來泰國玩潑水節，一樣可以玩到水，又不會多花太多錢，我可以保證，比墾丁好玩太多了。同理，如果你想去日本或韓國，但是機票太貴、住宿太貴下不了手，我一律推薦改來曼谷，一樣有唐吉軻德，~~一樣有泡泡浴~~。
 
-{{< gallery >}}
+{{< gallery caption="之前看到[這篇 Reddit](https://www.reddit.com/r/digitalnomad/comments/12zxwwk/bangkok_overrated/)的時候有人提到一個我沒發現的點：如果仔細想一下，曼谷這種末日烏托邦主義的貧富差距，配上豐富糜爛 (?) 的夜生活、以及混沌的街頭，那不就是現實版的 Cyberpunk 了嗎 XDDDD" >}}
     {{< figure src="night-in-bangkok-1.jpg" alt="招牌林立的街頭夜景" >}}
     {{< figure src="night-in-bangkok-2.jpg" alt="招牌林立的街頭夜景" >}}
 {{< /gallery >}}
-<figcaption>之前看到 <a href="https://www.reddit.com/r/digitalnomad/comments/12zxwwk/bangkok_overrated/">這篇 Reddit</a> 的時候有人提到一個我沒發現的點：如果仔細想一下，曼谷這種末日烏托邦主義的貧富差距，配上豐富糜爛 (?) 的夜生活、以及混沌的街頭，那不就是現實版的 Cyberpunk 了嗎 XDDDD</figcaption>
 
 總之就跟醉後大丈夫 2 裡面演的差不多 嗎 (?)，曼谷是個適合一群臭男生在大學畢業的時候一起來瘋的旅遊城市 😂，但即便不是這樣的設定，我相信也可以在曼谷玩的很愉快。
 
