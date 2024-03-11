@@ -4,9 +4,11 @@ from pathlib import Path
 import json5
 import json
 import frontmatter
+from datetime import datetime, timedelta
 
 PROJECT_ROOT = Path(__file__).parent.parent
 PROJECT_SETTINGS = PROJECT_ROOT / ".vscode" / "settings.json"
+MONTH_AGO = datetime.now() - timedelta(days=30)
 
 def keep(post_dir: Path) -> bool:
     drafts = post_dir.glob("index.*.md")
@@ -14,6 +16,10 @@ def keep(post_dir: Path) -> bool:
         meta = frontmatter.load(draft)
         if "draft" in meta and meta["draft"] == True:
             return True
+
+        if "date" in meta and meta["date"] > MONTH_AGO:
+            return True
+
     return False
 
 def update_ignore_list(ignored: dict) -> None:

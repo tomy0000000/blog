@@ -1,3 +1,6 @@
+{{ $caption := .Get "caption" }}
+
 <div class="flex items-center">
   {{ .Inner }}
 </div>
+{{ with $caption }}<figcaption class="text-center">{{ . | markdownify }}</figcaption>{{ end }}

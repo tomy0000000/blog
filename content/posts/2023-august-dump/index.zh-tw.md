@@ -45,8 +45,8 @@ featureAlt: "匹茲堡的朋友們❤️"
 不然搭公車一趟要 $2.5 美金，會破產 QQ
 
 {{< gallery >}}
-{{< figure src="cmu-flag.jpg" alt="" class="m-1" >}}
-{{< figure src="3sc-red-brick-wall.jpg" alt="" class="m-1" >}}
+{{< figure src="cmu-flag.jpg" alt="" >}}
+{{< figure src="3sc-red-brick-wall.jpg" alt="" >}}
 {{< /gallery >}}
 
 ## 🏠 安頓新家：二部曲

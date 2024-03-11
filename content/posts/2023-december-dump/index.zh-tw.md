@@ -188,8 +188,8 @@ coverCaption: "錢太多的地方，總是充滿世界奇觀¯\\\\\\_(ツ)\\_/¯
 回台灣就幾乎沒幹啥了，但少數確定的行程就是平安夜去逛最後一次誠品信義。
 
 {{< gallery >}}
-{{< figure src="xinyi-eslite-18-years.jpg" alt="信義 18 年回顧展主題牆" class="m-1" >}}
-{{< figure src="exhibit-wall.jpg" alt="信義 18 年回顧展照片牆" class="m-1" >}}
+{{< figure src="xinyi-eslite-18-years.jpg" alt="信義 18 年回顧展主題牆" >}}
+{{< figure src="exhibit-wall.jpg" alt="信義 18 年回顧展照片牆" >}}
 {{< /gallery >}}
 
 對誠品信義最早的印象就是改裝前的音樂館，只要拿著 CD 到走道末端的試聽機刷條碼，就可以在那邊聽一個下午，可能是全台灣少數有這麼先進設備的唱片行。
@@ -203,8 +203,8 @@ coverCaption: "錢太多的地方，總是充滿世界奇觀¯\\\\\\_(ツ)\\_/¯
 剛好這一趟回來的路上，逛了新加坡的紀伊國屋，還有吉隆坡的誠品。開始可以體會到一個國家，乃至於族群、文化可以擁有自己的書店，向世界推廣自己的語言與思想，是多麼可貴的事情。
 
 {{< gallery >}}
-{{< figure src="xinyi-eslite-frontdoor.jpg" alt="誠品信義大門" class="m-1" >}}
-{{< figure src="eslite-notes.jpg" alt="許願便簽：許願和平、許願勇氣、許願自由" class="m-1" >}}
+{{< figure src="xinyi-eslite-frontdoor.jpg" alt="誠品信義大門" >}}
+{{< figure src="eslite-notes.jpg" alt="許願便簽：許願和平、許願勇氣、許願自由" >}}
 {{< /gallery >}}
 
 誠品已經是台灣文化不可或缺的一塊璞玉，希望這個時代能繼續把它傳承下去。

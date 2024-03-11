@@ -50,17 +50,16 @@ CMU 位在<abbr title="賓夕法尼亞州">Pennsylvania</abbr>的<abbr title="Pi
 {{< figure src="the-painted-ladies.jpg" alt="一排繽紛色彩的房屋排列在山坡上，背景是高樓大廈林立的舊金山市區" class="m-1" caption="舊金山最知名的[彩繪女士](https://zh.wikipedia.org/wiki/%E5%BD%A9%E7%B9%AA%E5%A5%B3%E5%A3%AB)風格房屋，也是美劇《<abbr title='Full House'>歡樂滿屋</abbr>》的片頭場景" >}}
 
 {{< gallery >}}
-{{< figure src="golden-gate-bridge.jpg" alt="" class="m-1" >}}
-{{< figure src="blue-bottle-with-autumn-leaf.jpg" alt="" class="m-1" >}}
+{{< figure src="golden-gate-bridge.jpg" alt="" >}}
+{{< figure src="blue-bottle-with-autumn-leaf.jpg" alt="" >}}
 {{< /gallery >}}
 
 <br>
 
-{{< gallery >}}
-{{< figure src="apple-cafe-interior.jpg" alt="" class="m-1" >}}
-{{< figure src="apple-cafe-latte-art.jpg" alt="" class="m-1" >}}
+{{< gallery caption=" Apple Park：據我們 Airbnb 瑞士屋主的說法，有著比星巴克便宜又比星巴克好喝的咖啡。<br>肉桂蛋糕也很好吃 😋" >}}
+{{< figure src="apple-cafe-interior.jpg" alt="" >}}
+{{< figure src="apple-cafe-latte-art.jpg" alt="" >}}
 {{< /gallery >}}
-<figcaption class="text-center"> Apple Park：據我們 Airbnb 瑞士屋主的說法，有著比星巴克便宜又比星巴克好喝的咖啡。<br>肉桂蛋糕也很好吃 😋</figcaption>
 
 ![古典風格的長廊](stanford-university-hallway.jpg "沒錄取 Stanford 也要來逛一下 Stanford 吧，畢竟要來看一下我捐的報名費種的樹長大了沒 (🥲")
 

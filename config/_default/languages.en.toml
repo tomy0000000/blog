@@ -25,7 +25,7 @@ copyright = '<a href="{{< relref "copyright" >}}" class="hover:underline hover:d
     name = "Tomy Hsieh"
     image = "img/tomy.png"
     # headline = "I'm only human"
-    bio = "CMU Master of Software Engineering<br/>Looking for 2024 Summer Intern, Connect me on LinkedIn 👇🏻"
+    bio = "CMU Master of Software Engineering<br/>Looking for 2024 Winter / 2025 Spring Full Time SWE, Connect me on LinkedIn 👇🏻"
     links = [
     #   { email = "mailto:hello@your_domain.com" },
     #   { link = "https://link-to-some-website.com/" },
@@ -36,7 +36,7 @@ copyright = '<a href="{{< relref "copyright" >}}" class="hover:underline hover:d
     #   { dev = "https://dev.to/username" },
     #   { discord = "https://discord.gg/invitecode" },
     #   { dribbble = "https://dribbble.com/username" },
-    #   { facebook = "https://facebook.com/username" },
+      { facebook = "https://www.facebook.com/tomy0000000" },
     #   { flickr = "https://www.flickr.com/photos/username/" },
     #   { foursquare = "https://foursquare.com/username" },
       { github = "https://github.com/tomy0000000" },
@@ -46,7 +46,7 @@ copyright = '<a href="{{< relref "copyright" >}}" class="hover:underline hover:d
       { instagram = "https://instagram.com/tomy0000000" },
     #   { keybase = "https://keybase.io/username" },
     #   { kickstarter = "https://www.kickstarter.com/profile/username" },
-    #   { lastfm = "https://lastfm.com/user/username" },
+      { lastfm = "https://www.last.fm/user/tomy0000000" },
       { linkedin = "https://linkedin.com/in/tomy0000000" },
     #   { mastodon = "https://mastodon.instance/@username" },
     #   { medium = "https://medium.com/username" },
