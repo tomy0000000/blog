@@ -56,11 +56,10 @@ CMU 位在<abbr title="賓夕法尼亞州">Pennsylvania</abbr>的<abbr title="Pi
 
 <br>
 
-{{< gallery >}}
+{{< gallery caption=" Apple Park：據我們 Airbnb 瑞士屋主的說法，有著比星巴克便宜又比星巴克好喝的咖啡。<br>肉桂蛋糕也很好吃 😋" >}}
 {{< figure src="apple-cafe-interior.jpg" alt="" >}}
 {{< figure src="apple-cafe-latte-art.jpg" alt="" >}}
 {{< /gallery >}}
-<figcaption class="text-center"> Apple Park：據我們 Airbnb 瑞士屋主的說法，有著比星巴克便宜又比星巴克好喝的咖啡。<br>肉桂蛋糕也很好吃 😋</figcaption>
 
 ![古典風格的長廊](stanford-university-hallway.jpg "沒錄取 Stanford 也要來逛一下 Stanford 吧，畢竟要來看一下我捐的報名費種的樹長大了沒 (🥲")
 

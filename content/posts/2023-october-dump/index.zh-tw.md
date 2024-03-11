@@ -42,11 +42,10 @@ featureAlt: "大馬路旁的綠樹逐漸轉黃"
 
 這一趟當初是跟著 CMU 的朋友們去的，加上我出發前都在被期末轟炸，所以行程都是大家排的，我最大的功能僅限於導航和代刷魔法小卡
 
-{{< gallery >}}
+{{< gallery caption="我們總有個朋友會出張嘴說：喔那離很近我們可以走過去" >}}
 {{< figure src="we-can-walk-there.jpg" alt="迷因圖" class="w-full m-1" >}}
 {{< figure src="mit-group-photo.jpg" alt="在 MIT 前合照" class="w-full m-1" >}}
 {{< /gallery >}}
-<figcaption class="text-center">我們總有個朋友會出張嘴說：喔那離很近我們可以走過去</figcaption>
 
 除了走的路有點多之外，行程還挺滿意的。特別是去 MIT ~~導遊~~學長分享的各種奇葩的故事，我更加確信我沒有很聰明，只是會耍聰明的猴子 (撥香蕉
 

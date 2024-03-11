@@ -63,11 +63,10 @@ coverCaption: "我在美利堅的艷陽裡，大雪紛飛"
 
 內容的部分，有重新順過要怎麼寫，比較容易看得懂，面試的時候也比較可以順著小標去講；版面也做了很多調整，像是用分隔線讓段落之間的界線更清晰、從 A4 轉成 US Letter、還有調整行間距和文字的大小等等。
 
-{{< gallery >}}
+{{< gallery caption="👈🏻 舊的 新的 👉🏻<br>應該看起來是有更清晰一點吧 嗎" >}}
 {{< figure src="cv-old.png" alt="舊版履歷" >}}
 {{< figure src="cv-new.png" alt="新版履歷" >}}
 {{< /gallery >}}
-<figcaption class="text-center">👈🏻 舊的 新的 👉🏻<br>應該看起來是有更清晰一點吧 嗎</figcaption>
 
 ![VMock 履歷評分截圖：94 分](cv-vmock.png "最後丟到 VMock 上的分數高達 94 分呢：）")
 
