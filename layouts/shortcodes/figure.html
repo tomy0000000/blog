@@ -7,6 +7,12 @@
   {{ $href := .Get "href" }}
   {{ $class := .Get "class" }}
 
+  {{- with .Parent -}}
+    {{ $class = (print $class " mx-1 rounded-md") }}
+  {{- else -}}
+    {{ $class = (print $class " mx-auto my-0 rounded-md") }}
+  {{- end -}}
+
   {{ $file := $url.Path }}
   {{ $img := .Page.Resources.GetMatch $file }}
   {{- if and (not $img) .Page.File }}
