@@ -49,8 +49,8 @@ coverCaption: "我在美利堅的艷陽裡，大雪紛飛"
 按照慣例有把這次投票的心得[寫起來]({{< relref "posts/2024-election" >}})。
 
 {{< gallery >}}
-{{< figure src="vote-stamp-on-thumb.jpg" alt="投票章蓋在拇指上，背景是停機坪" class="m-1" >}}
-{{< figure src="pittsburgh-in-snow.jpg" alt="匹茲堡被大雪覆蓋" class="m-1" >}}
+{{< figure src="vote-stamp-on-thumb.jpg" alt="投票章蓋在拇指上，背景是停機坪" >}}
+{{< figure src="pittsburgh-in-snow.jpg" alt="匹茲堡被大雪覆蓋" >}}
 {{< /gallery >}}
 
 因為美國這邊 1/16 就要開學了，所以當天投完票我就直接前往機場飛回來了。
@@ -64,8 +64,8 @@ coverCaption: "我在美利堅的艷陽裡，大雪紛飛"
 內容的部分，有重新順過要怎麼寫，比較容易看得懂，面試的時候也比較可以順著小標去講；版面也做了很多調整，像是用分隔線讓段落之間的界線更清晰、從 A4 轉成 US Letter、還有調整行間距和文字的大小等等。
 
 {{< gallery >}}
-{{< figure src="cv-old.png" alt="舊版履歷" class="m-1" >}}
-{{< figure src="cv-new.png" alt="新版履歷" class="m-1" >}}
+{{< figure src="cv-old.png" alt="舊版履歷" >}}
+{{< figure src="cv-new.png" alt="新版履歷" >}}
 {{< /gallery >}}
 <figcaption class="text-center">👈🏻 舊的 新的 👉🏻<br>應該看起來是有更清晰一點吧 嗎</figcaption>
 
@@ -108,9 +108,9 @@ coverCaption: "我在美利堅的艷陽裡，大雪紛飛"
 ## 寫在最後
 
 {{< gallery >}}
-{{< figure src="birthday-dinner.jpg" alt="聚餐合照" class="m-1" >}}
-{{< figure src="virtual-candles.jpg" alt="生日蛋糕與虛擬蠟燭" class="m-1" >}}
-{{< figure src="semester-start-dinning.jpg" alt="開 Sem 飯合照" class="m-1" >}}
+{{< figure src="birthday-dinner.jpg" alt="聚餐合照" >}}
+{{< figure src="virtual-candles.jpg" alt="生日蛋糕與虛擬蠟燭" >}}
+{{< figure src="semester-start-dinning.jpg" alt="開 Sem 飯合照" >}}
 {{< /gallery >}}
 
 不知道是不是看到[之前報報轉貼的貼文]({{< relref "posts/2023-october-dump#-每月洗澡新發現" >}})，今年難得有人會幫我辦生日聚餐！好我現在終於知道真實世界不能跳過的廣告是什麼感覺了：）
