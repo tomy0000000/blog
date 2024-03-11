@@ -38,3 +38,9 @@ timeout = "120s"
 [privacy]
   [privacy.youtube]
     privacyEnhanced = true
+
+[module]
+[[module.mounts]]
+    excludeFiles = 'README.md'
+    source = 'layouts'
+    target = 'layouts'
