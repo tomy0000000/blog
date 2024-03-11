@@ -20,8 +20,8 @@ coverCaption: "[白藤碼頭公園](https://goo.gl/maps/MAiCAiMwNpfSp4op9)的東
 這個城市提供哪些交通工具？要怎麼買票/搭乘？
 
 {{< gallery >}}
-    {{< figure src="u-bahn-sign.jpg" alt="寫著大大藍色 U 的招牌" class="m-1" >}}
-    {{< figure src="u-bahn-train.jpg" alt="黃色車身的柏林地鐵" class="m-1" >}}
+    {{< figure src="u-bahn-sign.jpg" alt="寫著大大藍色 U 的招牌" >}}
+    {{< figure src="u-bahn-train.jpg" alt="黃色車身的柏林地鐵" >}}
 {{< /gallery >}}
 <figcaption class="text-center">德國的 U-Bahn (捷運) 沒有驗票閘門，上車前自己買票、打票，一切講求誠實<br/>對外地人來說，你要在被查票的時候才會發現你買的票是錯的，然後被收好幾倍的罰款</figcaption>
 
@@ -39,8 +39,8 @@ coverCaption: "[白藤碼頭公園](https://goo.gl/maps/MAiCAiMwNpfSp4op9)的東
 大倫敦地區有地鐵 (Tube, Underground)、公車、輕軌 (Tram)、地上鐵 (Overground, DLR) 等各式各樣奇形怪狀的交通工具，但它們全部都歸 TfL (Transport for London) 管轄。
 
 {{< gallery >}}
-    {{< figure src="london-bus.jpg" alt="紅色的倫敦公車在倫敦塔橋的名牌旁" class="m-1" >}}
-    {{< figure src="london-underground.jpg" alt="倫敦地鐵" class="m-1" >}}
+    {{< figure src="london-bus.jpg" alt="紅色的倫敦公車在倫敦塔橋的名牌旁" >}}
+    {{< figure src="london-underground.jpg" alt="倫敦地鐵" >}}
 {{< /gallery >}}
 <figcaption class="text-center">左：駛過倫敦塔橋的招牌紅色倫敦公車<br/>右：倫敦的地鐵其實不全然是在地下，而地上鐵也不完全是在地上</figcaption>
 

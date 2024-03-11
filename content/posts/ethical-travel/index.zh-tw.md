@@ -110,8 +110,8 @@ P.s. 推薦大家可以搭配這首歌來閱讀
 ## 🗺️ 結論
 
 {{< gallery >}}
-    {{< figure src="harcover-at-openhouse.jpg" alt="明亮挑高的書店" class="m-1" >}}
-    {{< figure src="hardcover-stamp.jpg" alt="書本內頁蓋著 HARDCOVER 的印章" class="m-1" >}}
+    {{< figure src="harcover-at-openhouse.jpg" alt="明亮挑高的書店" >}}
+    {{< figure src="hardcover-stamp.jpg" alt="書本內頁蓋著 HARDCOVER 的印章" >}}
 {{< /gallery >}}
 <figcaption class="text-center">這本書是我在曼谷的時候在一間叫做 <a href="https://goo.gl/maps/FPJ2DiNeHDTwmuSZA">HARDCOVER</a> 的書店買的</figcaption>
 

@@ -67,8 +67,8 @@ Support multiple images in the same row
 
 ```html
 {{< gallery >}}
-    {{< figure src="street-with-trees.jpg" alt="招牌林立的街頭夜景" class="m-1" >}}
-    {{< figure src="trees-in-book-street.jpg" alt="招牌林立的街頭夜景" class="m-1" >}}
+    {{< figure src="street-with-trees.jpg" alt="招牌林立的街頭夜景" >}}
+    {{< figure src="trees-in-book-street.jpg" alt="招牌林立的街頭夜景" >}}
 {{< /gallery >}}
 <figcaption class="text-center">左：如果沒有了機車，和路邊的垃圾桶，西貢的街景其實挺美的<br/>右：書街充滿書香，也充滿樹香 (X</figcaption>
 ```

@@ -66,8 +66,8 @@ window.history.pushState({}, "", "https://www.messenger.com");
 5. 然後就是...Do Re Mi So 🪄
 
 {{< gallery >}}
-{{< figure src="icon-before.jpg" alt="Dock 中的舊 Messenger Icon" class="m-1" >}}
-{{< figure src="icon-after.jpg" alt="Dock 中的新 Messenger Icon" class="m-1" >}}
+{{< figure src="icon-before.jpg" alt="Dock 中的舊 Messenger Icon" >}}
+{{< figure src="icon-after.jpg" alt="Dock 中的新 Messenger Icon" >}}
 {{< /gallery >}}
 <figcaption class="text-center">這樣看起來明顯舒服多了吧 😌</figcaption>
 

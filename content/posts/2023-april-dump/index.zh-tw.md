@@ -32,8 +32,8 @@ series: ["📰 每月報報"]
 ### ✅ AppShelf 的前端
 
 {{< gallery >}}
-    {{< figure src="appshelf.png" alt="清爽的 App 列表截圖" class="m-1" >}}
-    {{< figure src="appshelf-footer.png" alt="Built by Tomy Hsieh in Bangkok, Thailand" class="m-1" >}}
+    {{< figure src="appshelf.png" alt="清爽的 App 列表截圖" >}}
+    {{< figure src="appshelf-footer.png" alt="Built by Tomy Hsieh in Bangkok, Thailand" >}}
 {{< /gallery >}}
 <figcaption class="text-center">(左) AppShelf 的介面<br/>(右) 出門旅行寫 code 當然要留一下到此一遊 (?)</figcaption>
 
