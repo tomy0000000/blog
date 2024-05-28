@@ -18,7 +18,7 @@ So let's get straight into my findings 🚀
 
 is coming later this year!
 
-### 🔖 Types
+### 🔖 Type Annotation
 
 Improving type annotation syntax has been the single most important change, a trend that has been ongoing for at least 10 years in Python. Its impact is so significant that there is even a dedicated Typing summit as well as a typing committee to address this challenge.
 
@@ -28,7 +28,7 @@ Improving type annotation syntax has been the single most important change, a tr
 
 GIL is one of (if not most) the critical components to prevent race conditions in Python by only allowing one thread to execute simultaneously, which is beneficial for most cases. However, for tasks that require intensive computation, which could've been partitioned and parallelized execution, this became a significant drawback as GIL only facilitates one core when there are a lot more just sitting around doing nothing. However, GIL has existed in Python since day one, and many core-level components also depend on it, which makes the removal process harder.
 
-In Python 3.12, the [sub-interpreter](https://docs.python.org/3.12/whatsnew/3.12.html#pep-684-a-per-interpreter-gil) is introduced. This allows tasks to be divided into multiple chunks and executed in multiple sub-interpreters.
+To cope with this issue, Python 3.12 introduced the [sub-interpreter](https://docs.python.org/3.12/whatsnew/3.12.html#pep-684-a-per-interpreter-gil). This allows tasks to be divided into multiple chunks and executed in multiple sub-interpreters.
 
 However, this is just a timely step as it does not solve the fundamental issue. What we want is the complete removal of GIL, the so-called "[Free-threaded](https://docs.python.org/3.13/whatsnew/3.13.html#free-threaded-cpython)," to unleash Python's full potential.
 
@@ -44,9 +44,9 @@ Hugo, the release manager of Python 3.14 and 3.15, opened the discussion during 
 
 This means if this proposal is accepted, instead of 3.14 and 3.15, we will have 3.25 and 3.26.
 
-Python has traditionally been considered versioning with [SemVar](https://semver.org/), but SemVar wasn't even a thing when Python was created. It was a time when Python did not have stable release cycles, so versioning just sort of conforms to the idea of SemVar.
+Python has traditionally been considered versioning with [SemVer](https://semver.org/), but SemVer wasn't even a thing when Python was created. It was a time when Python did not have stable release cycles, so versioning just sort of conforms to the idea of SemVer.
 
-However, as Python now has a one-year release cycle, switching to CalVar can have some added benefits. If interested, check out [Hugo's talk](https://hugovk.github.io/python-calver/).
+However, as Python now has a one-year release cycle, switching to CalVer can have some added benefits. If interested, check out [Hugo's talk](https://hugovk.github.io/python-calver/).
 
 ## 🌅 New packages on the horizon
 
