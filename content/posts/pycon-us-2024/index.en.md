@@ -76,6 +76,8 @@ PyCon US will still be hosted in Pittsburgh. Although I should have graduated an
 
 See you next year!
 
+{{< reach-me >}}
+
 ---
 
 ## 🎀 Ackownledgement
