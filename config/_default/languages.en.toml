@@ -48,7 +48,7 @@ copyright = '<a href="{{< relref "copyright" >}}" class="hover:underline hover:d
     #   { kickstarter = "https://www.kickstarter.com/profile/username" },
       { lastfm = "https://www.last.fm/user/tomy0000000" },
       { linkedin = "https://linkedin.com/in/tomy0000000" },
-    #   { mastodon = "https://mastodon.instance/@username" },
+      { mastodon = "https://mastodon.social/@tomyhsieh" },
     #   { medium = "https://medium.com/username" },
     #   { microsoft = "https://www.microsoft.com/" },
     #   { orcid = "https://orcid.org/userid" },
