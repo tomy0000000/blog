@@ -29,15 +29,8 @@ abbr[title]:focus::after {
 
 /* Add icons to indicate external links */
 /* https://christianoliff.com/blog/styling-external-links-with-an-icon-in-css/ */
-article p a[href^="http"]:not([aria-label])::after,
-article h1 a[href^="http"]:not([aria-label])::after,
-article h2 a[href^="http"]:not([aria-label])::after,
-article h3 a[href^="http"]:not([aria-label])::after,
-article h4 a[href^="http"]:not([aria-label])::after,
-article h5 a[href^="http"]:not([aria-label])::after,
-article h6 a[href^="http"]:not([aria-label])::after,
-article figcaption a[href^="http"]:not([aria-label])::after {
-  content: url("/img/arrow-up-right-from-square-solid.svg");
+a svg {
+  fill: var(--tw-prose-body);
   width: 0.6em;
   height: 0.6em;
   margin-inline-start: 0.25em;
