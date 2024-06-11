@@ -4,16 +4,17 @@ This README outlines some modifications explicitly made for this blog that diffe
 
 ## Quick Reference
 
-| File Path                                                            | Fork Version                                                                                                      | Link                                                                       |
-| -------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| [`archetypes/default.md`](../archetypes/default.md)                  | [Congo v2.6.1](https://github.com/jpanther/congo/blob/v2.6.1/archetypes/default.md)                               | [#custom-post-template](#custom-post-template)                             |
-| [`assets/css/custom.css`](../assets/css/custom.css)                  | -                                                                                                                 | [#custom-css](#custom-css)                                                 |
-| [`layouts/_default/rss.xml`](_default/rss.xml)                       | [Hugo v0.112.3](https://github.com/gohugoio/hugo/blob/v0.112.3/tpl/tplimpl/embedded/templates/_default/rss.xml)   | [#custom-rss-template](#custom-rss-template)                               |
-| [`layouts/partials/head.html`](partials/head.html)                   | [Congo v2.8.1](https://github.com/jpanther/congo/blob/v2.8.1/layouts/partials/head.html)                          | [#custom-head](#custom-head)                                               |
-| [`layouts/partials/opengraph.html`](partials/opengraph.html)         | [Hugo v0.112.3](https://github.com/gohugoio/hugo/blob/v0.112.3/tpl/tplimpl/embedded/templates/opengraph.html)     | [#custom-open-graph-snippets](#custom-open-graph-snippets)                 |
-| [`layouts/partials/twitter_cards.html`](partials/twitter_cards.html) | [Hugo v0.112.3](https://github.com/gohugoio/hugo/blob/v0.112.3/tpl/tplimpl/embedded/templates/twitter_cards.html) | [#custom-twitter-metas](#custom-twitter-metas)                             |
-| [`layouts/_default/single.html`](_default/single.html)               | [Congo v2.8.1](https://github.com/jpanther/congo/blob/v2.8.1/layouts/_default/single.html)                        | [#show-post-description-as-subtitles](#show-post-description-as-subtitles) |
-| [`layouts/partials/article-link.html`](partials/article-link.html)   | [Congo v2.8.1](https://github.com/jpanther/congo/blob/v2.8.1/layouts/partials/article-link.html)                  | [#custom-post-listing](#custom-post-listing)                               |
+| File Path                                                                        | Fork Version                                                                                                      | Link                                                                       |
+| -------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| [`archetypes/default.md`](../archetypes/default.md)                              | [Congo v2.6.1](https://github.com/jpanther/congo/blob/v2.6.1/archetypes/default.md)                               | [#custom-post-template](#custom-post-template)                             |
+| [`assets/css/custom.css`](../assets/css/custom.css)                              | -                                                                                                                 | [#custom-css](#custom-css)                                                 |
+| [`layouts/_default/_markup/render-link.html`](_default/_markup/render-link.html) | [Congo v2.8.2](https://github.com/jpanther/congo/blob/v2.8.2/layouts/_default/_markup/render-link.html)           | [#custom-css](#custom-css)                                                 |
+| [`layouts/_default/rss.xml`](_default/rss.xml)                                   | [Hugo v0.112.3](https://github.com/gohugoio/hugo/blob/v0.112.3/tpl/tplimpl/embedded/templates/_default/rss.xml)   | [#custom-rss-template](#custom-rss-template)                               |
+| [`layouts/_default/single.html`](_default/single.html)                           | [Congo v2.8.1](https://github.com/jpanther/congo/blob/v2.8.1/layouts/_default/single.html)                        | [#show-post-description-as-subtitles](#show-post-description-as-subtitles) |
+| [`layouts/partials/article-link.html`](partials/article-link.html)               | [Congo v2.8.1](https://github.com/jpanther/congo/blob/v2.8.1/layouts/partials/article-link.html)                  | [#custom-post-listing](#custom-post-listing)                               |
+| [`layouts/partials/head.html`](partials/head.html)                               | [Congo v2.8.1](https://github.com/jpanther/congo/blob/v2.8.1/layouts/partials/head.html)                          | [#custom-head](#custom-head)                                               |
+| [`layouts/partials/opengraph.html`](partials/opengraph.html)                     | [Hugo v0.112.3](https://github.com/gohugoio/hugo/blob/v0.112.3/tpl/tplimpl/embedded/templates/opengraph.html)     | [#custom-open-graph-snippets](#custom-open-graph-snippets)                 |
+| [`layouts/partials/twitter_cards.html`](partials/twitter_cards.html)             | [Hugo v0.112.3](https://github.com/gohugoio/hugo/blob/v0.112.3/tpl/tplimpl/embedded/templates/twitter_cards.html) | [#custom-twitter-metas](#custom-twitter-metas)                             |
 
 ## Custom post template
 
@@ -24,7 +25,7 @@ Extended from [Congo's default front matter](https://jpanther.github.io/congo/do
 - Show `<abbr>` in tooltip on click
 - Add icons indicating external links
 
-Custom CSS are loaded and compiled with Tailwind CSS according to [Congo's Documentation](https://jpanther.github.io/congo/docs/advanced-customisation/#overriding-the-stylesheet).
+Custom CSS is loaded and compiled with Tailwind CSS according to [Congo's Documentation](https://jpanther.github.io/congo/docs/advanced-customisation/#overriding-the-stylesheet).
 
 ## Custom RSS template
 
@@ -66,10 +67,10 @@ See [Congo's documentation](https://jpanther.github.io/congo/docs/partials/#head
 Support multiple images in the same row
 
 ```html
-{{< gallery caption="左：如果沒有了機車，和路邊的垃圾桶，西貢的街景其實挺美的<br/>右：書街充滿書香，也充滿樹香 (X" >}}
-    {{< figure src="street-with-trees.jpg" alt="招牌林立的街頭夜景" >}}
-    {{< figure src="trees-in-book-street.jpg" alt="招牌林立的街頭夜景" >}}
-{{< /gallery >}}
+{{< gallery caption="左：如果沒有了機車，和路邊的垃圾桶，西貢的街景其實挺美的<br />右：書街充滿書香，也充滿樹香
+(X" >}} {{< figure src="street-with-trees.jpg" alt="招牌林立的街頭夜景" >}} {{<
+figure src="trees-in-book-street.jpg" alt="招牌林立的街頭夜景" >}} {{< /gallery
+>}}
 ```
 
 ![Gallery Example](https://github.com/tomy0000000/blog/assets/23290356/0d47be61-89d0-432f-81c3-310814d1ae9c)
