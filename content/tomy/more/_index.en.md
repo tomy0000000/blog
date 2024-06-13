@@ -30,4 +30,4 @@ I wrote reflections and digestion of my daily life in Chinese, which you can fin
 
 Connect with me on different platforms.
 
-Links are available on [bento](https://bento.me/tomy0000000).
+Links are available on [bento](https://bento.me/tomyhsieh).
