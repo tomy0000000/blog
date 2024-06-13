@@ -23,9 +23,9 @@ Connect with me on [LinkedIn](https://www.linkedin.com/in/tomy0000000) or read m
 
 - My side projects can be found on [project gallery](https://projects.tomy.me)
 - My [open source contributions](https://github.com/search?q=author%3Atomy0000000+-owner%3Atomy0000000+is%3Amerged&type=pullrequests)
-- Services which I self-hosted
+- Services which I self-hosted (Post work in progress)
 - Everything is (mostly) available on my [GitHub](https://github.com/tomy0000000)
 
 #### ❓ More
 
-Learn [more about me]({{< relref "tomy/more" >}})
+Learn [a little more]({{< relref "tomy/more" >}}) about me
