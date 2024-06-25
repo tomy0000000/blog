@@ -11,7 +11,7 @@ I'm studying for a Master's in Software Engineering at Carnegie Mellon Universit
 
 #### 💼 Work
 
-I will work as a Full-time Software Engineer Intern at [WeRide.ai](https://weride.ai) during the Summer of 2024.
+I am working as a Full-time Software Engineer Intern at [WeRide.ai](https://weride.ai) for the Summer of 2024.
 
 My previous experience includes working as a Software Engineer Intern at Intel and as a Research Assistant at NLP Lab during my time at NCHU.
 
@@ -21,30 +21,11 @@ Connect with me on [LinkedIn](https://www.linkedin.com/in/tomy0000000) or read m
 
 #### 🧑🏻‍💻 Develop
 
-Find my open-source works on [GitHub](https://github.com/tomy0000000) and the [project portfolio](https://projects.tomy.me).
+- My side projects can be found on [project gallery](https://projects.tomy.me)
+- My [open source contributions](https://github.com/search?q=author%3Atomy0000000+-owner%3Atomy0000000+is%3Amerged&type=pullrequests)
+- Services which I self-hosted (Post work in progress)
+- Everything is (mostly) available on my [GitHub](https://github.com/tomy0000000)
 
-#### 🗺️ Travel
+#### ❓ More
 
-I enjoyed traveling alone.
-
-Some of my recent journeys include:
-
-- 2020: 🇯🇵 Japan
-- 2022: 🇪🇺 Europe (during my exchange program in 🇫🇷 France)
-  - 🇧🇪 🇳🇱 🇪🇸 🇵🇹 🇩🇪 🇩🇰 🇮🇪 🇬🇧
-- 2023: 🇹🇭 Bangkok + 🇻🇳 HCMC (Workation)
-- 2023: 🇺🇸 San Francisco
-- 2023: 🇺🇸 Boston
-- 2023: 🇸🇬 Singapore
-- 2024: 🇺🇸 Washington D.C.
-- 2024: 🇺🇸 Chicago
-
-#### ✍🏻 Writing
-
-I wrote reflections and digestion of my daily life in Chinese, which you can find [here]({{< relref path="posts" lang="zh-tw" >}}).
-
-#### 🙋🏻‍♂️ Reach out
-
-Connect with me on different platforms.
-
-Links are available on [bento](https://bento.me/tomy0000000).
+Learn [a little more]({{< relref "tomy/more" >}}) about me
