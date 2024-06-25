@@ -48,7 +48,7 @@ fingerprintAlgorithm = "sha256"
   showTableOfContents = true
   showTaxonomies = true
   showWordCount = false
-  showComments = false
+  showComments = true
   # sharingLinks = ["facebook", "twitter", "pinterest", "reddit", "linkedin", "email"]
 
 [list]
@@ -87,3 +87,6 @@ fingerprintAlgorithm = "sha256"
     playerId = "xc41k" # https://www.dailymotion.com/partner/x2r8l7z/embed/players/configurator/xc41k
   [privacy.asciinema]
     disable = false
+
+[services]
+  remark42 = "https://remark42.tomy.me"
