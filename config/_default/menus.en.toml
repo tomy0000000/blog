@@ -16,11 +16,9 @@
   weight = 10
 
 [[main]]
-  name = "About"
+  name = "💭 About"
   pageRef = "about"
   weight = 20
-  [main.params]
-    icon = "circle-info"
 
 [[main]]
   identifier = "locale"
