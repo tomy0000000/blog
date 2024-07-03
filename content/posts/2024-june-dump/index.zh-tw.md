@@ -1,18 +1,10 @@
 ---
 title: "2024 年 6 月報報"
-date: 2024-06-14T23:27:52-07:00
-# For og:description
-description: ""
-# For og:image, images are auto-included, only lists external images here
-images: [""]
-# For og:audio, only support one audio
-audio: ""
-# For og:video, support multiple videos
-videos: []
+date: 2024-07-03T10:38:55-07:00
+description: "灣區大縱走"
 categories: ["🍫 生活"]
 series: ["📰 每月報報"]
-tags: []
-# Feature image for thumbnail in list page, RSS, and top of the content
+tags: ["📺 電視劇", "🧑🏻‍🏫 人生體悟", "🇺🇸 美國", "🇺🇸 舊金山"]
 feature: "abbey-road-at-santa-cruz.jpg"
 featureAlt: "在 Santa Cruz 的馬路上模仿 Abbey Road"
 coverCaption: "跟有相機的朋出去玩就會有好看的照片 嘻嘻<br/>以下部分照片由 📸 Eileen 協力提供 🫶🏻"
@@ -77,7 +69,7 @@ coverCaption: "跟有相機的朋出去玩就會有好看的照片 嘻嘻<br/>�
 
 ![Twin Peaks 的全景圖](panoramic-views-at-twin-peaks.jpg "然後去附近的山頂上看風<br/>[Christmas Tree Point](https://maps.app.goo.gl/15zcGbrxt5nn16GK8) 可以 360° 環視整個舊金山市區")
 
-## 🧭 重心
+## 🧭 生活重心
 
 總結我前面提到我這個月的生活，我的日子差不多就是：
 
