@@ -71,7 +71,7 @@
       "problemMatcher": []
     },
     {
-      "label": "Update post date",
+      "label": "[Post] Update post date",
       "type": "shell",
       "command": "sed",
       "args": [
@@ -92,7 +92,20 @@
       }
     },
     {
-      "label": "Update ignore list",
+      "label": "[Post] Optimize images",
+      "type": "shell",
+      "command": "scripts/optimize_image.sh",
+      "args": [
+        "${fileDirname}",
+      ],
+      "presentation": {
+        "reveal": "silent",
+        "focus": false
+      },
+      "problemMatcher": [],
+    },
+    {
+      "label": "[Workspace] Update ignore list",
       "type": "process",
       "command": "scripts/generate_vscode_ignore.py",
       "presentation": {
