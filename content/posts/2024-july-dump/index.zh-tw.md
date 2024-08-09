@@ -128,6 +128,8 @@ Lake Tahoe 中文稱太浩湖，位於加州東北邊，開車距離我住的 Sa
 
 關於這台新 MacBook Pro，應該不會有開箱文，但我有在考慮要不要幫舊 MacBook Pro 寫一篇 「封箱」文。但具體會不會寫，可能得看接下來忙不忙，就不亂開空頭支票了：）
 
+🎀 A special thanks goes to Nikita for helping on placing this order.
+
 [^3]: 是的沒錯，搞這台新電腦就是這個月報報大遲到的主因：）
 
 ---
