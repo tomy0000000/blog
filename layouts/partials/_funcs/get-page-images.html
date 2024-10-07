@@ -8,6 +8,9 @@
   {{- with $featured }}
     {{- $imgs = $imgs | append (dict
       "Image" .
+      "Width" .Width
+      "Height" .Height
+      "MediaType" .MediaType
       "RelPermalink" .RelPermalink
       "Permalink" .Permalink) }}
   {{- end }}
@@ -28,10 +31,16 @@
       {{/* Image resource. */}}
       {{- $imgs = $imgs | append (dict
         "Image" .
+        "Width" .Width
+        "Height" .Height
+        "MediaType" .MediaType
         "RelPermalink" .RelPermalink
         "Permalink" .Permalink) }}
     {{- else }}
       {{- $imgs = $imgs | append (dict
+        "Width" .Width
+        "Height" .Height
+        "MediaType" .MediaType
         "RelPermalink" (relURL $img)
         "Permalink" (absURL $img)
       ) }}
