@@ -13,8 +13,29 @@
 {{- end }}
 
 {{- with or .Params.locale site.Language.LanguageCode }}
-  <meta property="og:locale" content="{{ replace . `-` `_` }}">
+  {{- $split := split . "-" -}}
+  {{- $locale := index $split 0 -}}
+  {{- if gt (len $split) 1 -}}
+    {{- $territory := index $split (sub (len $split) 1) | upper -}}
+    {{- $locale = printf "%s_%s" $locale $territory -}}
+  {{- end -}}
+  <meta property="og:locale" content="{{ $locale }}">
 {{- end }}
+
+{{- if .IsTranslated -}}
+  {{- $pageLang := .Lang -}}
+  {{- range .AllTranslations -}}
+    {{- if ne .Lang $pageLang -}}
+      {{- $split := split .Lang "-" -}}
+      {{- $locale := index $split 0 -}}
+      {{- if gt (len $split) 1 -}}
+        {{- $territory := index $split (sub (len $split) 1) | upper -}}
+        {{- $locale = printf "%s_%s" $locale $territory -}}
+      {{- end -}}
+      <meta property="og:locale:alternate" content="{{ $locale }}">
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
 
 {{- if .IsPage }}
   <meta property="og:type" content="article">
@@ -28,6 +49,11 @@
   {{- with .Lastmod }}
     <meta property="article:modified_time" {{ .Format $ISO8601 | printf "content=%q" | safeHTMLAttr }}>
   {{- end }}
+  {{- with .ExpiryDate }}
+    <meta property="article:expiration_time" {{ .Format $ISO8601 | printf "content=%q" | safeHTMLAttr }} />
+  {{- end }}
+  <meta property="article:author" content="{{ .Site.Language.Params.Author.name }}" />
+  <meta property="article:section" content="{{ .Section }}" />
   {{- range .GetTerms "tags" | first 6 }}
     <meta property="article:tag" content="{{ .Page.Title | plainify }}">
   {{- end }}
@@ -38,6 +64,11 @@
 {{- with partial "_funcs/get-page-images" . }}
   {{- range . | first 6 }}
     <meta property="og:image" content="{{ .Permalink }}">
+    <meta property="og:image:type" content="{{ .MediaType }}" />
+    {{- if ne .MediaType.SubType "svg" -}}
+      <meta property="og:image:width" content="{{ .Width }}" />
+      <meta property="og:image:height" content="{{ .Height }}" />
+    {{- end -}}
   {{- end }}
 {{- end }}
 
