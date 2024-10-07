@@ -44,7 +44,7 @@ jobs:
       - name: 🏗️ Build site
         uses: tomy0000000/actions/hugo-github-pages@main
         with:
-          hugo_version: "0.130.0"
+          hugo_version: "0.135.0"
           upload: false
 
       # Temporary fix before gohugoio/hugo#5161 is resolved
