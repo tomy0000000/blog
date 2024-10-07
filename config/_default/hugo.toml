@@ -32,9 +32,6 @@ timeout = "120s"
   series = "series"
   tag = "tags"
 
-[Social]
-  twitter = "tomy0000000"  # For twitter:site
-
 [privacy]
   [privacy.youtube]
     privacyEnhanced = true
