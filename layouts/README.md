@@ -8,6 +8,7 @@ This README outlines some modifications explicitly made for this blog that diffe
 | -------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
 | [`archetypes/default.md`](../archetypes/default.md)                              | [Congo v2.6.1](https://github.com/jpanther/congo/blob/v2.6.1/archetypes/default.md)                               | [#custom-post-template](#custom-post-template)                             |
 | [`assets/css/custom.css`](../assets/css/custom.css)                              | -                                                                                                                 | [#custom-css](#custom-css)                                                 |
+| [`i18n/zh-TW.yaml`](../i18n/zh-TW.yaml)                                          | [Congo v2.9.0](https://github.com/jpanther/congo/blob/v2.9.0/i18n/zh-Hant.yaml)                                   | [#custom-i18n](#custom-i18n)                                               |
 | [`layouts/_default/_markup/render-link.html`](_default/_markup/render-link.html) | [Congo v2.8.2](https://github.com/jpanther/congo/blob/v2.8.2/layouts/_default/_markup/render-link.html)           | [#custom-css](#custom-css)                                                 |
 | [`layouts/_default/rss.xml`](_default/rss.xml)                                   | [Hugo v0.112.3](https://github.com/gohugoio/hugo/blob/v0.112.3/tpl/tplimpl/embedded/templates/_default/rss.xml)   | [#custom-rss-template](#custom-rss-template)                               |
 | [`layouts/_default/single.html`](_default/single.html)                           | [Congo v2.8.1](https://github.com/jpanther/congo/blob/v2.8.1/layouts/_default/single.html)                        | [#show-post-description-as-subtitles](#show-post-description-as-subtitles) |
@@ -26,6 +27,14 @@ Extended from [Congo's default front matter](https://jpanther.github.io/congo/do
 - Add icons indicating external links
 
 Custom CSS is loaded and compiled with Tailwind CSS according to [Congo's Documentation](https://jpanther.github.io/congo/docs/advanced-customisation/#overriding-the-stylesheet).
+
+## Custom i18n
+
+Congo change `zh-TW` to `zh-Hant` on version 2.9.0 ([Release Note](https://github.com/jpanther/congo/releases/tag/v2.9.0), [Commit](https://github.com/jpanther/congo/commit/f0f9ec268fa81c11766750bc0296b445b7665b50)).
+
+The ideal solution would be changing the language code but keep the original URL Path by customize the language tag used when building the site, which is also [not supported by Hugo](https://github.com/gohugoio/hugo/issues/9404) at the moment.
+
+Currently, we will stick to the old language tag by copying the i18n translation in our own codebase.
 
 ## Custom RSS template
 
