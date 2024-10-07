@@ -14,8 +14,8 @@ This README outlines some modifications explicitly made for this blog that diffe
 | [`layouts/_default/single.html`](_default/single.html)                           | [Congo v2.8.1](https://github.com/jpanther/congo/blob/v2.8.1/layouts/_default/single.html)                        | [#show-post-description-as-subtitles](#show-post-description-as-subtitles) |
 | [`layouts/partials/article-link.html`](partials/article-link.html)               | [Congo v2.8.1](https://github.com/jpanther/congo/blob/v2.8.1/layouts/partials/article-link.html)                  | [#custom-post-listing](#custom-post-listing)                               |
 | [`layouts/partials/head.html`](partials/head.html)                               | [Congo v2.8.1](https://github.com/jpanther/congo/blob/v2.8.1/layouts/partials/head.html)                          | [#custom-head](#custom-head)                                               |
-| [`layouts/partials/opengraph.html`](partials/opengraph.html)                     | [Hugo v0.112.3](https://github.com/gohugoio/hugo/blob/v0.112.3/tpl/tplimpl/embedded/templates/opengraph.html)     | [#custom-open-graph-snippets](#custom-open-graph-snippets)                 |
-| [`layouts/partials/twitter_cards.html`](partials/twitter_cards.html)             | [Hugo v0.112.3](https://github.com/gohugoio/hugo/blob/v0.112.3/tpl/tplimpl/embedded/templates/twitter_cards.html) | [#custom-twitter-metas](#custom-twitter-metas)                             |
+| [`layouts/partials/opengraph.html`](partials/opengraph.html)                     | [Hugo v0.135.0](https://github.com/gohugoio/hugo/blob/v0.135.0/tpl/tplimpl/embedded/templates/opengraph.html)     | [#custom-open-graph-snippets](#custom-open-graph-snippets)                 |
+| [`layouts/partials/twitter_cards.html`](partials/twitter_cards.html)             | [Hugo v0.135.0](https://github.com/gohugoio/hugo/blob/v0.135.0/tpl/tplimpl/embedded/templates/twitter_cards.html) | [#custom-twitter-metas](#custom-twitter-metas)                             |
 
 ## Custom post template
 
