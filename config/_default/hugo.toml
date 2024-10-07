@@ -8,7 +8,6 @@ defaultContentLanguageInSubdir = true
 timeZone = "Asia/Taipei"
 
 enableRobotsTXT = true
-paginate = 20
 summaryLength = 0
 timeout = "120s"
 
@@ -31,6 +30,9 @@ timeout = "120s"
   category = "categories"
   series = "series"
   tag = "tags"
+
+[pagination]
+  pagerSize = 20
 
 [privacy]
   [privacy.youtube]
