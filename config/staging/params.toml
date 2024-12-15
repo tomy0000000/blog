@@ -8,3 +8,4 @@
 [article]
   showReadingTime = true
   showWordCount = true
+  showComments = false

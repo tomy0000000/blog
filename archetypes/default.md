@@ -17,7 +17,7 @@ videos: []
 categories: ["🍫 生活", "📱 科技", "🤖 開發"]
 # Series taxonomy, and og:see_also (first 6 links will be used)
 series: []
-# Tags taxonomy
+# Tags taxonomy, and article:tag (first 6 links will be used)
 tags: []
 # Feature image for thumbnail in list page, RSS, and top of the content
 feature: ""
