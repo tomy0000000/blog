@@ -8,7 +8,6 @@ defaultContentLanguageInSubdir = true
 timeZone = "Asia/Taipei"
 
 enableRobotsTXT = true
-paginate = 20
 summaryLength = 0
 
 [markup]
@@ -31,8 +30,8 @@ summaryLength = 0
   series = "series"
   tag = "tags"
 
-[Social]
-  twitter = "tomy0000000"  # For twitter:site
+[pagination]
+  pagerSize = 20
 
 [privacy]
   [privacy.youtube]

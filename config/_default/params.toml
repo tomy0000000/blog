@@ -9,6 +9,8 @@ colorScheme = "congo"
 defaultAppearance = "light" # valid options: light or dark
 autoSwitchAppearance = true
 
+defaultThemeColor = "#FFFFFF"
+
 enableSearch = true
 enableCodeCopy = true
 enableImageLazyLoading = true
@@ -90,3 +92,6 @@ fingerprintAlgorithm = "sha256"
 
 [services]
   remark42 = "https://remark42.tomy.me"
+
+[social]
+  twitter = "@tomy0000000"  # For twitter:site
