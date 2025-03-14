@@ -35,8 +35,16 @@ timeout = "120s"
   pagerSize = 20
 
 [privacy]
+  [privacy.vimeo]
+    enableDNT = true
+  [privacy.x]
+    enableDNT = true
   [privacy.youtube]
     privacyEnhanced = true
+
+[services]
+  [services.x]
+    disableInlineCSS = true
 
 [module]
 [[module.mounts]]
