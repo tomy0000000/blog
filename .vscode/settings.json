@@ -4,9 +4,6 @@
     "resources": true,
     "themes": true
   },
-  "github.copilot.enable": {
-    "markdown": false
-  },
   "workbench.editor.customLabels.patterns": {
     "**/content/posts/*/*.md": "${dirname}"
   },

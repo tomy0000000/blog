@@ -11,10 +11,10 @@
       {{- $query := querify "url" $url "live" (default false $live) "omitscript" $pc.Simple -}}
       {{- $request := printf "https://www.reddit.com/oembed?%s" $query -}}
       {{- $json := dict -}}
-      {{- with resources.GetRemote $request -}}
+      {{- with try (resources.GetRemote $request) -}}
         {{- with .Err -}}
           {{- errorf "%s" . -}}
-        {{- else -}}
+        {{- else with .Value -}}
           {{- $json = . | transform.Unmarshal -}}
         {{- end -}}
       {{- else -}}
