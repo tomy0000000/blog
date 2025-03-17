@@ -6,7 +6,7 @@ draft: true # Delete this line to publish
 # For og:description
 description: ""
 # For og:image, images are auto-included, only lists external images here
-images: [""]
+images: []
 # For og:audio, only support one audio
 audio: ""
 # For og:video, support multiple videos

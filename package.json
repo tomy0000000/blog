@@ -8,7 +8,7 @@
   "scripts": {
     "setup": "ln -s themes/congo/tailwind.config.js .",
     "dev": "npm-run-all --parallel *:dev",
-    "hugo:dev": "hugo server --gc --minify --environment staging --bind 0.0.0.0 --port 1313 --baseURL http://$(ipconfig getifaddr en0):1313",
+    "hugo:dev": "hugo server -O --gc --minify --environment staging --bind 0.0.0.0 --port 1313 --baseURL http://$(ipconfig getifaddr en0):1313",
     "hugo:build": "hugo --gc --minify",
     "css:dev": "NODE_ENV=development ./themes/congo/node_modules/tailwindcss/lib/cli.js -c ./themes/congo/tailwind.config.js -i ./themes/congo/assets/css/main.css -o ./assets/css/compiled/main.css --jit -w",
     "css:build": "NODE_ENV=production ./themes/congo/node_modules/tailwindcss/lib/cli.js -c ./themes/congo/tailwind.config.js -i ./themes/congo/assets/css/main.css -o ./assets/css/compiled/main.css --jit"

@@ -65,7 +65,7 @@ copyright = '<a href="{{< relref "copyright" >}}" class="hover:underline hover:d
     #   { tiktok = "https://tiktok.com/@username" },
     #   { tumblr = "https://username.tumblr.com" },
     #   { twitch = "https://twitch.tv/username" },
-      { twitter = "https://twitter.com/tomy0000000" },
+      { x-twitter = "https://x.com/tomy0000000" },
     #   { whatsapp = "https://wa.me/phone-number" },
     #   { youtube = "https://youtube.com/username" },
     ]

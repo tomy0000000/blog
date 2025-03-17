@@ -4,12 +4,14 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "New post",
+      "label": "[✍🏻 New] General post",
       "type": "shell",
       "command": "hugo",
       "args": [
         "new",
         "posts/${input:Title}/index.${input:Language}.md",
+        "--kind",
+        "${input:Category}",
         "&&",
         "code",
         "content/posts/${input:Title}/index.${input:Language}.md"
@@ -21,7 +23,7 @@
       "problemMatcher": []
     },
     {
-      "label": "New monthly dump post (last month)",
+      "label": "[✍🏻 New] Monthly dump post (last month)",
       "type": "shell",
       "command": "hugo",
       "args": [
@@ -46,7 +48,7 @@
       "problemMatcher": []
     },
     {
-      "label": "New monthly dump post (this month)",
+      "label": "[✍🏻 New] Monthly dump post (this month)",
       "type": "shell",
       "command": "hugo",
       "args": [
@@ -71,7 +73,7 @@
       "problemMatcher": []
     },
     {
-      "label": "[Post] Update post date",
+      "label": "[🏷️ Post] Update post date",
       "type": "shell",
       "command": "sed",
       "args": [
@@ -92,24 +94,24 @@
       }
     },
     {
-      "label": "[Post] Optimize images",
+      "label": "[🏷️ Post] Optimize images",
       "type": "shell",
       "command": "scripts/optimize_image.sh",
       "args": [
-        "${fileDirname}",
+        "${fileDirname}"
       ],
       "presentation": {
         "reveal": "silent",
         "focus": false
       },
-      "problemMatcher": [],
+      "problemMatcher": []
     },
     {
-      "label": "[Workspace] Update ignore list",
+      "label": "[⚙️ Workspace] Update ignore list",
       "type": "process",
       "command": "scripts/generate_vscode_ignore.py",
       "presentation": {
-        "reveal": "never",
+        "reveal": "never"
       },
       "problemMatcher": []
     }
@@ -126,6 +128,13 @@
       "description": "Language of the post",
       "options": ["en", "zh-tw"],
       "default": "zh-tw"
+    },
+    {
+      "id": "Category",
+      "type": "pickString",
+      "description": "Category of the post",
+      "options": ["life", "tech", "dev"],
+      "default": "life"
     }
   ]
 }
