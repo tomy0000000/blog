@@ -25,7 +25,7 @@ copyright = '<a href="{{< relref "copyright" >}}" class="hover:underline hover:d
     name = "Tomy Hsieh"
     image = "img/tomy.png"
     # headline = "I'm only human"
-    bio = "在台灣混不下去逃到美國的無業碼農<br/>目前正在找 2024 Winter / 2025 Spring 全職 SWE，歡迎透過 LinkedIn 聯繫賞我口飯吃：）"
+    bio = "在台灣混不下去逃到美國的碼農"
     links = [
     #   { email = "mailto:hello@your_domain.com" },
     #   { link = "https://link-to-some-website.com/" },
