@@ -27,7 +27,7 @@ featureAlt: "觀眾在舊金山 August Hall 門口排隊等候觀看已售罄的
 ## 🍿 Mickey 17
 
 <figure>
-    <img class="mx-auto my-0 rounded-md max-h-96" src="mickey-17-poster.jpeg" alt="電影《Mickey 17》的宣傳海報，主角穿著軍裝站在多個複製人之間" loading="lazy">
+    <img class="mx-auto my-0 rounded-md max-h-96" src="mickey-17-poster.jpg" alt="電影《Mickey 17》的宣傳海報，主角穿著軍裝站在多個複製人之間" loading="lazy">
 </figure>
 
 是之前執導奧斯卡最佳影片《寄生上流》的韓國大導演奉俊昊的新作，趁著 AMC 電影院週二半價來看一下，雖然之前在匹茲堡就有看過電影，但還是覺得美國電影院的食物真的是......有夠美國 XDDDD 超級大份、超級油膩、超級爽，不能太常吃，會短命。電影的話，好像就普普，沒有《寄生上流》好看，但有及格，如果很閒的話可以去看看，7.5/10。
