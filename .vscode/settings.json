@@ -1,5 +1,4 @@
 {
-  "editor.formatOnSave": false,
   "files.exclude": {
     "resources": true,
     "themes": true
@@ -9,5 +8,8 @@
   },
   "yaml.schemas": {
     "https://json.schemastore.org/github-workflow.json": ".github/workflows/deploy.yml"
+  },
+  "[markdown]": {
+    "editor.formatOnSave": false,
   }
 }
