@@ -8,9 +8,34 @@
   "scripts": {
     "setup": "ln -s themes/congo/tailwind.config.js .",
     "dev": "npm-run-all --parallel *:dev",
+    "email-dev": "email dev",
+    "email-lint": "eslint emails",
+    "email-format": "prettier --write emails",
+    "email-send": "tsx emails/sendEmail.tsx",
     "hugo:dev": "hugo server -O --gc --minify --environment staging --bind 0.0.0.0 --port 1313 --baseURL http://$(ipconfig getifaddr en0):1313",
     "hugo:build": "hugo --gc --minify",
     "css:dev": "NODE_ENV=development ./themes/congo/node_modules/tailwindcss/lib/cli.js -c ./themes/congo/tailwind.config.js -i ./themes/congo/assets/css/main.css -o ./assets/css/compiled/main.css --jit -w",
     "css:build": "NODE_ENV=production ./themes/congo/node_modules/tailwindcss/lib/cli.js -c ./themes/congo/tailwind.config.js -i ./themes/congo/assets/css/main.css -o ./assets/css/compiled/main.css --jit"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.29.0",
+    "@tsconfig/recommended": "^1.0.8",
+    "@types/node": "^24.0.1",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@typescript-eslint/eslint-plugin": "^8.34.0",
+    "eslint": "^9.29.0",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.34.0"
+  },
+  "dependencies": {
+    "@js-temporal/polyfill": "^0.5.1",
+    "@react-email/components": "^0.0.42",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-email": "^4.0.16",
+    "resend": "^4.6.0",
+    "tsx": "^4.20.3"
   }
 }
