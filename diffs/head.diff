@@ -1,0 +1,6 @@
+127,128c127,128
+<   {{ template "_internal/opengraph.html" . }}
+<   {{ template "_internal/twitter_cards.html" . }}
+---
+>   {{ partial "partials/opengraph.html" . }}
+>   {{ template "partials/twitter_cards.html" . }}
