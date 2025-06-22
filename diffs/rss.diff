@@ -1,0 +1,95 @@
+2c2,4
+< {{- if .IsHome -}}{{ $pctx = .Site }}{{- end -}}
+---
+> {{- if .IsHome -}}
+>   {{ $pctx = .Site }}
+> {{- end -}}
+5c7
+< {{- $pages = $pctx.RegularPages -}}
+---
+>   {{- $pages = $pctx.RegularPages -}}
+7c9
+< {{- $pages = $pctx.Pages -}}
+---
+>   {{- $pages = $pctx.Pages -}}
+11c13
+< {{- $pages = $pages | first $limit -}}
+---
+>   {{- $pages = $pages | first $limit -}}
+12a15,19
+> {{- $title := .Site.Title -}}
+> {{- if and .Title (ne .Title .Site.Title) -}}
+>   {{- $title = printf "%s on %s" .Title .Site.Title -}}
+> {{- end -}}
+> {{- $description := .Site.Params.description | default (printf "Recent content on %s" $title ) -}}
+14c21
+< <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+---
+> <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/">
+16c23
+<     <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
+---
+>     <title>{{ $title }}</title>
+18,24c25,50
+<     <description>Recent content {{ if ne  .Title  .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ .Site.Title }}</description>
+<     <generator>Hugo -- gohugo.io</generator>{{ with .Site.LanguageCode }}
+<     <language>{{.}}</language>{{end}}{{ with .Site.Author.email }}
+<     <managingEditor>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</managingEditor>{{end}}{{ with .Site.Author.email }}
+<     <webMaster>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</webMaster>{{end}}{{ with .Site.Copyright }}
+<     <copyright>{{.}}</copyright>{{end}}{{ if not .Date.IsZero }}
+<     <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
+---
+>     <description>{{ $description }}</description>
+>     {{ with .Site.LanguageCode -}}<language>{{ . }}</language>{{ end }}
+>     {{ with .Site.Copyright -}}<copyright>{{ . | markdownify | plainify }}</copyright>{{ end }}
+>     {{ with .Site.Author.email }}<managingEditor>{{ . }}{{ with $.Site.Author.name }} ({{ . }}){{ end }}</managingEditor>{{ end }}
+>     {{ with .Site.Author.email }}<webMaster>{{ . }}{{ with $.Site.Author.name }} ({{ . }}){{ end }}</webMaster>{{ end }}
+>     {{ with .Site.Params.publishDate -}}<pubDate>{{ .Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>{{ end }}
+>     <lastBuildDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
+>     {{ range .Site.Taxonomies.categories -}}
+>     <category>{{ .Page.Title }}</category>
+>     {{ end -}}
+>     <generator>Hugo -- gohugo.io (customized by tomy0000000)</generator>
+>     <docs>https://www.rssboard.org/rss-specification</docs>
+>     {{ with .Site.Params.rss.ttl }}<ttl>{{ . }}</ttl>{{ end }}
+>     {{- if .Site.Params.rss.image -}}
+>     {{- $fullpath := printf "%s/%s" "static" .Site.Params.rss.image -}}
+>     {{- if os.FileExists $fullpath -}}
+>     <image>
+>       <url>{{ $fullpath | absURL }}</url>
+>       <title>{{ $title }}</title>
+>       <link>{{ .Permalink }}</link>
+>       {{ with .Site.Params.rss.imageWidth }}<width>{{ . }}</width>{{ end }}
+>       {{ with .Site.Params.rss.imageHeight }}<height>{{ . }}</height>{{ end }}
+>       <description>{{ with .Site.Params.rss.imageDescription }}{{ . }}{{ else }}{{ $description }}{{ end }}</description>
+>     </image>
+>     {{- end -}}
+>     {{- end -}}
+28c54,55
+<     {{ range $pages }}
+---
+>     {{- range $pages -}}
+>     {{- $page := . -}}
+31a59,76
+>       <description>{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ end }}{{ end }}</description>
+>       <content:encoded>{{ with .Content }}{{ printf "<![CDATA[%s]]>" . | safeHTML }}{{ else }}{{ if .IsPage }}{{ printf "<![CDATA[%s]]>" .Summary | safeHTML }}{{ end }}{{ end }}</content:encoded>
+>       {{ with .Site.Author.email -}}<author>{{ . }}{{ with $.Site.Author.name }} ({{ . }}){{ end }}</author>{{ end }}
+>       {{ with .Params.categories -}}{{ range . }}<category>{{ . }}</category>{{ end }}{{ end }}
+>       {{- $og_url := print "https://og.tomy.tech/api/blog?title=" (urlquery .Title) }}
+>       {{/* {{- $og_image := resources.GetRemote $og_url -}} */}}
+>       {{- $images := union (.Resources.ByType "image") nil -}}
+>       {{- range $images -}}
+>         <enclosure url="{{ .Permalink }}" length="{{ len .Content }}" type="{{ .MediaType }}" />
+>       {{- end -}}
+>       {{- range $images -}}
+>         {{- if ne .MediaType.SubType "svg" -}}
+>           <media:content url="{{ .Permalink }}" fileSize="{{ len .Content }}" type="{{ .MediaType }}" medium="image" height="{{ .Height }}" width="{{ .Width }}" />
+>         {{- else -}}
+>           <media:content url="{{ .Permalink }}" fileSize="{{ len .Content }}" type="{{ .MediaType }}" medium="image" />
+>         {{- end -}}
+>       {{- end -}}
+>       {{ with .File -}}<guid isPermaLink="false">{{ .ContentBaseName }}</guid>{{ end }}
+33,35d77
+<       {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
+<       <guid>{{ .Permalink }}</guid>
+<       <description>{{ .Summary | html }}</description>

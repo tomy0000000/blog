@@ -1,0 +1,38 @@
+16c16,22
+<   <meta property="og:locale" content="{{ replace . `-` `_` }}">
+---
+>   {{- $split := split . "-" -}}
+>   {{- $locale := index $split 0 -}}
+>   {{- if gt (len $split) 1 -}}
+>     {{- $territory := index $split (sub (len $split) 1) | upper -}}
+>     {{- $locale = printf "%s_%s" $locale $territory -}}
+>   {{- end -}}
+>   <meta property="og:locale" content="{{ $locale }}">
+18a25,39
+> {{- if .IsTranslated -}}
+>   {{- $pageLang := .Lang -}}
+>   {{- range .AllTranslations -}}
+>     {{- if ne .Lang $pageLang -}}
+>       {{- $split := split .Lang "-" -}}
+>       {{- $locale := index $split 0 -}}
+>       {{- if gt (len $split) 1 -}}
+>         {{- $territory := index $split (sub (len $split) 1) | upper -}}
+>         {{- $locale = printf "%s_%s" $locale $territory -}}
+>       {{- end -}}
+>       <meta property="og:locale:alternate" content="{{ $locale }}">
+>     {{- end -}}
+>   {{- end -}}
+> {{- end -}}
+> 
+30a52,56
+>   {{- with .ExpiryDate }}
+>     <meta property="article:expiration_time" {{ .Format $ISO8601 | printf "content=%q" | safeHTMLAttr }} />
+>   {{- end }}
+>   <meta property="article:author" content="{{ .Site.Language.Params.Author.name }}" />
+>   <meta property="article:section" content="{{ .Section }}" />
+40a67,71
+>     <meta property="og:image:type" content="{{ .MediaType }}" />
+>     {{- if ne .MediaType.SubType "svg" -}}
+>       <meta property="og:image:width" content="{{ .Width }}" />
+>       <meta property="og:image:height" content="{{ .Height }}" />
+>     {{- end -}}
