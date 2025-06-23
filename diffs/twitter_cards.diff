@@ -1,2 +1,4 @@
-25a26
+0a1
+> <!-- https://github.com/gohugoio/hugo/blob/v0.147.8/tpl/tplimpl/embedded/templates/_partials/twitter_cards.html -->
+25a27
 >       <meta name="twitter:creator" content="{{ $content }}"/>

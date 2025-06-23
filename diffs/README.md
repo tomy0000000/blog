@@ -1,22 +1,46 @@
 # 🪄 Customization
 
-This README outlines some modifications explicitly made for this blog that differ from upstream.
+This README outlines modifications explicitly made for this blog that differ from upstream.
+
+## Create Customizations
+
+1. Copy the upstream file to the same path.
+2. Modify the file as needed.
+3. Create a diff in this directory for future reference.
+
+   ```shell
+   diff upstream modified > modified.diff
+   ```
+
+4. Document the changes in this README.
+
+## Rebase Customizations
+
+1. Remove the modified file.
+2. Place the latest upstream file.
+3. Reapply the diff to the new file.
+
+   ```shell
+   patch new_upstream < modified.diff
+   ```
+
+4. Manually check if the changes are still valid
+5. Recreate the diff.
 
 ## Quick Reference
 
-| File Path                                                                              | Fork Version                                                                                                                        | Link                                                                       |
-| -------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| [`archetypes/default.md`](../archetypes/default.md)                                    | [Congo v2.6.1](https://github.com/jpanther/congo/blob/v2.6.1/archetypes/default.md)                                                 | [#custom-post-template](#custom-post-template)                             |
-| [`assets/css/custom.css`](../assets/css/custom.css)                                    | -                                                                                                                                   | [#custom-css](#custom-css)                                                 |
-| [`i18n/zh-TW.yaml`](../i18n/zh-TW.yaml)                                                | [Congo v2.9.0](https://github.com/jpanther/congo/blob/v2.9.0/i18n/zh-Hant.yaml)                                                     | [#custom-i18n](#custom-i18n)                                               |
-| [`layouts/_default/_markup/render-link.html`](_default/_markup/render-link.html)       | [Congo v2.8.2](https://github.com/jpanther/congo/blob/v2.8.2/layouts/_default/_markup/render-link.html)                             | [#custom-css](#custom-css)                                                 |
-| [`layouts/_default/rss.xml`](_default/rss.xml)                                         | [Hugo v0.112.3](https://github.com/gohugoio/hugo/blob/v0.112.3/tpl/tplimpl/embedded/templates/_default/rss.xml)                     | [#custom-rss-template](#custom-rss-template)                               |
-| [`layouts/_default/single.html`](_default/single.html)                                 | [Congo v2.8.1](https://github.com/jpanther/congo/blob/v2.8.1/layouts/_default/single.html)                                          | [#show-post-description-as-subtitles](#show-post-description-as-subtitles) |
-| [`layouts/partials/article-link.html`](partials/article-link.html)                     | [Congo v2.8.1](https://github.com/jpanther/congo/blob/v2.8.1/layouts/partials/article-link.html)                                    | [#custom-post-listing](#custom-post-listing)                               |
-| [`layouts/partials/head.html`](partials/head.html)                                     | [Congo v2.8.1](https://github.com/jpanther/congo/blob/v2.8.1/layouts/partials/head.html)                                            | [#custom-head](#custom-head)                                               |
-| [`layouts/partials/_funcs/get-page-images.html`](partials/_funcs/get-page-images.html) | [Hugo v0.135.0](https://github.com/gohugoio/hugo/blob/v0.135.0/tpl/tplimpl/embedded/templates/partials/_funcs/get-page-images.html) | [#custom-open-graph-snippets](#custom-open-graph-snippets)                 |
-| [`layouts/partials/opengraph.html`](partials/opengraph.html)                           | [Hugo v0.135.0](https://github.com/gohugoio/hugo/blob/v0.135.0/tpl/tplimpl/embedded/templates/opengraph.html)                       | [#custom-open-graph-snippets](#custom-open-graph-snippets)                 |
-| [`layouts/partials/twitter_cards.html`](partials/twitter_cards.html)                   | [Hugo v0.135.0](https://github.com/gohugoio/hugo/blob/v0.135.0/tpl/tplimpl/embedded/templates/twitter_cards.html)                   | [#custom-twitter-metas](#custom-twitter-metas)                             |
+| File Path                                                                                           | Link                                                                       |
+| --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| [`archetypes/default.md`](../archetypes/default.md)                                                 | [#custom-post-template](#custom-post-template)                             |
+| [`i18n/zh-TW.yaml`](../i18n/zh-TW.yaml)                                                             | [#custom-i18n](#custom-i18n)                                               |
+| [`layouts/_default/rss.xml`](../layouts/_default/rss.xml)                                           | [#custom-rss-template](#custom-rss-template)                               |
+| [`layouts/_markup/render-link.html`](../layouts/_markup/render-link.html)                           | [#custom-css](#custom-css)                                                 |
+| [`layouts/_partials/_funcs/get-page-images.html`](../layouts/_partials/_funcs/get-page-images.html) | [#custom-open-graph-snippets](#custom-open-graph-snippets)                 |
+| [`layouts/_partials/article-link.html`](../layouts/_partials/article-link.html)                     | [#custom-post-listing](#custom-post-listing)                               |
+| [`layouts/_partials/head.html`](../layouts/_partials/head.html)                                     | [#custom-head](#custom-head)                                               |
+| [`layouts/_partials/opengraph.html`](../layouts/_partials/opengraph.html)                           | [#custom-open-graph-snippets](#custom-open-graph-snippets)                 |
+| [`layouts/_partials/twitter_cards.html`](../layouts/_partials/twitter_cards.html)                   | [#custom-twitter-metas](#custom-twitter-metas)                             |
+| [`layouts/single.html`](../layouts/single.html)                                                     | [#show-post-description-as-subtitles](#show-post-description-as-subtitles) |
 
 ## Custom post template
 

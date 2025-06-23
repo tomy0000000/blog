@@ -1,6 +1,8 @@
-127,128c127,128
+0a1
+> <!-- https://github.com/jpanther/congo/blob/v2.12.1/layouts/_partials/head.html -->
+131,132c132,133
 <   {{ template "_internal/opengraph.html" . }}
 <   {{ template "_internal/twitter_cards.html" . }}
 ---
->   {{ partial "partials/opengraph.html" . }}
->   {{ template "partials/twitter_cards.html" . }}
+>   {{ partial "opengraph.html" . }}
+>   {{ partial "twitter_cards.html" . }}

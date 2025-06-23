@@ -1,12 +1,14 @@
-10a11,13
+0a1
+> <!-- https://github.com/gohugoio/hugo/blob/v0.147.8/tpl/tplimpl/embedded/templates/_partials/_funcs/get-page-images.html -->
+10a12,14
 >       "Width" .Width
 >       "Height" .Height
 >       "MediaType" .MediaType
-30a34,36
+30a35,37
 >         "Width" .Width
 >         "Height" .Height
 >         "MediaType" .MediaType
-34a41,43
+34a42,44
 >         "Width" .Width
 >         "Height" .Height
 >         "MediaType" .MediaType

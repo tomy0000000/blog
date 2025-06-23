@@ -1,3 +1,4 @@
+<!-- https://github.com/jpanther/congo/blob/v2.12.1/layouts/_markup/render-link.html -->
 {{- $link := .Destination -}}
 {{- $isRemote := strings.HasPrefix $link "http" -}}
 {{- if not $isRemote }}
@@ -6,7 +7,7 @@
     {{- $fragment := "" }}
     {{- with $url.Fragment }}{{ $fragment = printf "#%s" . }}{{ end -}}
     {{- with .Page.GetPage $url.Path }}
-      {{ $link = printf "%s%s" .RelPermalink $fragment }}
+      {{ $link = printf "%s%s" .Permalink $fragment }}
     {{ else }}
       {{- if hasSuffix $url.Path ".md" }}
         {{ warnf "[CONGO] Can't resolve: %s" .Destination }}

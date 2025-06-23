@@ -1,3 +1,4 @@
+<!-- https://github.com/jpanther/congo/blob/v2.12.1/layouts/_partials/article-link.html -->
 <article class="mt-6 flex max-w-prose flex-row">
   <div>
     <h3 class="flex items-center text-xl font-semibold">
@@ -21,7 +22,7 @@
       {{ else }}
         <a
           class="text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="{{ .RelPermalink }}"
+          href="{{ .Permalink }}"
           >{{ .Title | emojify }}</a
         >
       {{ end }}
@@ -30,7 +31,7 @@
           {{ partial "badge.html" (i18n "article.draft" | emojify) }}
         </div>
       {{ end }}
-      {{ if templates.Exists "partials/extend-article-link.html" }}
+      {{ if templates.Exists "_partials/extend-article-link.html" }}
         {{ partial "extend-article-link.html" . }}
       {{ end }}
     </h3>
