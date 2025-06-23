@@ -1,3 +1,4 @@
+<!-- https://github.com/gohugoio/hugo/blob/v0.147.8/tpl/tplimpl/embedded/templates/_partials/twitter_cards.html -->
 {{- $images := partial "_funcs/get-page-images" . }}
 {{- with index $images 0 }}
   <meta name="twitter:card" content="summary_large_image">
@@ -10,8 +11,8 @@
   <meta name="twitter:title" content="{{ . }}">
 {{- end }}
 
-{{- with or .Description .Summary site.Params.description | plainify | htmlUnescape | chomp }}
-  <meta name="twitter:description" content="{{ . }}">
+{{- with or .Description .Summary site.Params.description | plainify | htmlUnescape }}
+  <meta name="twitter:description" content="{{ trim . "\n\r\t " }}">
 {{- end }}
 
 {{- $twitterSite := "" }}

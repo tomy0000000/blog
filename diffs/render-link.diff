@@ -1,4 +1,6 @@
-17c17
+0a1
+> <!-- https://github.com/jpanther/congo/blob/v2.12.1/layouts/_markup/render-link.html -->
+17c18
 < <!-- prettier-ignore --><a href="{{ $link | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if $isRemote }} target="_blank" rel="noreferrer"{{ end }}>{{- .Text | safeHTML -}}</a>
 \ No newline at end of file
 ---

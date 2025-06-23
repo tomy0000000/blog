@@ -1,4 +1,10 @@
-12a13,15
->       <h2 class="prose dark:prose-invert">
+1a2
+>   {{- /* https://github.com/jpanther/congo/blob/v2.12.1/layouts/single.html */ -}}
+10c11
+<       <h1 class="mb-8 mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+---
+>       <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+12a14,16
+>       <h2 class="mb-8 prose dark:prose-invert">
 >         {{ .Params.subtitle | default .Description | emojify }}
 >       </h2>
