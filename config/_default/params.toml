@@ -32,22 +32,22 @@ fingerprintAlgorithm = "sha256"
 
 [homepage]
   layout = "profile" # valid options: page, profile, custom
-  showRecent = true
+  showRecent = false
 
 [article]
   showDate = true
   showDateUpdated = true
-  showAuthor = true
+  showAuthor = false
   showBreadcrumbs = false
   showDraftLabel = true
   showEdit = false
   editURL = "https://github.com/tomy0000000/blog/tree/main/content/"
   editAppendPath = true
-  showHeadingAnchors = true
-  showPagination = true
+  showHeadingAnchors = false
+  showPagination = false
   invertPagination = false
   showReadingTime = false
-  showTableOfContents = true
+  showTableOfContents = false
   showTaxonomies = true
   showWordCount = false
   showComments = true

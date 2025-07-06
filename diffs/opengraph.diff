@@ -1,0 +1,40 @@
+0a1
+> <!-- https://github.com/gohugoio/hugo/blob/v0.147.8/tpl/tplimpl/embedded/templates/_partials/opengraph.html -->
+16c17,23
+<   <meta property="og:locale" content="{{ replace . `-` `_` }}">
+---
+>   {{- $split := split . "-" -}}
+>   {{- $locale := index $split 0 -}}
+>   {{- if gt (len $split) 1 -}}
+>     {{- $territory := index $split (sub (len $split) 1) | upper -}}
+>     {{- $locale = printf "%s_%s" $locale $territory -}}
+>   {{- end -}}
+>   <meta property="og:locale" content="{{ $locale }}">
+18a26,40
+> {{- if .IsTranslated -}}
+>   {{- $pageLang := .Lang -}}
+>   {{- range .AllTranslations -}}
+>     {{- if ne .Lang $pageLang -}}
+>       {{- $split := split .Lang "-" -}}
+>       {{- $locale := index $split 0 -}}
+>       {{- if gt (len $split) 1 -}}
+>         {{- $territory := index $split (sub (len $split) 1) | upper -}}
+>         {{- $locale = printf "%s_%s" $locale $territory -}}
+>       {{- end -}}
+>       <meta property="og:locale:alternate" content="{{ $locale }}">
+>     {{- end -}}
+>   {{- end -}}
+> {{- end -}}
+> 
+30a53,57
+>   {{- with .ExpiryDate }}
+>     <meta property="article:expiration_time" {{ .Format $ISO8601 | printf "content=%q" | safeHTMLAttr }} />
+>   {{- end }}
+>   <meta property="article:author" content="{{ .Site.Language.Params.Author.name }}" />
+>   <meta property="article:section" content="{{ .Section }}" />
+40a68,72
+>     <meta property="og:image:type" content="{{ .MediaType }}" />
+>     {{- if ne .MediaType.SubType "svg" -}}
+>       <meta property="og:image:width" content="{{ .Width }}" />
+>       <meta property="og:image:height" content="{{ .Height }}" />
+>     {{- end -}}

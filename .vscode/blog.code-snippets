@@ -4,11 +4,10 @@
     "scope": "markdown",
     "prefix": "gallery",
     "body": [
-      "{{< gallery >}}",
+      "{{< gallery caption=\"${5}\" >}}",
       "{{< figure src=\"${1}\" alt=\"${2}\" >}}",
       "{{< figure src=\"${3}\" alt=\"${4}\" >}}",
-      "{{< /gallery >}}",
-      "<figcaption class=\"text-center\">${5}</figcaption>"
+      "{{< /gallery >}}"
     ],
     "description": "Show two images in one row"
   },

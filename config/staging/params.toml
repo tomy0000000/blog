@@ -6,6 +6,7 @@
 # https://jpanther.github.io/congo/docs/configuration/#theme-parameters
 
 [article]
+  showHeadingAnchors = true
   showReadingTime = true
   showWordCount = true
   showComments = false

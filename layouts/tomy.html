@@ -1,0 +1,21 @@
+{{ define "main" }}
+<article class="max-w-full">
+  <section class="prose mt-6 max-w-full dark:prose-invert">
+    <h1
+      class="text-center md:text-start mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral"
+    >
+      {{ .Params.headline | emojify }}
+    </h1>
+    <figure>
+      {{ $image := resources.Get "img/tomy-lego.webp" }}
+      <img
+        src="{{ $image.Permalink }}"
+        alt="Tomy Hsieh as LEGO minifigure"
+        loading="lazy"
+        class="mx-auto md:m-0 md:float-right h-72 rounded-lg shadow-lg transform scale-75 rotate-6"
+      />
+    </figure>
+    {{ .Content | emojify }}
+  </section>
+</article>
+{{ end }}
