@@ -1,10 +1,11 @@
 ---
 title: "2025 年 2 月報報"
 date: 2025-03-16T14:26:07-07:00
+lastmod: 2025-04-06T16:10:14-07:00
 description: "USA 第二季，連載開始！"
 categories: ["🍫 生活"]
 series: ["📰 每月報報"]
-tags: ["🍳 料理", "💼 工作"]
+tags: ["🍳 料理", "💼 工作", "🌼 花花"]
 feature: "sfo_welcome_to_the_united_states_of_america.jpg"
 featureAlt: "機場海關的入境處寫著 Welcome to the United States of America"
 coverCaption: "每次看到這個牌子，還是會不自覺的拿起手機再拍一次 (?)"
@@ -16,7 +17,7 @@ coverCaption: "每次看到這個牌子，還是會不自覺的拿起手機再�
 
 ## 💻 封箱我的舊 MacBook Pro
 
-回台灣做的最後一件事就是正式封存我的舊 MacBook Pro，這一台 MacBook Pro 對我來說有很多很重要的意義，所以在封存的同時，我也寫了一篇[文章]({{< relref "posts/boxing-my-3rd-macbook-pro" >}})來紀念他，有趣去可以去看看。
+回台灣做的最後一件事就是正式封存我的舊 MacBook Pro，這一台 MacBook Pro 對我來說有很多很重要的意義，所以在封存的同時，我也寫了一篇[文章]({{< relref "posts/boxing-my-3rd-macbook-pro" >}})來紀念他，有興趣可以去看看。
 
 ## 💼 正式野放社會
 

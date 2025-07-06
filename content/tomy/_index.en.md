@@ -5,34 +5,20 @@ params:
   headline: "👋🏻 Hi, I’m Tomy Hsieh."
 ---
 
-#### 🏛 Academic
+I grew up a tech geek at just 10 years old in Taipei, Taiwan 🇹🇼. After writing my first automation scripts in high school before earning my Master’s in Software Engineering from Carnegie Mellon.
 
-I'm studying for a Master's in Software Engineering at Carnegie Mellon University, graduating in December 2024.
+Now based in San Jose, CA 🇺🇸, I’ve worked on cloud infrastructure at WeRide and enjoy diving into self-hosting projects, databases, and improving developer experience.
 
-I received my Bachelor's in Computer Science from National Chung Hsing University in Taichung, Taiwan.
+When I’m not building (or messing around), you’ll find me traveling, exploring new cafes and bookstores, watching movies, or geeking out over the latest gadgets.
 
-#### 💼 Work
+I love finely crafted software — like macarons — and side projects that spark joy — like ice cream.
 
-**I'm actively seeking a Full-time Software Engineer position, preferably in Backend / Data Engineering, starting in February 2025.**
+## ❓ More
 
-My previous experience includes:
+- 💼 See my [résumé](https://cv.tomy.me) and [LinkedIn](https://www.linkedin.com/in/tomy0000000).
+- 🧑🏻‍💻 Check the [project gallery](https://projects.tomy.me) and [GitHub](https://github.com/tomy0000000).
+- ✍🏻 My writings: mostly in [Chinese]({{< relref path="posts" lang="zh-tw" >}}), some in [English]({{< relref path="posts" lang="en" >}}).
 
-- 3 months as software engineer Intern at WeRide, where I worked on compnay-wise customized CI/CD platform for self-driving systems.
-  - Tech stack: Go, Gin, Bazel, Kubernetes, Helm, React.
-- 6 months as a software engineer Intern at Intel, where I worked on two internal systems for report visualization, data collections, and prediction.
-  - Tech stack: Python, Django, FastAPI, scikit-learn.
-- 18 months as research assistant at NLP Lab during my time at NCHU, where I research while servering as MLOps for Lab infra and services.
-  - Tech stack: Python, React, Flask, Dcoker
+## 🙋🏻‍♂️ Reach Out
 
-Connect with me on [LinkedIn](https://www.linkedin.com/in/tomy0000000) or read my [CV](https://cv.tomy.me).
-
-#### 🧑🏻‍💻 Develop
-
-- My side projects can be found on [project gallery](https://projects.tomy.me)
-- My [open source contributions](https://github.com/search?q=author%3Atomy0000000+-owner%3Atomy0000000+is%3Amerged&type=pullrequests)
-- Services which I self-hosted (Post work in progress)
-- Everything is (mostly) available on my [GitHub](https://github.com/tomy0000000)
-
-#### ❓ More
-
-Learn [a little more]({{< relref "tomy/more" >}}) about me
+Links are available on [bento](https://bento.me/tomyhsieh).

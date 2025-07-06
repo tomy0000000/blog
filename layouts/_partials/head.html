@@ -1,7 +1,8 @@
+<!-- https://github.com/jpanther/congo/blob/v2.12.1/layouts/_partials/head.html -->
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="theme-color" content="rgb(255,255,255)" />
+  <meta name="theme-color" content="{{ .Site.Params.defaultThemeColor | default "#ffffff" }}" />
   {{/* Title */}}
   {{ if .IsHome -}}
     <title>{{ .Site.Title | emojify }}</title>
@@ -17,7 +18,7 @@
   {{ $jsAppearance = $jsAppearance | resources.Minify | resources.Fingerprint $algorithm }}
   <script
     type="text/javascript"
-    src="{{ $jsAppearance.RelPermalink }}"
+    src="{{ $jsAppearance.Permalink }}"
     integrity="{{ $jsAppearance.Data.Integrity }}"
   ></script>
   {{ $cssScheme := resources.Get (printf "css/schemes/%s.css" (lower .Site.Params.colorScheme | default "congo")) }}
@@ -35,7 +36,7 @@
   <link
     type="text/css"
     rel="stylesheet"
-    href="{{ $bundleCSS.RelPermalink }}"
+    href="{{ $bundleCSS.Permalink }}"
     integrity="{{ $bundleCSS.Data.Integrity }}"
   />
   {{ if .Site.Params.enableSearch | default false }}
@@ -66,7 +67,7 @@
       defer
       type="text/javascript"
       id="script-bundle"
-      src="{{ $bundleJS.RelPermalink }}"
+      src="{{ $bundleJS.Permalink }}"
       integrity="{{ $bundleJS.Data.Integrity }}"
       data-copy="{{ i18n "code.copy" }}"
       data-copied="{{ i18n "code.copied" }}"
@@ -94,12 +95,16 @@
   {{ with .Params.robots }}
     <meta name="robots" content="{{ . }}" />
   {{ end }}
-  <link rel="canonical" href="{{ .Permalink }}" />
+  {{ if .Params.canonicalUrl }}
+    <link rel="canonical" href="{{ .Params.canonicalUrl }}" />
+  {{ else }}
+    <link rel="canonical" href="{{ .Permalink }}" />
+  {{ end }}
   {{ range .AlternativeOutputFormats -}}
-    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .RelPermalink ($.Site.Title | emojify) | safeHTML }}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink ($.Site.Title | emojify) | safeHTML }}
   {{ end -}}
   {{/* Icons */}}
-  {{ if templates.Exists "partials/favicons.html" }}
+  {{ if templates.Exists "_partials/favicons.html" }}
     {{ partialCached "favicons.html" .Site }}
   {{ else }}
     <link rel="apple-touch-icon" sizes="180x180" href="{{ "apple-touch-icon.png" | relURL }}" />
@@ -124,12 +129,14 @@
     <meta http-equiv="refresh" content="0; url={{ . }}" />
   {{ end }}
   {{/* Social */}}
-  {{ partial "partials/opengraph.html" . }}
-  {{ template "partials/twitter_cards.html" . }}
+  {{ partial "opengraph.html" . }}
+  {{ partial "twitter_cards.html" . }}
   {{/* Schema */}}
   {{ partial "schema.html" . }}
   {{/* Me */}}
-  {{ with .Site.Language.Params.Author.name }}<meta name="author" content="{{ . }}" />{{ end }}
+  {{ with .Site.Language.Params.Author.name }}
+    <meta name="author" content="{{ . }}" />
+  {{ end }}
   {{ with .Site.Language.Params.Author.links }}
     {{ range $links := . }}
       {{ range $name, $url := $links }}<link href="{{ $url }}" rel="me" />{{ end }}
@@ -140,7 +147,7 @@
   {{/* Analytics */}}
   {{ partial "analytics.html" . }}
   {{/* Extend head - eg. for custom analytics scripts, etc. */}}
-  {{ if templates.Exists "partials/extend-head.html" }}
+  {{ if templates.Exists "_partials/extend-head.html" }}
     {{ partial "extend-head.html" . }}
   {{ end }}
 </head>

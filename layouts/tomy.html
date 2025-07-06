@@ -1,7 +1,9 @@
 {{ define "main" }}
 <article class="max-w-full">
   <section class="prose mt-6 max-w-full dark:prose-invert">
-    <h1 class="text-center md:text-start mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+    <h1
+      class="text-center md:text-start mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral"
+    >
       {{ .Params.headline | emojify }}
     </h1>
     <figure>
@@ -15,6 +17,5 @@
     </figure>
     {{ .Content | emojify }}
   </section>
-  <footer class="pt-8">{{ partial "sharing-links.html" . }}</footer>
 </article>
 {{ end }}
