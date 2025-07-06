@@ -1,7 +1,5 @@
 ---
-title: "Tomy's Blog"
+title: "Tomy Hsieh"
 ---
 
-Welcome to Tomy Hsieh's marvelous blog
-
-If you like my content, consider [subscribe]({{<  relref "subscribe"  >}})
+[Read on]({{< relref "tomy" >}}).
