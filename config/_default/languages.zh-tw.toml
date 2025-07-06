@@ -24,8 +24,8 @@ copyright = '<a href="{{< relref "copyright" >}}" class="hover:underline hover:d
   [params.author]
     name = "Tomy Hsieh"
     image = "img/tomy.png"
-    # headline = "I'm only human"
-    bio = "在台灣混不下去逃到美國的碼農"
+    headline = "深愛精心打造的軟體與產品。"
+    # bio = "A little bit about you"
     links = [
     #   { email = "mailto:hello@your_domain.com" },
     #   { link = "https://link-to-some-website.com/" },
@@ -36,19 +36,19 @@ copyright = '<a href="{{< relref "copyright" >}}" class="hover:underline hover:d
     #   { dev = "https://dev.to/username" },
     #   { discord = "https://discord.gg/invitecode" },
     #   { dribbble = "https://dribbble.com/username" },
-      { facebook = "https://www.facebook.com/tomy0000000" },
+    #   { facebook = "https://www.facebook.com/username" },
     #   { flickr = "https://www.flickr.com/photos/username/" },
     #   { foursquare = "https://foursquare.com/username" },
-      { github = "https://github.com/tomy0000000" },
+    #   { github = "https://github.com/username" },
     #   { gitlab = "https://gitlab.com/username" },
     #   { google = "https://www.google.com/" },
     #   { hashnode = "https://username.hashnode.dev" },
-      { instagram = "https://instagram.com/tomy0000000" },
+    #   { instagram = "https://instagram.com/username" },
     #   { keybase = "https://keybase.io/username" },
     #   { kickstarter = "https://www.kickstarter.com/profile/username" },
-      { lastfm = "https://www.last.fm/user/tomy0000000" },
-      { linkedin = "https://linkedin.com/in/tomy0000000" },
-      { mastodon = "https://mastodon.social/@tomyhsieh" },
+    #   { lastfm = "https://www.last.fm/user/username" },
+    #   { linkedin = "https://linkedin.com/in/username" },
+    #   { mastodon = "https://mastodon.social/username" },
     #   { medium = "https://medium.com/username" },
     #   { microsoft = "https://www.microsoft.com/" },
     #   { orcid = "https://orcid.org/userid" },
@@ -65,7 +65,7 @@ copyright = '<a href="{{< relref "copyright" >}}" class="hover:underline hover:d
     #   { tiktok = "https://tiktok.com/@username" },
     #   { tumblr = "https://username.tumblr.com" },
     #   { twitch = "https://twitch.tv/username" },
-      { x-twitter = "https://x.com/tomy0000000" },
+    #   { x-twitter = "https://x.com/username" },
     #   { whatsapp = "https://wa.me/phone-number" },
     #   { youtube = "https://youtube.com/username" },
     ]

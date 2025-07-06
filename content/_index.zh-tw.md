@@ -1,7 +1,5 @@
 ---
-title: "Tomy's Blog"
+title: "Tomy Hsieh"
 ---
 
-歡迎來到 Tomy Hsieh 的奇幻部落
-
-如果喜歡我寫的內容，[歡迎訂閱]({{<  relref "subscribe"  >}})
+[關於我]({{< relref "tomy" >}})
