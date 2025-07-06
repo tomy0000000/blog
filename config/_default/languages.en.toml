@@ -24,7 +24,7 @@ copyright = '<a href="{{< relref "copyright" >}}" class="hover:underline hover:d
   [params.author]
     name = "Tomy Hsieh"
     image = "img/tomy.png"
-    headline = "Proudly from Taipei, Taiwan 🇹🇼.<br />Love finely-crafted software & products."
+    headline = "Love finely-crafted software & products."
     # bio = "A little bit about you"
     links = [
     #   { email = "mailto:hello@your_domain.com" },

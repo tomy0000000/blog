@@ -5,7 +5,7 @@ params:
   headline: "👋🏻 Hi, I’m Tomy Hsieh."
 ---
 
-I grew up a tech geek at just 10 years old in Taipei, Taiwan 🇹🇼 — writing my first automation scripts in high school before earning my Master’s in Software Engineering from Carnegie Mellon.
+I grew up a tech geek at just 10 years old in Taipei, Taiwan 🇹🇼. After writing my first automation scripts in high school before earning my Master’s in Software Engineering from Carnegie Mellon.
 
 Now based in San Jose, CA 🇺🇸, I’ve worked on cloud infrastructure at WeRide and enjoy diving into self-hosting projects, databases, and improving developer experience.
 
