@@ -23,7 +23,7 @@ copyright = '<a href="{{< relref "copyright" >}}" class="hover:underline hover:d
 
   [params.author]
     name = "Tomy Hsieh"
-    image = "img/tomy.png"
+    image = "img/tomy-lego.webp"
     headline = "熱愛精心打造的軟體與產品。"
     # bio = "A little bit about you"
     links = [
