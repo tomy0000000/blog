@@ -89,7 +89,7 @@ coverCaption: "這個月少數的休閒戶外活動是散步去 San Jose 市中�
 
 ### ✅ 把記帳系統的第一版介面完成
 
-![具有日曆和付款資訊的網頁介面截圖](https://img.tomy.me/blog/2025-june-dump/kayman-v1-screenshot.jpg "勉強先刻了一個輪廓，後端只接了一半 XDDDDD")
+![具有日曆和付款資訊的網頁介面截圖](https://img.tomy.me/blog/2025-june-dump/kayman-v1-screenshot.png "勉強先刻了一個輪廓，後端只接了一半 XDDDDD")
 
 ### ✅ 開始追一部劇
 
