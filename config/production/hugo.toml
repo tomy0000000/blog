@@ -3,3 +3,6 @@
 # https://jpanther.github.io/congo/docs/configuration/#site-configuration
 
 buildDrafts = false
+
+[outputs]
+home = ["HTML", "RSS"]

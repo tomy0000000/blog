@@ -10,4 +10,4 @@
 - 🏠 Hosting: [GitHub Pages](https://pages.github.com/)
 - 💬 Comments: Self-hosted [Remark42](https://remark42.com/)
 - 📈 Analytics: Self-hosted [Plausible Analytics](https://plausible.io/)
-- 📨 Newsletter: [Mailchimp](https://mailchimp.com/)
+- 📨 Newsletter: [Resend](https://resend.com/)
