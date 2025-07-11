@@ -14,7 +14,7 @@ import {
 } from "@react-email/components"
 import React from "react"
 
-interface NewsletterProps {
+export interface NewsletterProps {
   title: string
   subtitle: string
   summary: string
@@ -46,8 +46,8 @@ export default function Newsletter(props: Readonly<NewsletterProps>) {
     <Html>
       <Head />
       <Preview>
-        {props.title}
         {props.subtitle}
+        {"\n"}
         {props.summary}
       </Preview>
       <Tailwind>
@@ -75,6 +75,13 @@ export default function Newsletter(props: Readonly<NewsletterProps>) {
                   style={pinkText}
                 >
                   {props.title}
+                </Heading>
+                <Heading
+                  as="h2"
+                  className="text-[18px] font-semibold leading-[28px]"
+                  style={grayText}
+                >
+                  {props.subtitle}
                 </Heading>
                 <Text className="text-[16px] leading-[24px]">
                   {props.summary}
@@ -123,6 +130,7 @@ const body = { background: baseBackground }
 const container = { background: containerBackground, color: foreground }
 const purpleText = { color: purple }
 const pinkText = { color: pink }
+const grayText = { color: gray }
 const redText = { color: red }
 const purpleButton = { background: purple, color: foreground }
 const footer = { color: gray }
