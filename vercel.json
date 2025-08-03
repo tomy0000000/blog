@@ -1,0 +1,11 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "functions": {
+    "api/newsletter-signup.ts": {
+      "maxDuration": 30
+    },
+    "api/health.ts": {
+      "maxDuration": 30
+    }
+  }
+}
