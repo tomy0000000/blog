@@ -1,5 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "ignoreCommand": "bash -c 'git diff --quiet HEAD^ HEAD -- api/ || exit 1'",
   "functions": {
     "api/newsletter-signup.ts": {
       "maxDuration": 30
@@ -7,5 +8,8 @@
     "api/health.ts": {
       "maxDuration": 30
     }
-  }
+  },
+  "redirects": [
+    { "source": "/", "destination": "https://blog.tomy.me", "permanent": true }
+  ]
 }
