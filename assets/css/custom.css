@@ -38,8 +38,9 @@ a svg {
   display: inline-block;
 }
 
-/* Hugo sometimes renders empty p tags,  */
+/* Hugo sometimes renders empty p and a tags */
 p:empty,
-a:empty {
+a:empty,
+a svg:first-child {
   display: none;
 }
