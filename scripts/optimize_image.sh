@@ -27,7 +27,7 @@ MAX_SIDE=2560
 # Read first args as the directory to process
 dir="${1:-.}"
 
-for img in "${dir}"/*.{heic,jpg,jpeg,png}; do
+for img in "${dir}"/*.{heic,jpg,jpeg,png,webp}; do
     # Skip if the file does not exist
     if ! [ -f "$img" ]; then
         continue
