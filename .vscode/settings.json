@@ -1,15 +1,18 @@
 {
+  "[markdown]": {
+    "editor.formatOnSave": false
+  },
   "files.exclude": {
     "resources": true,
     "themes": true
+  },
+  "github.copilot.enable": {
+    "markdown": false
   },
   "workbench.editor.customLabels.patterns": {
     "**/content/posts/*/*.md": "${dirname}"
   },
   "yaml.schemas": {
     "https://json.schemastore.org/github-workflow.json": ".github/workflows/deploy.yml"
-  },
-  "[markdown]": {
-    "editor.formatOnSave": false,
   }
 }

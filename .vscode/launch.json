@@ -31,6 +31,20 @@
         "<node_internals>/**"
       ],
       "console": "integratedTerminal"
+    },
+    {
+      "name": "API Dev",
+      "request": "launch",
+      "type": "node",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": [
+        "run",
+        "api-dev"
+      ],
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "console": "integratedTerminal"
     }
   ]
 }

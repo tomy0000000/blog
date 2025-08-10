@@ -4,7 +4,7 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "[✍🏻 New] General post",
+      "label": "✍🏻 General post",
       "type": "shell",
       "command": "hugo",
       "args": [
@@ -23,7 +23,7 @@
       "problemMatcher": []
     },
     {
-      "label": "[✍🏻 New] Monthly dump post (last month)",
+      "label": "✍🏻 Monthly dump post (last month)",
       "type": "shell",
       "command": "hugo",
       "args": [
@@ -48,7 +48,7 @@
       "problemMatcher": []
     },
     {
-      "label": "[✍🏻 New] Monthly dump post (this month)",
+      "label": "✍🏻 Monthly dump post (this month)",
       "type": "shell",
       "command": "hugo",
       "args": [
@@ -73,7 +73,7 @@
       "problemMatcher": []
     },
     {
-      "label": "[🏷️ Post] Update post date",
+      "label": "📅 Update post date",
       "type": "shell",
       "command": "sed",
       "args": [
@@ -94,12 +94,10 @@
       }
     },
     {
-      "label": "[🏷️ Post] Optimize images",
+      "label": "🖼 Optimize images",
       "type": "shell",
       "command": "scripts/optimize_image.sh",
-      "args": [
-        "${fileDirname}"
-      ],
+      "args": ["${fileDirname}"],
       "presentation": {
         "reveal": "silent",
         "focus": false
@@ -107,7 +105,7 @@
       "problemMatcher": []
     },
     {
-      "label": "[⚙️ Workspace] Update ignore list",
+      "label": "⚙️ Update ignore list",
       "type": "process",
       "command": "scripts/generate_vscode_ignore.py",
       "presentation": {
