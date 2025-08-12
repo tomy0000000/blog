@@ -92,6 +92,7 @@ fingerprintAlgorithm = "sha256"
 
 [services]
   remark42 = "https://remark42.tomy.me"
+  img = "https://img.tomy.me/blog"
 
 [social]
   twitter = "@tomy0000000"  # For twitter:site

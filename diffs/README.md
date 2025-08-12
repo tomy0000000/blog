@@ -29,18 +29,18 @@ This README outlines modifications explicitly made for this blog that differ fro
 
 ## Quick Reference
 
-| File Path                                                                                           | Link                                                                       |
-| --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------- |
-| [`archetypes/default.md`](../archetypes/default.md)                                                 | [#custom-post-template](#custom-post-template)                             |
-| [`i18n/zh-TW.yaml`](../i18n/zh-TW.yaml)                                                             | [#custom-i18n](#custom-i18n)                                               |
-| [`layouts/_default/rss.xml`](../layouts/_default/rss.xml)                                           | [#custom-rss-template](#custom-rss-template)                               |
-| [`layouts/_markup/render-link.html`](../layouts/_markup/render-link.html)                           | [#custom-css](#custom-css)                                                 |
-| [`layouts/_partials/_funcs/get-page-images.html`](../layouts/_partials/_funcs/get-page-images.html) | [#custom-open-graph-snippets](#custom-open-graph-snippets)                 |
-| [`layouts/_partials/article-link.html`](../layouts/_partials/article-link.html)                     | [#custom-post-listing](#custom-post-listing)                               |
-| [`layouts/_partials/head.html`](../layouts/_partials/head.html)                                     | [#custom-head](#custom-head)                                               |
-| [`layouts/_partials/opengraph.html`](../layouts/_partials/opengraph.html)                           | [#custom-open-graph-snippets](#custom-open-graph-snippets)                 |
-| [`layouts/_partials/twitter_cards.html`](../layouts/_partials/twitter_cards.html)                   | [#custom-twitter-metas](#custom-twitter-metas)                             |
-| [`layouts/single.html`](../layouts/single.html)                                                     | [#show-post-description-as-subtitles](#show-post-description-as-subtitles) |
+| File Path                                                                                           | Link                                                                                                                                        |
+| --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`archetypes/default.md`](../archetypes/default.md)                                                 | [Custom post template](#custom-post-template)                                                                                               |
+| [`i18n/zh-TW.yaml`](../i18n/zh-TW.yaml)                                                             | [Custom i18n](#custom-i18n)                                                                                                                 |
+| [`layouts/_default/rss.xml`](../layouts/_default/rss.xml)                                           | [Custom RSS template](#custom-rss-template)                                                                                                 |
+| [`layouts/_markup/render-link.html`](../layouts/_markup/render-link.html)                           | [Custom CSS](#custom-css)                                                                                                                   |
+| [`layouts/_partials/_funcs/get-page-images.html`](../layouts/_partials/_funcs/get-page-images.html) | [Custom Open Graph snippets](#custom-open-graph-snippets)                                                                                   |
+| [`layouts/_partials/article-link.html`](../layouts/_partials/article-link.html)                     | [Custom post listing](#custom-post-listing)                                                                                                 |
+| [`layouts/_partials/head.html`](../layouts/_partials/head.html)                                     | [Custom `<head>`](#custom-head)                                                                                                             |
+| [`layouts/_partials/opengraph.html`](../layouts/_partials/opengraph.html)                           | [Custom Open Graph snippets](#custom-open-graph-snippets)                                                                                   |
+| [`layouts/_partials/twitter_cards.html`](../layouts/_partials/twitter_cards.html)                   | [Custom Twitter `<meta>`s](#custom-twitter-metas)                                                                                           |
+| [`layouts/single.html`](../layouts/single.html)                                                     | [Show post description as subtitles](#show-post-description-as-subtitles)<br/>[Fetch feature image from CDN](#fetch-feature-image-from-cdn) |
 
 ## Custom post template
 
@@ -102,6 +102,22 @@ See [this commit](https://github.com/tomy0000000/blog/commit/f402c42209264e395a4
 
 ![subtitle](https://github.com/tomy0000000/blog/assets/23290356/28726984-9eba-4a85-9c23-a5e87be1c517)
 
+## Fetch feature image from CDN
+
+If the feature image is not found in the directory, try fetching from the remote configured in `params.toml`.
+
+e.g. With config
+
+```
+[services]
+  img = "https://img.tomy.me/blog"
+```
+
+- Post: `prescription-sunglasses-in-the-us`
+- Feature image: `ray-ban-rb3025-front.jpg`
+
+Will fetch image from `https://img.tomy.me/blog/prescription-sunglasses-in-the-us/ray-ban-rb3025-front.jpg`
+
 ## Custom post listing
 
 - Do not show feature image
@@ -119,11 +135,12 @@ See [Congo's documentation](https://jpanther.github.io/congo/docs/partials/#head
 
 Support multiple images in the same row
 
+<!-- prettier-ignore -->
 ```html
-{{< gallery caption="左：如果沒有了機車，和路邊的垃圾桶，西貢的街景其實挺美的<br />右：書街充滿書香，也充滿樹香
-(X" >}} {{< figure src="street-with-trees.jpg" alt="招牌林立的街頭夜景" >}} {{<
-figure src="trees-in-book-street.jpg" alt="招牌林立的街頭夜景" >}} {{< /gallery
->}}
+{{< gallery caption="左：如果沒有了機車，和路邊的垃圾桶，西貢的街景其實挺美的<br />右：書街充滿書香，也充滿樹香(X" >}}
+  {{< figure src="street-with-trees.jpg" alt="招牌林立的街頭夜景" >}}
+  {{< figure src="trees-in-book-street.jpg" alt="招牌林立的街頭夜景" >}}
+{{< /gallery >}}
 ```
 
 ![Gallery Example](https://github.com/tomy0000000/blog/assets/23290356/0d47be61-89d0-432f-81c3-310814d1ae9c)

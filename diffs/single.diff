@@ -1,5 +1,5 @@
 1a2
->   {{- /* https://github.com/jpanther/congo/blob/v2.12.1/layouts/single.html */ -}}
+>   {{- /* https://github.com/jpanther/congo/blob/v2.12.2/layouts/single.html */ -}}
 10c11
 <       <h1 class="mb-8 mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
 ---
@@ -8,3 +8,21 @@
 >       <h2 class="mb-8 prose dark:prose-invert">
 >         {{ .Params.subtitle | default .Description | emojify }}
 >       </h2>
+33a38,54
+>       {{ else with .Params.feature }}
+>         {{ $altText := $.Params.featureAlt | default $.Params.coverAlt | default "" }}
+>         {{ $remoteImageSrc := printf "%s/%s/%s" site.Params.services.img page.File.ContentBaseName page.Params.feature }}
+>         {{ with try (resources.GetRemote $remoteImageSrc) }}
+>           {{ with .Err }}
+>             {{ warnf "remoteImageSrc: %s" $remoteImageSrc }}
+>             {{ errorf "%s" . }}
+>           {{ else with .Value }}
+>             <picture class="mb-6 rounded-md" >
+>               <img
+>                 class="mb-6 rounded-md"
+>                 {{ with $altText }}alt="{{ . }}"{{ end }}
+>                 src="{{ .RelPermalink }}"
+>               />
+>             </picture>
+>           {{ end }}
+>         {{ end }}
