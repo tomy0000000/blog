@@ -119,7 +119,11 @@ e.g. With config
 
 Will fetch image from `https://img.tomy.me/blog/prescription-sunglasses-in-the-us/ray-ban-rb3025-front.jpg`
 
-## Custom post listing
+Related files:
+
+- [`layouts/_partials/profile.html`](../layouts/_partials/profile.html)
+
+### Custom post listing
 
 - Do not show feature image
 - Show post description when there is no summary for post
