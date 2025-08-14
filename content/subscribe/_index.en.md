@@ -5,7 +5,7 @@ layout: "simple"
 
 ## 🗄️ Categories
 
-The articles in this blog are divided into three categories, which can be found at the bottom of the [🗄️ Categories]({{< relref "/categories" >}}) page: 
+The articles in this blog are divided into three categories, which can be found at the bottom of the [🗄️ Categories]({{< relref "/categories" >}}) page:
 
 - [🤖 Development]({{< relref "/categories/development" >}}): Technical articles about programming and development
 - [📱 Tech]({{< ref "/categories/tech" >}}): It may be an unboxing article, or experience sharing, tips of using tools, services, or platforms. Some CLI commands may be involved, but the main content of the article requires no programming experience.

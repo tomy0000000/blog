@@ -4,7 +4,7 @@ layout: "simple"
 language: "en"
 ---
 
-Unless otherwise stated, the contents published on this site are released under the following policy: 
+Unless otherwise stated, the contents published on this site are released under the following policy:
 
 ## Medias
 

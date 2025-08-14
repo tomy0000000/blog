@@ -13,7 +13,7 @@ But I do interested in the whole picture of my audiences, which is why I track v
 
 ## TL;DR
 
-Data I collected: 
+Data I collected:
 
 {{< icon "check" >}} Which website leads my visitors here
 
@@ -27,7 +27,7 @@ Data I collected:
 
 {{< icon "check" >}} Which pages have more/less visits
 
-Data I did not collect: 
+Data I did not collect:
 
 {{< icon "xmark" >}} Data regarding any individual visiting this site (name, phone, email, social accounts...)
 

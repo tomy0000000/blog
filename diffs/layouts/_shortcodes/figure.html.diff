@@ -4,7 +4,7 @@
 <   {{ $class := default "mx-auto my-0 rounded-md" (.Get "class") }}
 ---
 >   {{ $class := default "my-0 rounded-md" (.Get "class") }}
->   
+>
 >   {{- with .Parent -}}
 >     {{ $class = (print $class " mx-1") }}
 >   {{- else -}}

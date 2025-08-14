@@ -82,7 +82,7 @@ AppShelf 是我去年從歐洲交換回來的時候想到的小專案，一個�
 {{< reddit sub="Showerthoughts" id="10ne3n3/people_who_wear_pyjamas_in_public_are_often" >}}
 
 > 大家常說那些穿著睡衣上街的人都放棄了人生。
-> 
+>
 > 但說不定，他們才是最享受人生的人呢：）
 
 歡迎大家來信推薦穿上街看起來還是很 swag 的睡衣給我哈哈哈哈

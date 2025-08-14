@@ -25,7 +25,7 @@
 >     {{- end -}}
 >   {{- end -}}
 > {{- end -}}
-> 
+>
 30a53,57
 >   {{- with .ExpiryDate }}
 >     <meta property="article:expiration_time" {{ .Format $ISO8601 | printf "content=%q" | safeHTMLAttr }} />

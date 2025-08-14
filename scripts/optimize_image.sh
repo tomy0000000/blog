@@ -1,20 +1,20 @@
 #!/bin/bash
-# 
+#
 # This script processes images in the current directory by:
-# 
+#
 # - Resize to a maximum side of 2560 pixels
 # - Strip metadata
 # - convert to JPEG format
-# 
+#
 # Optimized images will be tagged with an extended attribute to avoid reprocessing.
-# 
+#
 # Usage:
-# 
+#
 # cd content/posts/some-post
 # ../../../scripts/optimize_image.sh
-# 
+#
 # or
-# 
+#
 # (at the root of the project)
 # scripts/optimize_image.sh content/posts/some-post
 
