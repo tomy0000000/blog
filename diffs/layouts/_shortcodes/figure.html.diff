@@ -1,5 +1,5 @@
-1a2
->   {{- /* https://github.com/jpanther/congo/blob/v2.12.1/layouts/_shortcodes/figure.html */ -}}
+0a1
+> <!-- https://github.com/jpanther/congo/blob/v2.12.1/layouts/_shortcodes/figure.html -->
 45c46,52
 <   {{ $class := default "mx-auto my-0 rounded-md" (.Get "class") }}
 ---
@@ -19,8 +19,3 @@
 ---
 >       {{ $path := printf "%s/%s" $.Page.File.ContentBaseName (.Get "src") }}
 >       {{ partial "tomy-picture.html" (dict "path" $path "alt" $altText "class" $class "lazy" $lazy) }}
-69c77
-< {{ end }}
----
-> {{ end }}
-\ No newline at end of file

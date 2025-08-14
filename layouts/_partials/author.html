@@ -1,3 +1,4 @@
+<!-- https://github.com/jpanther/congo/blob/v2.12.2/layouts/_partials/author.html -->
 {{ if .Params.showAuthor | default (.Site.Params.article.showAuthor | default true) }}
   <div class="flex">
     {{ $lazy := .Params.enableImageLazyLoading|default  .Site.Params.enableImageLazyLoading | default true }}

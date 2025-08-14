@@ -1,5 +1,5 @@
 0a1
-> <!-- https://github.com/gohugoio/hugo/blob/v0.147.8/tpl/tplimpl/embedded/templates/_partials/_funcs/get-page-images.html -->
+> <!-- https://github.com/gohugoio/hugo/blob/v0.148.2/tpl/tplimpl/embedded/templates/_partials/_funcs/get-page-images.html -->
 10a12,14
 >       "Width" .Width
 >       "Height" .Height

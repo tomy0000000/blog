@@ -1,5 +1,5 @@
 0a1
-> <!-- https://github.com/gohugoio/hugo/blob/v0.147.8/tpl/tplimpl/embedded/templates/_partials/opengraph.html -->
+> <!-- https://github.com/gohugoio/hugo/blob/v0.148.2/tpl/tplimpl/embedded/templates/_partials/opengraph.html -->
 16c17,23
 <   <meta property="og:locale" content="{{ replace . `-` `_` }}">
 ---

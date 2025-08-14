@@ -80,4 +80,3 @@
     {{- end }}
   </channel>
 </rss>
-<!-- Modified from https://github.com/gohugoio/hugo/blob/5f42590144579c318a444ea2ce46d5c3fbbbfe6e/tpl/tplimpl/embedded/templates/_default/rss.xml -->

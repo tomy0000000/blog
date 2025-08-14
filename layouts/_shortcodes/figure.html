@@ -1,5 +1,5 @@
+<!-- https://github.com/jpanther/congo/blob/v2.12.1/layouts/_shortcodes/figure.html -->
 {{ if .Get "default" }}
-  {{- /* https://github.com/jpanther/congo/blob/v2.12.1/layouts/_shortcodes/figure.html */ -}}
   <figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
     {{- if .Get "link" -}}
       <a href="{{ .Get "link" }}"{{ with .Get "target" }} target="{{ . }}"{{ end }}{{ with .Get "rel" }} rel="{{ . }}"{{ end }}>

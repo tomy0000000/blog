@@ -1,0 +1,9 @@
+0a1
+> <!-- https://github.com/jpanther/congo/blob/v2.12.2/layouts/_partials/author.html -->
+6a8
+>       {{ $imgClass := "!mb-0 !mt-0 me-4 w-24 h-auto rounded-full" }}
+8d9
+<         {{ $imgClass := "!mb-0 !mt-0 me-4 w-24 h-auto rounded-full" }}
+9a11,12
+>       {{ else }}
+>         {{ partial "tomy-picture.html" (dict "path" . "alt" $altText "class" $imgClass "lazy" $lazy  ) }}

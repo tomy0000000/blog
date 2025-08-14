@@ -1,36 +1,38 @@
-2c2,4
+0a1
+> <!-- https://github.com/gohugoio/hugo/blob/v0.112.3/tpl/tplimpl/embedded/templates/_default/rss.xml -->
+2c3,5
 < {{- if .IsHome -}}{{ $pctx = .Site }}{{- end -}}
 ---
 > {{- if .IsHome -}}
 >   {{ $pctx = .Site }}
 > {{- end -}}
-5c7
+5c8
 < {{- $pages = $pctx.RegularPages -}}
 ---
 >   {{- $pages = $pctx.RegularPages -}}
-7c9
+7c10
 < {{- $pages = $pctx.Pages -}}
 ---
 >   {{- $pages = $pctx.Pages -}}
-11c13
+11c14
 < {{- $pages = $pages | first $limit -}}
 ---
 >   {{- $pages = $pages | first $limit -}}
-12a15,19
+12a16,20
 > {{- $title := .Site.Title -}}
 > {{- if and .Title (ne .Title .Site.Title) -}}
 >   {{- $title = printf "%s on %s" .Title .Site.Title -}}
 > {{- end -}}
 > {{- $description := .Site.Params.description | default (printf "Recent content on %s" $title ) -}}
-14c21
+14c22
 < <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 ---
 > <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/">
-16c23
+16c24
 <     <title>{{ if eq  .Title  .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}</title>
 ---
 >     <title>{{ $title }}</title>
-18,24c25,50
+18,24c26,51
 <     <description>Recent content {{ if ne  .Title  .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ .Site.Title }}</description>
 <     <generator>Hugo -- gohugo.io</generator>{{ with .Site.LanguageCode }}
 <     <language>{{.}}</language>{{end}}{{ with .Site.Author.email }}
@@ -65,12 +67,12 @@
 >     </image>
 >     {{- end -}}
 >     {{- end -}}
-28c54,55
+28c55,56
 <     {{ range $pages }}
 ---
 >     {{- range $pages -}}
 >     {{- $page := . -}}
-31a59,76
+31a60,77
 >       <description>{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ end }}{{ end }}</description>
 >       <content:encoded>{{ with .Content }}{{ printf "<![CDATA[%s]]>" . | safeHTML }}{{ else }}{{ if .IsPage }}{{ printf "<![CDATA[%s]]>" .Summary | safeHTML }}{{ end }}{{ end }}</content:encoded>
 >       {{ with .Site.Author.email -}}<author>{{ . }}{{ with $.Site.Author.name }} ({{ . }}){{ end }}</author>{{ end }}
@@ -89,7 +91,11 @@
 >         {{- end -}}
 >       {{- end -}}
 >       {{ with .File -}}<guid isPermaLink="false">{{ .ContentBaseName }}</guid>{{ end }}
-33,35d77
+33,35d78
 <       {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
 <       <guid>{{ .Permalink }}</guid>
 <       <description>{{ .Summary | html }}</description>
+37c80
+<     {{ end }}
+---
+>     {{- end }}

@@ -1,0 +1,10 @@
+0a1
+> # https://github.com/jpanther/congo/blob/v2.12.2/i18n/zh-Hant.yaml
+24c25
+<   404_title: "找不到網頁 :confused:"
+---
+>   404_title: ":face_screaming_in_fear: 哦不！<br/>你要找的網頁被外星人偷走了 QQ"
+26c27
+<   404_description: "您在尋找的頁面似乎不存在。"
+---
+>   404_description: "快逃回安全的地方"

@@ -1,5 +1,5 @@
 0a1
-> {{/* https://github.com/jpanther/congo/blob/v2.12.2/layouts/_markup/render-image.html */}}
+> <!-- https://github.com/jpanther/congo/blob/v2.12.2/layouts/_markup/render-image.html -->
 21a23
 >   {{ $lazy := $.Page.Site.Params.enableImageLazyLoading | default true }}
 23d24

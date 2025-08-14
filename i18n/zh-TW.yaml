@@ -1,4 +1,4 @@
-# https://github.com/jpanther/congo/blob/v2.12.1/i18n/zh-Hant.yaml
+# https://github.com/jpanther/congo/blob/v2.12.2/i18n/zh-Hant.yaml
 article:
   anchor_label: "定位點"
   date: "{{ .Date }}"
