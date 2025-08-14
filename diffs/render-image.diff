@@ -1,0 +1,11 @@
+0a1
+> {{/* https://github.com/jpanther/congo/blob/v2.12.2/layouts/_markup/render-image.html */}}
+21a23
+>   {{ $lazy := $.Page.Site.Params.enableImageLazyLoading | default true }}
+23d24
+<     {{ $lazy := $.Page.Site.Params.enableImageLazyLoading | default true }}
+27c28,29
+<     <img src="{{ .Destination | safeURL }}" alt="{{ $altText }}" class="{{ $class }}" />
+---
+>     {{ $path := printf "%s/%s" $.Page.File.ContentBaseName $file }}
+>     {{ partial "tomy-picture.html" (dict "path" $path "alt" $altText "class" $class "lazy" $lazy) }}

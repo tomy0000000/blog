@@ -3,7 +3,6 @@ title: "2023 年 1 月報報"
 date: 2023-02-14T14:52:11+08:00
 lastmod: 2023-02-14T14:52:11+08:00
 description: "2023 的起步看起來是平步青雲 (?"
-images: ["villa32.jpg", "lin-an-tai-house.jpg"]
 categories: ["🍫 生活"]
 series: ["📰 每月報報"]
 tags: ["🧳 旅遊"]

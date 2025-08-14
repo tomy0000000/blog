@@ -3,7 +3,6 @@ title: "2023 年 2 月報報"
 date: 2023-03-01T12:30:51+08:00
 lastmod: 2023-03-01T12:30:51+08:00
 description: "3 個字，頹廢到爆"
-images: ["reading-by-the-beach.jpg"]
 categories: ["🍫 生活"]
 series: ["📰 每月報報"]
 ---

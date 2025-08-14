@@ -22,7 +22,7 @@ More broadly, I aimed to develop a solution that would not only answer this ques
 
 The result was [Tubee](https://github.com/tomy0000000/tubee): a comprehensive YouTube content tracking platform.
 
-[![Tubee Architecture](https://img.tomy.me/blog/tubee/tubee-architecture.svg "Tubee Architecture (Click to view in new tab)")](https://img.tomy.me/blog/tubee/tubee-architecture.png)
+[![Tubee Architecture](tubee-architecture.svg "Tubee Architecture (Click to view in new tab)")](tubee-architecture.png)
 
 Following the blue path, users subscribe to YouTube channels on Tubee just like they would on YouTube (of course, subscription import exists). The background celery worker will consolidate required channel metadatas in the background (The green path). Finally, users can then define "Actions" that execute automatically when new videos are uploaded, which are denoted by the red path. There are three types of actions:
 

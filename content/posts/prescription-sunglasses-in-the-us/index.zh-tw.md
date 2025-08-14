@@ -2,11 +2,6 @@
 title: "在美國配有度數的太陽眼鏡"
 date: 2025-08-12T03:50:15-07:00
 description: "毛病...有點多 🙂‍↔️"
-images: [
-    "https://img.tomy.me/blog/prescription-sunglasses-in-the-us/warby-parker-raider.jpg",
-    "https://img.tomy.me/blog/prescription-sunglasses-in-the-us/ray-ban-rb3025-front.jpg",
-    "https://img.tomy.me/blog/prescription-sunglasses-in-the-us/ray-ban-lens-thinkness.jpg"
-]
 categories: ["🍫 生活"]
 tags: ["🌟 產品體驗"]
 feature: "ray-ban-rb3025-front.jpg"
@@ -37,7 +32,7 @@ featureAlt: "Ray-Ban 墨鏡放在棕色皮革眼鏡盒上"
 - 就算已經做了薄片鏡片，還是超厚
 - 做完功課發現，算一算好像沒有真的比較便宜
 
-![Warby Parker Raider 墨鏡與藍色包裝盒及產品說明書擺放在桌上](https://img.tomy.me/blog/prescription-sunglasses-in-the-us/warby-parker-raider.jpg "嗯對寄來的時候鏡片甚至是掉下來的：）")
+![Warby Parker Raider 墨鏡與藍色包裝盒及產品說明書擺放在桌上](warby-parker-raider.jpg "嗯對寄來的時候鏡片甚至是掉下來的：）")
 
 鏡框的問題應該是單純配錯了，換大一點的能解決，但鏡片跟價格還是一個硬傷，但反正收到 30 天內可以無條件退貨，想了想最後還是退了。[^2]
 
@@ -50,8 +45,8 @@ featureAlt: "Ray-Ban 墨鏡放在棕色皮革眼鏡盒上"
 於是又等了快兩個禮拜，才終於收到現在這副 Ray-Ban 的太陽眼鏡。
 
 {{< gallery caption="結論是鏡片還是厚到不行" >}}
-{{< figure src="https://img.tomy.me/blog/prescription-sunglasses-in-the-us/ray-ban-rb3025-front.jpg" alt="Ray-Ban 墨鏡放在棕色皮革眼鏡盒上" >}}
-{{< figure src="https://img.tomy.me/blog/prescription-sunglasses-in-the-us/ray-ban-lens-thinkness.jpg" alt="手持 Ray-Ban 墨鏡並展示鏡片厚度，背景有棕色皮革眼鏡盒" >}}
+    {{< figure src="ray-ban-rb3025-front.jpg" alt="Ray-Ban 墨鏡放在棕色皮革眼鏡盒上" >}}
+    {{< figure src="ray-ban-lens-thinkness.jpg" alt="手持 Ray-Ban 墨鏡並展示鏡片厚度，背景有棕色皮革眼鏡盒" >}}
 {{< /gallery >}}
 
 但至少戴起來不至於到不舒服，正面看其實也不是那麼明顯，我實在是也不想在繼續折騰了：）

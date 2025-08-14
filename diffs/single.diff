@@ -8,21 +8,18 @@
 >       <h2 class="mb-8 prose dark:prose-invert">
 >         {{ .Params.subtitle | default .Description | emojify }}
 >       </h2>
-33a38,54
+23a28,29
+>       {{ $altText := $.Params.featureAlt | default $.Params.coverAlt | default "" }}
+>       {{ $class := "mb-6 rounded-md" }}
+26,27d31
+<           {{ $altText := $.Params.featureAlt | default $.Params.coverAlt | default "" }}
+<           {{ $class := "mb-6 rounded-md" }}
+33a38,45
 >       {{ else with .Params.feature }}
->         {{ $altText := $.Params.featureAlt | default $.Params.coverAlt | default "" }}
->         {{ $remoteImageSrc := printf "%s/%s/%s" site.Params.services.img page.File.ContentBaseName page.Params.feature }}
->         {{ with try (resources.GetRemote $remoteImageSrc) }}
->           {{ with .Err }}
->             {{ warnf "remoteImageSrc: %s" $remoteImageSrc }}
->             {{ errorf "%s" . }}
->           {{ else with .Value }}
->             <picture class="mb-6 rounded-md" >
->               <img
->                 class="mb-6 rounded-md"
->                 {{ with $altText }}alt="{{ . }}"{{ end }}
->                 src="{{ .RelPermalink }}"
->               />
->             </picture>
+>         <div class="prose">
+>           {{ $path := printf "%s/%s" page.File.ContentBaseName page.Params.feature }}
+>           {{ partial "tomy-picture.html" (dict "path" $path "alt" $altText "class" $class "lazy" false) }}
+>           {{ with $.Params.coverCaption }}
+>             <figcaption class="-mt-3 mb-6 text-center">{{ . | markdownify }}</figcaption>
 >           {{ end }}
->         {{ end }}
+>         </div>

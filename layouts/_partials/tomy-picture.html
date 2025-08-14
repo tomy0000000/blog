@@ -1,0 +1,16 @@
+{{ $path := .path }}
+{{ $alt := .alt }}
+{{ $class := .class }}
+{{ $lazy := .lazy }}
+
+{{ with $path }}
+  {{ $remoteSrc := printf "%s/%s" site.Params.services.img . }}
+  <picture {{ with $class }} class="{{ . }}" {{ end }}>
+    <img
+      src="{{ $remoteSrc }}"
+      {{ with $class }}class="{{ . }}"{{ end }}
+      {{ with $alt }}alt="{{ . }}"{{ end }}
+      {{ with $lazy }}loading="lazy" decoding="async"{{ end }}
+    />
+  </picture>
+{{ end }}

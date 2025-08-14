@@ -3,32 +3,38 @@ title: "Insta360 Go"
 date: 2021-03-17T05:44:03+08:00
 lastmod: 2021-03-17T05:44:03+08:00
 description: "中規中矩，沒有令人失望反而是它的驚喜點"
-videos: ["timelapse-penghu.mp4", "501-scored.mp4", "timelapse-ais3.mp4", "how-it-almost-went-off.mp4", "drama-club-daily.mp4"]
+videos: [
+    "https://www.dailymotion.com/video/x9oqfa4",
+    "https://www.dailymotion.com/video/x9oqfa2",
+    "https://www.dailymotion.com/video/x9oqfa6",
+    "https://www.dailymotion.com/video/x9oqf9y",
+    "https://www.dailymotion.com/video/x9oqfa0",
+]
 categories: ["📱 科技"]
 tags: ["🌟 產品體驗"]
 ---
 
 最近 Insta360 GO 的第二代上市了，趁這個時間來蹭點話題熱度應該是再適合不過啦
 
-{{< video src="timelapse-penghu.mp4" title="澎湖的不知道哪裡到哪裡" autoplay=true loop=true >}}
+{{< dailymotion id="x9oqfa4" caption="澎湖的不知道哪裡到哪裡" >}}
 
 ## 🗼 360 相片初體驗
 
 先來點前情提要好了，雖然我在差不多國中就已經過了會追求攝影規格的階段，但卻還是不小心花了不少銀子在玩相關的東西 (X)。那時我對 Google Earth 提供的街景攝影很有興趣，所以從國外買了一個叫做 Motrr Galileo 的雲台，可以讓 iPhone 4S 拍出類似的東西，只是很可惜後來支援軟體的新創 Sphere 沒過多久就被 Google 收購了，所以很可惜這東西也是買了沒多久就流產了。
 
-{{< video src="501-scored.mp4" title="酒精加持的最後一發射中 501 的最後 1 分" controls=true >}}
+{{< dailymotion id="x9oqfa2" caption="酒精加持的最後一發射中 501 的最後 1 分" >}}
 
 ## 👽 VR 時代的來臨
 
 後來多虧 Oculus 一炮而紅，所有跟 VR、360 有關的東西價錢全翻了一倍，我就沒什麼機會再去玩了。特別是 RICOH Theta 系列的相機印象中大概高一就被加進我的玩具清單了，本來以為這東西價錢會在普及之後降到一個比較比較不那麼盤的價錢，結果 Insta360 就這麼半路殺出來了搏版面了，但價錢還是很貴，所以我還沒找到一個理由說服自己買 One 系列的相機，以下歡迎乾爹贊助 (X)。另外就是我對中國品牌還是有點感冒，但去年看到 Insta360 GO 剛推出就簽下 Apple Store 獨家的合約，又滿符合我對第一人稱攝影的想像，於是就只好鮮蝦挺 (X)。
 
-{{< video src="timelapse-ais3.mp4" title="AIS3 沒在上課的瞎忙縮時" autoplay=true loop=true >}}
+{{< dailymotion id="x9oqfa6" caption="AIS3 沒在上課的瞎忙縮時" >}}
 
 ## 👍🏻 優點
 
 先講優點，作為一個這麼小的相機，攝影的品質當然就不是首要的重點，但拍路過的可愛妹子絕對是夠的 (欸不是)，縮時和慢動作的效果也比想像中的來的不錯，而且 App 提供很多炫砲的剪輯效果，又可以無腦直出 FB、IG，很方便，美中不足的大概就是目前電腦版的剪輯軟體支援度還沒有手機這麼高。
 
-{{< video src="how-it-almost-went-off.mp4" title="子毅現身說法這玩意兒差點噴飛" controls=true >}}
+{{< dailymotion id="x9oqf9y" caption="子毅現身說法這玩意兒差點噴飛" >}}
 
 ## 👎🏻 缺點
 
@@ -36,7 +42,7 @@ tags: ["🌟 產品體驗"]
 
 其他算不上缺點的槽點也是蠻多，比方說操作回饋感很差、容量偏小、錄影時間偏短，但目前看起來第二代都有嘗試在這些地方修正，應該算是進入成熟期了。
 
-{{< video src="drama-club-daily.mp4" title="劇坊日常之醜狗吉娃娃憤怒社團 (?)" controls=true >}}
+{{< dailymotion id="x9oqfa0" caption="劇坊日常之醜狗吉娃娃憤怒社團 (?)" >}}
 
 ## 🫱🏻‍🫲🏽 社會接納度
 

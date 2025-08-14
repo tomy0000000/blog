@@ -7,9 +7,9 @@
       {{ .Params.headline | emojify }}
     </h1>
     <figure>
-      {{ $image := resources.Get "img/tomy-lego.webp" }}
+      {{ $imageSrc := printf "%s/%s" site.Params.services.img site.Params.author.image }}
       <img
-        src="{{ $image.Permalink }}"
+        src="{{ $imageSrc }}"
         alt="Tomy Hsieh as LEGO minifigure"
         loading="lazy"
         class="mx-auto md:m-0 md:float-right h-72 rounded-lg shadow-lg transform scale-75 rotate-6"

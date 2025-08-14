@@ -3,15 +3,12 @@ title: "選課大作戰"
 date: 2021-03-02T00:39:44+08:00
 lastmod: 2021-03-02T00:41:20+08:00
 description: "難怪人家都說，資工系沒有搶不到的課"
-videos: ["timelapse-hualien.mp4"]
+videos: ["https://www.dailymotion.com/video/x9oqf42"]
 categories: ["🍫 生活"]
 tags: ["🏛 中興", "✅ 選課"]
 ---
 
-<figure>
-    <video src="timelapse-hualien.mp4"></video>
-</figure>
-<figcaption>海崖谷日出縮時</figcaption>
+{{< dailymotion id="x9oqf42" caption="海崖谷日出縮時" >}}
 
 事件發生的當天，有著一個美麗的清晨。
 

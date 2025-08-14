@@ -29,18 +29,19 @@ This README outlines modifications explicitly made for this blog that differ fro
 
 ## Quick Reference
 
-| File Path                                                                                           | Link                                                                                                                                        |
-| --------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| [`archetypes/default.md`](../archetypes/default.md)                                                 | [Custom post template](#custom-post-template)                                                                                               |
-| [`i18n/zh-TW.yaml`](../i18n/zh-TW.yaml)                                                             | [Custom i18n](#custom-i18n)                                                                                                                 |
-| [`layouts/_default/rss.xml`](../layouts/_default/rss.xml)                                           | [Custom RSS template](#custom-rss-template)                                                                                                 |
-| [`layouts/_markup/render-link.html`](../layouts/_markup/render-link.html)                           | [Custom CSS](#custom-css)                                                                                                                   |
-| [`layouts/_partials/_funcs/get-page-images.html`](../layouts/_partials/_funcs/get-page-images.html) | [Custom Open Graph snippets](#custom-open-graph-snippets)                                                                                   |
-| [`layouts/_partials/article-link.html`](../layouts/_partials/article-link.html)                     | [Custom post listing](#custom-post-listing)                                                                                                 |
-| [`layouts/_partials/head.html`](../layouts/_partials/head.html)                                     | [Custom `<head>`](#custom-head)                                                                                                             |
-| [`layouts/_partials/opengraph.html`](../layouts/_partials/opengraph.html)                           | [Custom Open Graph snippets](#custom-open-graph-snippets)                                                                                   |
-| [`layouts/_partials/twitter_cards.html`](../layouts/_partials/twitter_cards.html)                   | [Custom Twitter `<meta>`s](#custom-twitter-metas)                                                                                           |
-| [`layouts/single.html`](../layouts/single.html)                                                     | [Show post description as subtitles](#show-post-description-as-subtitles)<br/>[Fetch feature image from CDN](#fetch-feature-image-from-cdn) |
+| File Path                                                                                           | Link                                                                                                                                |
+| --------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| [`archetypes/default.md`](../archetypes/default.md)                                                 | [Custom post template](#custom-post-template)                                                                                       |
+| [`i18n/zh-TW.yaml`](../i18n/zh-TW.yaml)                                                             | [Custom i18n](#custom-i18n)                                                                                                         |
+| [`layouts/_default/rss.xml`](../layouts/_default/rss.xml)                                           | [Custom RSS template](#custom-rss-template)                                                                                         |
+| [`layouts/_markup/render-link.html`](../layouts/_markup/render-link.html)                           | [Custom CSS](#custom-css)                                                                                                           |
+| [`layouts/_partials/_funcs/get-page-images.html`](../layouts/_partials/_funcs/get-page-images.html) | [Custom Open Graph snippets](#custom-open-graph-snippets)                                                                           |
+| [`layouts/_partials/article-link.html`](../layouts/_partials/article-link.html)                     | [Custom post listing](#custom-post-listing)                                                                                         |
+| [`layouts/_partials/author.html`](../layouts/_partials/author.html)                                 | [Fetch feature image from CDN](#fetch-image-from-cdn)                                                                               |
+| [`layouts/_partials/head.html`](../layouts/_partials/head.html)                                     | [Custom `<head>`](#custom-head)                                                                                                     |
+| [`layouts/_partials/opengraph.html`](../layouts/_partials/opengraph.html)                           | [Custom Open Graph snippets](#custom-open-graph-snippets)                                                                           |
+| [`layouts/_partials/twitter_cards.html`](../layouts/_partials/twitter_cards.html)                   | [Custom Twitter `<meta>`s](#custom-twitter-metas)                                                                                   |
+| [`layouts/single.html`](../layouts/single.html)                                                     | [Show post description as subtitles](#show-post-description-as-subtitles)<br/>[Fetch feature image from CDN](#fetch-image-from-cdn) |
 
 ## Custom post template
 
@@ -102,9 +103,9 @@ See [this commit](https://github.com/tomy0000000/blog/commit/f402c42209264e395a4
 
 ![subtitle](https://github.com/tomy0000000/blog/assets/23290356/28726984-9eba-4a85-9c23-a5e87be1c517)
 
-## Fetch feature image from CDN
+## Fetch image from CDN
 
-If the feature image is not found in the directory, try fetching from the remote configured in `params.toml`.
+If the image is not found in the directory, try fetching from the remote configured in `params.toml`.
 
 e.g. With config
 
@@ -114,7 +115,7 @@ e.g. With config
 ```
 
 - Post: `prescription-sunglasses-in-the-us`
-- Feature image: `ray-ban-rb3025-front.jpg`
+- Image: `ray-ban-rb3025-front.jpg`
 
 Will fetch image from `https://img.tomy.me/blog/prescription-sunglasses-in-the-us/ray-ban-rb3025-front.jpg`
 
@@ -149,6 +150,7 @@ Support multiple images in the same row
 
 - Add `mx-auto my-0 rounded-md` classes for standard figures (See jpanther/congo#828)
 - Add `mx-1 rounded-md` classes for figure nested in gallery shortcode
+- Compose CDN image link
 
 ### Asciinema
 

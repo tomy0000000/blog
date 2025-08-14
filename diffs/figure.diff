@@ -10,3 +10,17 @@
 >   {{- else -}}
 >     {{ $class = (print $class " mx-auto") }}
 >   {{- end -}}
+57a65
+>     {{ $lazy := $.Page.Site.Params.enableImageLazyLoading | default true }}
+59d66
+<       {{ $lazy := $.Page.Site.Params.enableImageLazyLoading | default true }}
+63c70,71
+<       <img src="{{ $url.String }}" alt="{{ $altText }}" class="{{ $class }}"/>
+---
+>       {{ $path := printf "%s/%s" $.Page.File.ContentBaseName (.Get "src") }}
+>       {{ partial "tomy-picture.html" (dict "path" $path "alt" $altText "class" $class "lazy" $lazy) }}
+69c77
+< {{ end }}
+---
+> {{ end }}
+\ No newline at end of file

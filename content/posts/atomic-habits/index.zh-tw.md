@@ -2,7 +2,6 @@
 title: "⚛ 原子習慣"
 date: 2023-02-06T12:08:49+08:00
 description: "執行新年新希望的第一步 XDDDDD"
-images: ["feature.jpg"]
 categories: ["🍫 生活"]
 series: ["📔 閱讀"]
 feature: "feature.jpg"

@@ -62,12 +62,13 @@
   <figure{{ with $class }} class="{{ . }}"{{ end }}>
     {{ with $href }}<a href="{{ . }}">{{ end }}
 
+    {{ $lazy := $.Page.Site.Params.enableImageLazyLoading | default true }}
     {{- with $img -}}
-      {{ $lazy := $.Page.Site.Params.enableImageLazyLoading | default true }}
       {{ $webp := $.Page.Site.Params.enableImageWebp | default true }}
       {{ partial "picture.html" (dict "img" . "alt" $altText "class" $class "lazy" $lazy "webp" $webp) }}
     {{- else -}}
-      <img src="{{ $url.String }}" alt="{{ $altText }}" class="{{ $class }}"/>
+      {{ $path := printf "%s/%s" $.Page.File.ContentBaseName (.Get "src") }}
+      {{ partial "tomy-picture.html" (dict "path" $path "alt" $altText "class" $class "lazy" $lazy) }}
     {{- end -}}
 
     {{ with $href }}</a>{{ end }}

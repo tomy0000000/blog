@@ -3,7 +3,6 @@ title: "AIS3 2020 PreExam Write Up"
 date: 2020-07-06T03:52:35+08:00
 lastmod: 2023-03-03T13:47:06+08:00
 description: "My first experience with CTF, and probably the last one."
-images: ["scoreboard.png"]
 categories: ["🤖 Development"]
 tags: ["🛡 Cyber Security", "🚩 CTF"]
 featureAlt: "AIS3 2020 PreExam Write Up"

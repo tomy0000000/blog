@@ -23,7 +23,7 @@ copyright = '<a href="{{< relref "copyright" >}}" class="hover:underline hover:d
 
   [params.author]
     name = "Tomy Hsieh"
-    image = "img/tomy-lego.webp"
+    image = "tomy-lego.webp"
     headline = "Love finely-crafted software & products."
     # bio = "A little bit about you"
     links = [
