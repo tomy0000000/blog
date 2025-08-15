@@ -38,6 +38,10 @@ jobs:
           cd themes/congo
           npm ci
 
+      - name: ⬇️ Download static resources
+        run: |
+          scripts/download_static.sh
+
       - name: 🏗️ Build CSS
         run: npm run css:build
 
