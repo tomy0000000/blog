@@ -44,13 +44,3 @@ a:empty,
 a svg:first-child {
   display: none;
 }
-
-/* Tombstone at the end of the article */
-article > section.prose p:last-of-type::after {
-  background-color: rgb(var(--color-primary-600));
-  display: inline-block;
-  content: "";
-  height: 1em;
-  width: 1em;
-  margin-left: 10px;
-}

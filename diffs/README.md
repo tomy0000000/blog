@@ -43,7 +43,6 @@ Related files:
 
 - Show `<abbr>` in tooltip on click
 - Add icons indicating external links
-- Add a tombstone at the end of article
 
 Custom CSS is loaded and compiled with Tailwind CSS according to [Congo's Documentation](https://jpanther.github.io/congo/docs/advanced-customisation/#overriding-the-stylesheet).
 
