@@ -1,0 +1,17 @@
+0a1
+> <!-- https://github.com/gohugoio/hugo/blob/v0.148.2/tpl/tplimpl/embedded/templates/_shortcodes/youtube.html -->
+8a10
+> @param {int} [height] The height of iframe element.
+9a12
+> @param {string} [iframeClass] The class attribute of the wrapping div element.
+14a18
+> @param {int} [width] The width of iframe element.
+34a39
+>     {{- $iframeClass := "" }}
+68a74
+>     {{- $iframeClass := or ($.Get "iframeClass") $iframeClass }}
+115a122,123
+>         {{- with ($.Get "width") }} width="{{ . }}" {{- end }}
+>         {{- with ($.Get "height") }} height="{{ . }}" {{- end }}
+116a125
+>         {{- with $iframeClass }} class="{{ . }}" {{- end }}
