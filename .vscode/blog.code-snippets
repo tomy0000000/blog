@@ -7,27 +7,27 @@
       "{{< gallery caption=\"${5}\" >}}",
       "{{< figure src=\"${1}\" alt=\"${2}\" >}}",
       "{{< figure src=\"${3}\" alt=\"${4}\" >}}",
-      "{{< /gallery >}}"
+      "{{< /gallery >}}",
     ],
-    "description": "Show two images in one row"
+    "description": "Show two images in one row",
   },
   "Threads": {
     "scope": "markdown",
     "prefix": "threads",
-    "body": [
-      "{{< threads id=\"${1}\" author=\"${2}\" >}}"
-    ],
-    "description": "Hugo threads shortcode"
+    "body": ["{{< threads id=\"${1}\" author=\"${2}\" >}}"],
+    "description": "Hugo threads shortcode",
   },
   "Small Vertical Image": {
     "scope": "markdown",
     "prefix": "imgv",
     "body": [
-      "<figure>",
-      "    <img class=\"mx-auto my-0 rounded-md max-h-96\" src=\"${1}\" alt=\"${2}\" loading=\"lazy\">",
-      "    <figcaption class=\"text-center\">${3}</figcaption>",
-      "</figure>"
+      "{{< figure",
+      "    src=\"${1}\"",
+      "    alt=\"${2}\"",
+      "    caption=\"${3}\"",
+      "    class=\"rounded-md max-h-96\"",
+      ">}}",
     ],
-    "description": "Vertical image with maximum height of 24rem"
-  }
+    "description": "Vertical image with maximum height of 24rem",
+  },
 }

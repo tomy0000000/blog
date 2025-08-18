@@ -24,10 +24,12 @@ coverCaption: "[白藤碼頭公園](https://goo.gl/maps/MAiCAiMwNpfSp4op9)的東
     {{< figure src="u-bahn-train.jpg" alt="黃色車身的柏林地鐵" >}}
 {{< /gallery >}}
 
-<figure>
-    <img class="mx-auto my-0 rounded-md max-h-96" src="amsterdam-tram-service-desk.jpg" alt="一個售票員坐在輕軌列車的售票亭裡" loading="lazy">
-    <figcaption class="text-center">在荷蘭搭乘輕軌，有時要事先在月台上的售票機買好票，有時要上車後找後面的售票員買<br/>但是如果你剛好在一個沒有售票機的站上了一個沒有售票員的車，該怎麼辦呢？<br/>這個問題直到我離開都還沒解開 ¯\_(ツ)_/¯</figcaption>
-</figure>
+{{< figure
+    src="amsterdam-tram-service-desk.jpg"
+    alt="一個售票員坐在輕軌列車的售票亭裡"
+    caption="在荷蘭搭乘輕軌，有時要事先在月台上的售票機買好票，有時要上車後找後面的售票員買<br/>但是如果你剛好在一個沒有售票機的站上了一個沒有售票員的車，該怎麼辦呢？<br/>這個問題直到我離開都還沒解開 ¯\_(ツ)_/¯"
+    class="rounded-md max-h-96"
+>}}
 
 還有像是公車要從哪一個門上車，有些公車沒辦法投現要怎麼辦？
 
@@ -55,10 +57,12 @@ TfL 的這套系統厲害的地方就在於：
 
 ## 🇬🇧 英語普及度悖論
 
-<figure>
-    <img class="mx-auto my-0 rounded-md max-h-96" src="google-lens.jpg" alt="紅色不明物體在相機畫面被框住" loading="lazy">
-    <figcaption class="text-center">也許你知道 Google 翻譯可以翻譯照片上的文字<br/>但你知道 <a href="https://lens.google/">Google Lens</a> 可以告訴你某個物件是什麼東西嗎<br/>舉凡不知道是在賣什麼的店、或是包裝看不懂的飲料都可以哦 XD</figcaption>
-</figure>
+{{< figure
+    src="google-lens.jpg"
+    alt="紅色不明物體在相機畫面被框住"
+    caption="也許你知道 Google 翻譯可以翻譯照片上的文字<br/>但你知道 [Google Lens](https://lens.google/) 可以告訴你某個物件是什麼東西嗎<br/>舉凡不知道是在賣什麼的店、或是包裝看不懂的飲料都可以哦 XD"
+    class="rounded-md max-h-96"
+>}}
 
 關於英文的普及度，其實處於兩種尷尬的極端。
 

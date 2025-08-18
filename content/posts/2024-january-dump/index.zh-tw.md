@@ -15,10 +15,12 @@ coverCaption: "我在美利堅的艷陽裡，大雪紛飛"
 
 ## ⌨️ LeetCode
 
-<figure>
-    <img class="mx-auto my-0 rounded-md max-h-96" src="leetcode-2024-jan.png" alt="2024 年 1 月每日挑戰徽章" loading="lazy">
-    <figcaption class="text-center">2024 年 1 月每日挑戰徽章</figcaption>
-</figure>
+{{< figure
+    src="leetcode-2024-jan.png"
+    alt="2024 年 1 月每日挑戰徽章"
+    caption="2024 年 1 月每日挑戰徽章"
+    class="rounded-md max-h-96"
+>}}
 
 其實不是很重要，只是想~~炫耀~~ ~~自嗨~~ 報告一下我這個月除了有一天來不及沒寫到用了 Time Travel Ticket 之外，每天的 Daily Challenge 我都有寫完！我好棒！
 

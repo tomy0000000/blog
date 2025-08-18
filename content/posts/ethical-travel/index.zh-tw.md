@@ -53,10 +53,12 @@ P.s. 推薦大家可以搭配這首歌來閱讀
 
 分享一個我之前發現的音樂祭玩法：去 FB 的相關社團裡找共乘，然後就會不小心認識一些可以一起聽音樂、喝酒的酷酷朋友，甚至還可以交換一些沒聽過的團。
 
-<figure>
-    <img class="mx-auto my-0 rounded-md max-h-96" src="music-featival-carpool-post.png" alt="全臺｜音樂祭、專場票券交流區 Facebook 社團徵共乘貼文" loading="lazy">
-    <figcaption class="text-center">最好是找那種人多，然後看起來ㄎㄧㄤㄎㄧㄤ的團<br />去音樂祭跟這種人玩準沒錯 XDDDD</figcaption>
-</figure>
+{{< figure
+    src="music-featival-carpool-post.png"
+    alt="全臺｜音樂祭、專場票券交流區 Facebook 社團徵共乘貼文"
+    caption="最好是找那種人多，然後看起來ㄎㄧㄤㄎㄧㄤ的團<br />去音樂祭跟這種人玩準沒錯 XDDDD"
+    class="rounded-md max-h-96"
+>}}
 
 如果要深入一個地區旅遊，體驗所謂的在地文化，最好的作法，就是認識當地人。這也是為什麼選擇在在學的期間出去交換是很棒的機會，因為你馬上會有一整個班的在地同學可以認識。如果只是短期的出國，住在有附交誼廳的青年旅館也是一個認識新朋友的方法。我在泰國的時候就遇到一個中國人，他就每天晚上的時候待在交誼廳裡找人聊天，短短幾天就認識了不下二、三十個外國人。
 

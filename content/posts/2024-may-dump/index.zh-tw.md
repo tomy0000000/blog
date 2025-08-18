@@ -43,9 +43,11 @@ Philadelphia 簡稱 Philly，中文俗稱費城，但我更喜歡把他比喻為
 
 上次去了美國首府，但其實美國建國的《獨立宣言》和《美國憲法》都是在費城簽署的，具體來說是在費城的舊州議會廳，也就是現在的美國獨立紀念館，但是進去要排超久的隊和超貴的門票，所以我們只去了對面的自由鐘紀念館。
 
-<figure>
-    <img class="mx-auto my-0 rounded-md max-h-96" src="liberty-bell.jpg" alt="自由鐘" loading="lazy">
-</figure>
+{{< figure
+    src="liberty-bell.jpg"
+    alt="自由鐘"
+    class="rounded-md max-h-96"
+>}}
 
 反正就是一個鐘，以前會敲他來召集議員開會，二戰之後，各大美國民權運動中，經常會把以它作為一種精神象徵，也形塑出一種自由平等的意象，於是就被保存到現在了。
 

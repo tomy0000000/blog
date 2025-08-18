@@ -42,15 +42,19 @@ featureAlt: "AppShelf —— 收藏 App 的好書櫃"
 
 這篇文如果就這樣結在這裡好像有點太廢了，所以接下來就讓我先來分享一些自己的私房 App 清單吧！
 
-<figure>
-    <img class="mx-auto my-0 rounded-md max-h-96" src="europe-list.jpg" alt="歐洲 App 清單" loading="lazy">
-    <figcaption class="text-center">歐洲旅行的 App 清單，包含像是 Trainline 可以買很多不同國家的火車票，或是 Too Good To Go，有點像台灣的友善食光跟 i 珍食</figcaption>
-</figure>
+{{< figure
+    src="europe-list.jpg"
+    alt="歐洲 App 清單"
+    caption="歐洲旅行的 App 清單，包含像是 Trainline 可以買很多不同國家的火車票，或是 Too Good To Go，有點像台灣的友善食光跟 i 珍食"
+    class="rounded-md max-h-96"
+>}}
 
-<figure>
-    <img class="mx-auto my-0 rounded-md max-h-96" src="thailand-list.jpg" alt="泰國 App 清單" loading="lazy">
-    <figcaption class="text-center">之前在泰國 Workation 用到的 App 清單，私心覺得有收錄到一些網路上沒什麼人提到的好 App</figcaption>
-</figure>
+{{< figure
+    src="thailand-list.jpg"
+    alt="泰國 App 清單"
+    caption="之前在泰國 Workation 用到的 App 清單，私心覺得有收錄到一些網路上沒什麼人提到的好 App"
+    class="rounded-md max-h-96"
+>}}
 
 另外，我的 [Profile](https://appshelf.tomy.tech/users/tomy0000000) 也是公開的，有興趣的話也可以移駕過去挖寶，看看裡面還有什麼有趣的 App 清單 XDD
 

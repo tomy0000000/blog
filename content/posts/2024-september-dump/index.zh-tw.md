@@ -30,10 +30,12 @@ tags: ["🇺🇸 美國", "📜 政治", "🎙 單口喜劇", "🎻 交響樂", 
 
 再來，學生會在大家入場的時候發了這個：
 
-<figure>
-    <img class="mx-auto my-0 rounded-md max-h-96" src="presidential-debate-bingo.jpg" alt="總統辯論會賓果" loading="lazy">
-    <figcaption class="text-center">想不到吧 XDDD 竟然是賓果</figcaption>
-</figure>
+{{< figure
+    src="presidential-debate-bingo.jpg"
+    alt="總統辯論會賓果"
+    caption="想不到吧 XDDD 竟然是賓果"
+    class="rounded-md max-h-96"
+>}}
 
 而且每當川普又口出狂言的時候，大家就會笑個不停，特別是其中一段他講了一長串的故事，然後主持人接話的時候，一派正經的補充說明 fact-check 過這個故事不是真的，全場笑到不行 😂
 
@@ -58,10 +60,11 @@ CMU 音樂學院的開學公演！
 
 ## 🕺🏿 Hamilton: An American Musical
 
-<figure>
-    <img class="mx-auto my-0 rounded-md max-h-96" src="hamilton-programme.jpg" alt="漢密爾頓手冊" loading="lazy">
-    <figcaption class="text-center"></figcaption>
-</figure>
+{{< figure
+    src="hamilton-programme.jpg"
+    alt="漢密爾頓手冊"
+    class="rounded-md max-h-96"
+>}}
 
 《漢密爾頓》應該是近代音樂劇最賣座的音樂劇，一推出就廣受好評，可以說是叫好又叫座，隔年也不負眾望橫掃東尼獎。故事講述的是美國開國國父 Alexander Hamilton 從出生貧困的家庭、默默無聞、一路到走到最後成為美國開國元勳的故事。音樂則是由饒舌搭配少許電子音樂的元素，有別於傳統管弦樂的配置，是音樂劇相對少見的設定。
 

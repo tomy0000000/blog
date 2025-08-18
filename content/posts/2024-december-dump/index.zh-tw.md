@@ -18,17 +18,21 @@ coverCaption: "The Honey Badgers Team!"
 
 我想要在此感謝我畢業專題的組員，讓我的最後一個學期的痛苦少了不少，甚至還多了些歡樂，特別是我們的組長 Akilesh，要不是有辦在 Smoking bar 的 Team Building，我大概半路就會放推這個專題了吧
 
-<figure>
-    <img class="mx-auto my-0 rounded-md max-h-96" src="badge-manager-email.jpg" alt="一封包含證書以及告別感言的 Email" loading="lazy">
-    <figcaption class="text-center">我們的最後報告是現場 Demo 發 Email 給在場所有的同學及評審教授<br/>這功能甚至是我在最後三天肝出來的 🙃</figcaption>
-</figure>
+{{< figure
+    src="badge-manager-email.jpg"
+    alt="一封包含證書以及告別感言的 Email"
+    caption="我們的最後報告是現場 Demo 發 Email 給在場所有的同學及評審教授<br/>這功能甚至是我在最後三天肝出來的 🙃"
+    class="rounded-md max-h-96"
+>}}
 
 但成果我很滿意，也算是呼應了 CMU 的格言：My heart is in the work. 🫶🏻
 
-<figure>
-    <img class="mx-auto my-0 rounded-md max-h-96" src="walking-to-the-sky-in-show.jpg" alt="在大雪中的 Walking to the Sky" loading="lazy">
-    <figcaption class="text-center">我想我是會懷念漫步在雪中的校園的吧 (僅限懷念)</figcaption>
-</figure>
+{{< figure
+    src="walking-to-the-sky-in-show.jpg"
+    alt="在大雪中的 Walking to the Sky"
+    caption="我想我是會懷念漫步在雪中的校園的吧 (僅限懷念)"
+    class="rounded-md max-h-96"
+>}}
 
 ## 🖤💛 匹茲堡掰掰
 

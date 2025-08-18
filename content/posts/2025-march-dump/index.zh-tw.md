@@ -33,10 +33,12 @@ coverCaption: "征服 Mission Peak！"
 {{< figure src="chicago-at-golden-gate-theatre.jpg" alt="Golden Gate Theatre外牆上，標示著百老匯音樂劇《芝加哥》的紅色大字標牌。" >}}
 {{< /gallery >}}
 
-<figure>
-    <img class="mx-auto my-0 rounded-md max-h-96" src="capitola-wharf.jpg" alt="陰天中，幾位遊客漫步在Capitola Wharf木製棧橋上，拱門兩側裝飾有彩繪圖案。" loading="lazy">
-    <figcaption class="text-center">和 Yuki 醬還有 Yuki 醬的前室友去 Capitola 玩，上次來這個海灘沒有走到碼頭這邊，這裡也挺漂亮的！</figcaption>
-</figure>
+{{< figure
+    src="capitola-wharf.jpg"
+    alt="陰天中，幾位遊客漫步在Capitola Wharf木製棧橋上，拱門兩側裝飾有彩繪圖案。"
+    caption="和 Yuki 醬還有 Yuki 醬的前室友去 Capitola 玩，上次來這個海灘沒有走到碼頭這邊，這裡也挺漂亮的！"
+    class="rounded-md max-h-96"
+>}}
 
 {{< gallery caption="繼去年 Portland 的日本花園之後，這次來看看 San Jose 的" >}}
 {{< figure src="cherry-blossom-at-hakone-estate-and-gardens.jpg" alt="陽光普照下，盛開的櫻花樹在綠意盎然的公園內綻放，形成夢幻的粉色花海。" >}}

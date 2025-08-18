@@ -26,9 +26,11 @@ coverCaption: "聽完匹茲堡交響樂團出來，外面就突然下起大雪�
 
 回來的時候雪也融的差不多了，但是學生會今年還是有舉辦 Ski Day 的活動，然後我也不小心就抽中了 嘻嘻
 
-<figure>
-    <img class="mx-auto my-0 rounded-md max-h-96" src="snowboarding.jpg" alt="我站在雪道的照片" loading="lazy">
-</figure>
+{{< figure
+    src="snowboarding.jpg"
+    alt="我站在雪道的照片"
+    class="rounded-md max-h-96"
+>}}
 
 雖然有幾次摔到以為我要轉生了，但感覺我應該再滑個幾次就可以掌握七、八成了 (?) 想必是小時候玩太多 Wii Fit 練就的平衡感吧哈哈哈哈
 
@@ -40,10 +42,12 @@ coverCaption: "聽完匹茲堡交響樂團出來，外面就突然下起大雪�
 
 於是就想到了一個新 Idea —— Lecture Thursday
 
-<figure>
-    <img class="mx-auto my-0 rounded-md max-h-96" src="lecture-thursday.jpg" alt="筆電的背後是放晴的草皮" loading="lazy">
-    <figcaption class="text-center">風和日麗的星期四下午，找個咖啡廳坐下來看書然後寫點 Blog 吧！</figcaption>
-</figure>
+{{< figure
+    src="lecture-thursday.jpg"
+    alt="筆電的背後是放晴的草皮"
+    caption="風和日麗的星期四下午，找個咖啡廳坐下來看書然後寫點 Blog 吧！"
+    class="rounded-md max-h-96"
+>}}
 
 目前體驗還不錯，仿佛生活頓時被賦予了儀式感 ✨
 

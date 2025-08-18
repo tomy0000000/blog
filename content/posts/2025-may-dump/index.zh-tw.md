@@ -46,9 +46,11 @@ featureAlt: "一排畢業生在現代建築外牆前排隊合照，穿著學士�
 
 ## 👾 星際寶貝：史迪奇
 
-<figure>
-    <img class="mx-auto my-0 rounded-md max-h-96" src="lilo-and-stitch-poster.jpg" alt="莉蘿開心地抱著藍色外星生物史迪奇，圖片上有紅色的「Lilo & Stitch」標題。" loading="lazy">
-</figure>
+{{< figure
+    src="lilo-and-stitch-poster.jpg"
+    alt="莉蘿開心地抱著藍色外星生物史迪奇，圖片上有紅色的「Lilo & Stitch」標題。"
+    class="rounded-md max-h-96"
+>}}
 
 我喜歡毛毛的！
 

@@ -60,10 +60,12 @@ tags: ["🧑🏻‍🏫 人生體悟"]
 
 ## 🐌 再慢一點
 
-<figure>
-    <img class="mx-auto my-0 rounded-md max-h-96" src="crying-is-not-an-emergency.jpg" alt="此遊樂設施只會在緊急情況下停止，哭不是緊急情況" loading="lazy">
-    <figcaption class="text-center">這遊樂設施根本我目前的人生寫照</figcaption>
-</figure>
+{{< figure
+    src="crying-is-not-an-emergency.jpg"
+    alt="此遊樂設施只會在緊急情況下停止，哭不是緊急情況"
+    caption="這遊樂設施根本我目前的人生寫照"
+    class="rounded-md max-h-96"
+>}}
 
 記得我曾跟我爹娘這麼說：
 

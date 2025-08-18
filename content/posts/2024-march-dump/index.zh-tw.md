@@ -23,10 +23,12 @@ coverCaption: "所以我說那個櫻花是...? (📸 by 宇衡)"
 
 這學期大家的課業都比較繁忙一點，幾乎是到出發前一兩個禮拜才開始訂行程，原本的計畫是飛過去，然後坐火車回來，但飛機還沒起飛，價格就先起飛了，於是最後決定直接租兩台車開過去。從匹茲堡開過去大概是 400 公里，4 小時左右。3 年多沒開車的我也在美國首度上路開了一段，希望沒有丟台灣人的臉 (?)
 
-<figure>
-    <img class="mx-auto my-0 rounded-md max-h-96" src="tomy-at-postal-museum.jpg" alt="我在郵政博物館前拿著藍瓶咖啡享受好天氣" loading="lazy">
-    <figcaption class="text-center">散步冰咖啡漫步 D.C.</figcaption>
-</figure>
+{{< figure
+    src="tomy-at-postal-museum.jpg"
+    alt="我在郵政博物館前拿著藍瓶咖啡享受好天氣"
+    caption="散步冰咖啡漫步 D.C."
+    class="rounded-md max-h-96"
+>}}
 
 這一趟原本最主要的目的是賞櫻花，可是我們的春假有點...太早了，到 D.C. 的時候只開了零星幾棵，沒有原本預期的大片河岸櫻花 QQQQ
 
@@ -74,10 +76,12 @@ coverCaption: "所以我說那個櫻花是...? (📸 by 宇衡)"
 
 我簡單估了一下，大概 $300 鎂可以解決，似乎是挺不錯的，於是一個晚上就把行程全訂了 😛 [^3]
 
-<figure>
-    <img class="mx-auto my-0 rounded-md max-h-96" src="lany-at-chicago.jpg" alt="LANY 在芝加哥演唱會" loading="lazy">
-    <figcaption class="text-center">關於芝加哥，LANY 的主唱 Paul 是這麼說的：</figcaption>
-</figure>
+{{< figure
+    src="lany-at-chicago.jpg"
+    alt="LANY 在芝加哥演唱會"
+    caption="關於芝加哥，LANY 的主唱 Paul 是這麼說的："
+    class="rounded-md max-h-96"
+>}}
 
 > It's Everything you liked about New York
 >

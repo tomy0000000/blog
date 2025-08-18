@@ -61,10 +61,12 @@ Lake Tahoe 中文稱太浩湖，位於加州東北邊，開車距離我住的 Sa
 
 雖然之前入職的時候，我就有坐過我們公司的自駕車了，但這個月去舊金山玩的時候還是跟風去體驗了一下 Waymo One —— Google 旗下的自駕車公司 Waymo 推出的計程車服務。
 
-<figure>
-    <img class="mx-auto my-0 rounded-md max-h-96" src="waymo.jpg" alt="Waymo 的後座面板，畫面上可以看到車子偵測到周邊的景物，下方還有兩個手機充電插孔" loading="lazy">
-    <figcaption class="text-center">Waymo 的後座面板</figcaption>
-</figure>
+{{< figure
+    src="waymo.jpg"
+    alt="Waymo 的後座面板，畫面上可以看到車子偵測到周邊的景物，下方還有兩個手機充電插孔"
+    caption="Waymo 的後座面板"
+    class="rounded-md max-h-96"
+>}}
 
 說實在的，高中搭了整整 3 年的 [530](https://www.student.tw/topic/39149-%E3%80%90%E5%88%86%E4%BA%AB%E3%80%91530%E8%BB%8A%E7%A5%9E/)，我對交通工具的平穩度本來就沒啥太大要求，飛機遇到亂流我也照樣睡的很香。
 
@@ -95,9 +97,11 @@ Lake Tahoe 中文稱太浩湖，位於加州東北邊，開車距離我住的 Sa
 
 ![日式造景的花園，池水映照著山林](portland-japanese-garden.jpg "第二天搭輕軌到市區西邊的 Washington Park 參觀裡面的 Japanese Garden")
 
-<figure>
-    <img class="mx-auto my-0 rounded-md max-h-96" src="bring-back-the-carpet.jpg" alt="機場施工的佈告欄上有一個巨大的便條紙寫著：「把地毯弄回來！」" loading="lazy">
-</figure>
+{{< figure
+    src="bring-back-the-carpet.jpg"
+    alt="機場施工的佈告欄上有一個巨大的便條紙寫著：「把地毯弄回來！」"
+    class="rounded-md max-h-96"
+>}}
 
 波特蘭機場最近正好在施工，但市民們一點都不關心新航廈長什麼樣子，[他們只在乎原本遠近馳名的地毯能不能回來](https://en.wikipedia.org/wiki/Portland_International_Airport_carpet)
 

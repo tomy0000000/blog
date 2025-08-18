@@ -84,10 +84,11 @@ coverCaption: "灣區俗人的假日的必備行程：去採草莓"
 
 ## 《母胎單身戀愛大作戰》
 
-<figure>
-    <img class="mx-auto my-0 rounded-md max-h-96" src="better-late-than-single-poster.jpg" alt="韓國影集《母胎單身但我想戀愛》的海報，上面有多位演員的拼貼。" loading="lazy">
-    <figcaption class="text-center"></figcaption>
-</figure>
+{{< figure
+    src="better-late-than-single-poster.jpg"
+    alt="韓國影集《母胎單身但我想戀愛》的海報，上面有多位演員的拼貼"
+    class="rounded-md max-h-96"
+>}}
 
 一句話心得就是：我出現在這個節目裡面，但我很喜歡！
 
@@ -133,9 +134,10 @@ coverCaption: "灣區俗人的假日的必備行程：去採草莓"
 2. 跟台灣的朋朋多約一點線上聊天：回來美國工作之後就很少跟台灣的朋友們聯繫ㄌ，忙是一部分，時差也是一部分，但確實關係的維繫是要還是自己主動的，有看到這段的也歡迎主動來找我哈哈哈哈哈
 3. 假日最晚 10 點起床：最近好像有點睡太多了
 
-<figure>
-    <img class="mx-auto my-0 rounded-md max-h-96" src="kuai-kuai.webp" alt="一包乖乖奶油椰子口味的零食，包裝上印有綠色乖乖人偶和交通號誌" loading="lazy">
-    <figcaption class="text-center"></figcaption>
-</figure>
+{{< figure
+    src="kuai-kuai.webp"
+    alt="一包乖乖奶油椰子口味的零食，包裝上印有綠色乖乖人偶和交通號誌"
+    class="rounded-md max-h-96"
+>}}
 
 放一包乖乖在這裡，希望下個月萬事平安！
