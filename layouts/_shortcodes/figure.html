@@ -59,7 +59,7 @@
   {{ end -}}
 
   <!-- prettier-ignore -->
-  <figure{{ with $class }} class="{{ . }}"{{ end }}>
+  <figure>
     {{ with $href }}<a href="{{ . }}">{{ end }}
 
     {{ $lazy := $.Page.Site.Params.enableImageLazyLoading | default true }}

@@ -14,10 +14,12 @@ featureAlt: "匹茲堡的朋友們❤️"
 
 上個月底，我先從台北飛到舊金山，玩了 5 天之後在 7/31 的晚上搭紅眼班機前往匹茲堡。雖然舊金山也是有直飛匹茲堡的航班，但是是由聯合航空執飛的，價錢略貴、沒有含手提或托運行李、而且抵達匹茲堡的時間是清晨，要進市區可能會有點麻煩，所以我們最後決定改搭達美航空的班機，在亞特蘭大轉機。
 
-<figure>
-    <img class="mx-auto my-0 rounded-md max-h-96" src="deltas-at-atl.jpg" alt="飛機左側機翼，後面停了非常多達美航空的飛機" loading="lazy">
-    <figcaption class="text-center">亞特蘭大國際機場是<a href="https://en.wikipedia.org/wiki/List_of_busiest_airports_by_passenger_traffic" target="_blank" rel="noopener noreferrer">全世界客運量最大的機場</a>，總共有 7 棟航廈<br/>也是達美航空的樞紐機場，一排看過去真的是壯觀</figcaption>
-</figure>
+{{< figure
+    src="deltas-at-atl.jpg"
+    alt="飛機左側機翼，後面停了非常多達美航空的飛機"
+    caption="亞特蘭大國際機場是[全世界客運量最大的機場](https://en.wikipedia.org/wiki/List_of_busiest_airports_by_passenger_traffic)，總共有 7 棟航廈<br/>也是達美航空的樞紐機場，一排看過去真的是壯觀"
+    class="rounded-md max-h-96"
+>}}
 
 ## 🏚️ 安頓新家：首部曲
 
@@ -104,9 +106,11 @@ CMU 其實在 8 月底就開學了，但這篇文已經有點冗長ㄌ，那就�
 
 有鑑於這個部落格的收視率越來越低，決定在這裡偷塞一個彩蛋：我最近在玩的一個新的照片社群 App，叫做 [Retro](https://www.retro.app)
 
-<figure>
-    <img class="mx-auto my-0 rounded-md max-h-96" src="retro-screenshot.jpg" alt="Retro App 截圖" loading="lazy">
-</figure>
+{{< figure
+    src="retro-screenshot.jpg"
+    alt="Retro App 截圖"
+    class="rounded-md max-h-96"
+>}}
 
 這是一個由 Instagram 的兩位元老級人物：Nathan Sharp 和 Ryan Olson 今年離職共同創立開發的 App，主打讓分享照片回歸純粹的美好。你可以在 [TechCrunch](https://techcrunch.com/2023/07/07/retro-is-a-deeply-personal-photo-journaling-app-for-close-friends/) 和 [WIRED](https://www.wired.com/story/retro-app-launch/) 上看到他們的故事和理念。
 

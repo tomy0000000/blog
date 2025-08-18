@@ -1,15 +1,20 @@
 0a1
 > <!-- https://github.com/jpanther/congo/blob/v2.12.1/layouts/_shortcodes/figure.html -->
-45c46,52
+45c46
 <   {{ $class := default "mx-auto my-0 rounded-md" (.Get "class") }}
 ---
 >   {{ $class := default "my-0 rounded-md" (.Get "class") }}
->
+46a48,53
 >   {{- with .Parent -}}
 >     {{ $class = (print $class " mx-1") }}
 >   {{- else -}}
 >     {{ $class = (print $class " mx-auto") }}
 >   {{- end -}}
+>
+55c62
+<   <figure{{ with $class }} class="{{ . }}"{{ end }}>
+---
+>   <figure>
 57a65
 >     {{ $lazy := $.Page.Site.Params.enableImageLazyLoading | default true }}
 59d66
