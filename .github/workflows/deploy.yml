@@ -33,9 +33,13 @@ jobs:
         with:
           node-version-file: "package.json"
 
-      - name: 📦 Install dependencies
+      - name: 📦 Install Congo dependencies
         run: |
           cd themes/congo
+          npm ci
+
+      - name: 📦 Install dependencies
+        run: |
           npm ci
 
       - name: ⬇️ Download static resources
