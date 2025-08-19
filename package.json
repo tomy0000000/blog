@@ -5,17 +5,24 @@
   "engines": {
     "node": ">=20.0.0"
   },
+  "packageManager": "pnpm@10.12.1",
   "scripts": {
-    "setup": "ln -s themes/congo/tailwind.config.js .",
-    "dev": "npm-run-all --parallel *:dev",
+    "blog-dev": "npm-run-all --parallel css-dev hugo-dev",
+    "blog-build": "npm-run-all css-build hugo-build",
     "email-dev": "email dev",
     "email-lint": "eslint emails",
     "email-format": "prettier --write emails",
-    "hugo:dev": "hugo server -O --gc --minify --environment development --bind 0.0.0.0 --port 1313 --baseURL http://$(ipconfig getifaddr en0):1313",
-    "css:dev": "NODE_ENV=development ./themes/congo/node_modules/tailwindcss/lib/cli.js -c ./themes/congo/tailwind.config.js -i ./themes/congo/assets/css/main.css -o ./assets/css/compiled/main.css --jit -w",
-    "css:build": "NODE_ENV=production ./themes/congo/node_modules/tailwindcss/lib/cli.js -c ./themes/congo/tailwind.config.js -i ./themes/congo/assets/css/main.css -o ./assets/css/compiled/main.css --jit"
     "email-send": "npm-run-all hugo-build && tsx emails/sendEmail.tsx",
+    "api-dev": "ENABLE_EXPERIMENTAL_COREPACK=1 vercel dev",
+    "hugo-dev": "hugo server --gc --minify -O --environment development --bind 127.0.0.1 --port 1313",
+    "prehugo-build": "npm-run-all hugo-clean",
     "hugo-build": "hugo --gc --minify --environment production",
+    "hugo-clean": "rimraf public/* resources/*",
+    "css-setup": "ln -sf themes/congo/tailwind.config.js .",
+    "precss-dev": "npm-run-all css-setup",
+    "css-dev": "NODE_ENV=development ./themes/congo/node_modules/tailwindcss/lib/cli.js -c ./themes/congo/tailwind.config.js -i ./themes/congo/assets/css/main.css -o ./assets/css/compiled/main.css --jit -w",
+    "precss-build": "npm-run-all css-setup",
+    "css-build": "NODE_ENV=production ./themes/congo/node_modules/tailwindcss/lib/cli.js -c ./themes/congo/tailwind.config.js -i ./themes/congo/assets/css/main.css -o ./assets/css/compiled/main.css --jit"
   },
   "devDependencies": {
     "@eslint/js": "^9.29.0",
@@ -26,7 +33,9 @@
     "@typescript-eslint/eslint-plugin": "^8.34.0",
     "@vercel/node": "^5.3.10",
     "eslint": "^9.29.0",
+    "npm-run-all": "^4.1.5",
     "prettier": "^3.5.3",
+    "rimraf": "^6.0.1",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.34.0",
     "vercel": "^44.7.3"
