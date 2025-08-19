@@ -43,7 +43,8 @@ function getLatestPost(rootPath: string): NewsletterProps {
 
   // Find the latest post slug
   const latestPost = indexJson.find(
-    (item: { section: string }) => item.section === POST_SECTION
+    (item: { section: string; title: string }) =>
+      item.section === POST_SECTION && item.title !== POST_SECTION
   )
   if (!latestPost) {
     throw new Error(`No post found in section ${POST_SECTION}`)

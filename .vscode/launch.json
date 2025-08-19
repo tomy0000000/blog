@@ -9,13 +9,8 @@
       "request": "launch",
       "type": "node",
       "runtimeExecutable": "pnpm",
-      "runtimeArgs": [
-        "run",
-        "dev"
-      ],
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
+      "runtimeArgs": ["run", "blog-dev"],
+      "skipFiles": ["<node_internals>/**"],
       "console": "integratedTerminal"
     },
     {
@@ -23,13 +18,8 @@
       "request": "launch",
       "type": "node",
       "runtimeExecutable": "pnpm",
-      "runtimeArgs": [
-        "run",
-        "email-dev"
-      ],
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
+      "runtimeArgs": ["run", "email-dev"],
+      "skipFiles": ["<node_internals>/**"],
       "console": "integratedTerminal"
     },
     {
@@ -37,13 +27,8 @@
       "request": "launch",
       "type": "node",
       "runtimeExecutable": "pnpm",
-      "runtimeArgs": [
-        "run",
-        "api-dev"
-      ],
-      "skipFiles": [
-        "<node_internals>/**"
-      ],
+      "runtimeArgs": ["run", "api-dev"],
+      "skipFiles": ["<node_internals>/**"],
       "console": "integratedTerminal"
     }
   ]

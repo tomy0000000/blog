@@ -1,4 +1,4 @@
-# -- Site Configuration --
+#:schema https://www.schemastore.org/hugo.json
 # https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # https://jpanther.github.io/congo/docs/configuration/#site-configuration
 theme = "congo"
@@ -29,6 +29,9 @@ summaryLength = 0
 
 [pagination]
   pagerSize = 20
+
+[outputs]
+  home = ["html", "rss", "json"]
 
 [privacy]
   [privacy.vimeo]
