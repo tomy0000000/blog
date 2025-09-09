@@ -39,8 +39,8 @@ for img in "${dir}"/*.{heic,jpg,jpeg,png,webp}; do
         continue
     fi
 
-    # Convert to JPEG
-    new_file="${img%.*}.jpg"
+    # Convert to WebP
+    new_file="${img%.*}.webp"
     magick \
         "${img}" \
         -resize "${MAX_SIDE}x${MAX_SIDE}\\" \
