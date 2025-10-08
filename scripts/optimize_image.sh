@@ -43,8 +43,8 @@ for img in "${dir}"/*.{heic,jpg,jpeg,png,webp}; do
     new_file="${img%.*}.webp"
     magick \
         "${img}" \
-        -resize "${MAX_SIDE}x${MAX_SIDE}\\" \
-        -strip \
+        -resize "${MAX_SIDE}x${MAX_SIDE}>" \
+        +profile "exif,iptc,xmp" \
         -quality 85 \
         "${new_file}"
     echo "Converted ${img} to ${new_file}"
