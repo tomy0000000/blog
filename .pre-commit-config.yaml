@@ -11,5 +11,6 @@ repos:
       - id: check-toml
       - id: check-yaml
       - id: end-of-file-fixer
+        exclude: layouts/_markup/render-link.html
       - id: mixed-line-ending
       - id: trailing-whitespace
