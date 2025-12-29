@@ -19,8 +19,8 @@ export interface NewsletterProps {
   subtitle: string
   summary: string
   postUrl: string
-  imageUrl: string
-  imageAlt: string
+  imageUrl?: string
+  imageAlt?: string
 }
 
 Newsletter.PreviewProps = {
@@ -57,11 +57,13 @@ export default function Newsletter(props: Readonly<NewsletterProps>) {
             style={container}
           >
             <Section className="my-[16px]">
-              <Img
-                className="w-full rounded-xl object-cover"
-                src={props.imageUrl}
-                alt={props.imageAlt}
-              />
+              {props.imageUrl && (
+                <Img
+                  className="w-full rounded-xl object-cover"
+                  src={props.imageUrl}
+                  alt={props.imageAlt}
+                />
+              )}
               <Section className="mt-[32px] text-center">
                 <Text
                   className="my-[16px] text-[18px] font-semibold leading-[28px]"

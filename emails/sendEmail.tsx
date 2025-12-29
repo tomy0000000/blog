@@ -68,14 +68,18 @@ function getLatestPost(rootPath: string): NewsletterProps {
     content.indexOf("\n", content.indexOf("\n") + 1)
   )
 
-  return {
+  const post: NewsletterProps = {
     title: data.title,
     subtitle: data.description,
     summary,
     postUrl: permalink.toString(),
-    imageUrl: buildImageURL(slug, data.feature).toString(),
-    imageAlt: data.featureAlt,
   }
+  if (data.feature) {
+    post.imageUrl = buildImageURL(slug, data.feature).toString()
+    post.imageAlt = data.featureAlt
+  }
+
+  return post
 }
 
 function buildImageURL(postSlug: string, imageSlug: string): URL {
