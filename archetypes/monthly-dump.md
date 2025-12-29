@@ -13,7 +13,7 @@ audio: ""
 videos: []
 categories: ["🍫 生活"]
 series: ["📰 每月報報"]
-tags: ["🌼 花花"]
+tags: []
 # Feature image for thumbnail in list page, RSS, and top of the content
 feature: ""
 # Alt text (non-visible) for feature image
@@ -30,7 +30,16 @@ Intro
 
 ## Sub-Heading 3
 
-## 🌼 本月花花
+## ✨ 值得一提的酷東西
+
+- Movies
+- Music
+- Shows
+- YouTube
+- Netflix
+- Articles
+- Reddit
+- News
 
 ## 🎯 本月目標回顧
 
