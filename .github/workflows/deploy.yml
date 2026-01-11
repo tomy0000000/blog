@@ -1,7 +1,9 @@
-name: 🚀 Deploy
+name: 🚀 Build & Deploy
 
 on:
   push:
+    branches: ["main"]
+  pull_request:
     branches: ["main"]
   workflow_dispatch:
 
@@ -87,6 +89,7 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
+    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
     steps:
       - name: 🚀 Deploy to GitHub Pages
         id: deployment
