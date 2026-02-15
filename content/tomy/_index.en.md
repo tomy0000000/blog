@@ -15,7 +15,7 @@ I love finely crafted software — like macarons — and side projects that spar
 
 ## ❓ More
 
-- 💼 See my [résumé](https://cv.tomy.me) and [LinkedIn](https://www.linkedin.com/in/tomy0000000).
+- 💼 See my [résumé](https://cv.tomy.me) and [LinkedIn](https://www.linkedin.com/in/tomyhsieh).
 - 🧑🏻‍💻 Check the [project gallery](https://projects.tomy.me) and [GitHub](https://github.com/tomy0000000).
 - ✍🏻 My writings: I blog my life in [Chinese]({{< relref path="posts" lang="zh-tw" >}}), there are also some geeky posts in [English]({{< relref path="posts" lang="en" >}}).
 

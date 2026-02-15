@@ -15,7 +15,7 @@ params:
 
 ## ❓ 其他
 
-- 💼 我的[履歷](https://cv.tomy.me)以及 [LinkedIn](https://www.linkedin.com/in/tomy0000000)
+- 💼 我的[履歷](https://cv.tomy.me)以及 [LinkedIn](https://www.linkedin.com/in/tomyhsieh)
 - 🧑🏻‍💻 [作品集](https://projects.tomy.me)還有 [GitHub](https://github.com/tomy0000000)
 - ✍🏻 隨手寫的[文章]({{< relref path="posts" lang="zh-tw" >}})，偶爾也試著寫些[英文文章]({{< relref path="posts" lang="en" >}})
 
