@@ -8,5 +8,6 @@
 [article]
   showHeadingAnchors = true
   showReadingTime = true
+  showTableOfContents = true
   showWordCount = true
   showComments = false
