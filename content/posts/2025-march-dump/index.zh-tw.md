@@ -22,11 +22,9 @@ coverCaption: "征服 Mission Peak！"
 
 雖然現在公司都有供三餐，所以我平日幾乎不怎麼需要自己打理三餐，但假日如果餐餐外食，在灣區還是有點太奢侈，於是又開始煮飯了。
 
-{{< carousel >}}
-{{< figure src="mushroom-omelette-with-salmon.jpg" alt="煎鮭魚搭配炒蛋和蘑菇，擺盤在淺綠色餐盤上，背景為鍵盤和桌面。" caption="15 分鐘上桌系列之蘑菇炒蛋配香煎鮭魚" >}}
-{{< figure src="curry-rice.jpg" alt="簡單家常咖哩飯，內含雞肉、馬鈴薯和紅蘿蔔，盛放在淺色碗中。" caption="~~很有進步空間的~~咖哩飯" >}}
-{{< figure src="yakisoba.jpg" alt="日式炒麵上覆蓋海苔、日式美乃滋和太陽蛋，擺放在淺綠色餐盤中。" caption="怎麼好像意外成功的[日式炒麵](https://docs.tomy.me/yakisoba)" >}}
-{{< /carousel >}}
+![煎鮭魚搭配炒蛋和蘑菇，擺盤在淺綠色餐盤上，背景為鍵盤和桌面。](mushroom-omelette-with-salmon.jpg "15 分鐘上桌系列之蘑菇炒蛋配香煎鮭魚")
+![簡單家常咖哩飯，內含雞肉、馬鈴薯和紅蘿蔔，盛放在淺色碗中。](curry-rice.jpg "~~很有進步空間的~~咖哩飯")
+![日式炒麵上覆蓋海苔、日式美乃滋和太陽蛋，擺放在淺綠色餐盤中。](yakisoba.jpg "怎麼好像意外成功的[日式炒麵](https://docs.tomy.me/yakisoba)")
 
 ## 🏞️ 放假出去玩 ⁽⁽ଘ( ˙꒳˙ )ଓ⁾⁾
 
