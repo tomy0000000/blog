@@ -1,4 +1,4 @@
-<!-- https://github.com/jpanther/congo/blob/v2.12.1/layouts/_shortcodes/figure.html -->
+<!-- https://github.com/jpanther/congo/blob/v2.13.0/layouts/_shortcodes/figure.html -->
 {{ if .Get "default" }}
   <figure{{ with .Get "class" }} class="{{ . }}"{{ end }}>
     {{- if .Get "link" -}}
@@ -43,10 +43,12 @@
   {{ $altText := .Get "alt" }}
   {{ $caption := .Get "caption" }}
   {{ $href := .Get "href" }}
-  {{ $class := default "my-0 rounded-md" (.Get "class") }}
+  {{ $class := default "mx-auto my-0 rounded-md" (.Get "class") }}
 
   {{- with .Parent -}}
-    {{ $class = (print $class " mx-1") }}
+    {{- if eq .Name "gallery" -}}
+      {{ $class = (print $class " mx-1") }}
+    {{- end -}}
   {{- else -}}
     {{ $class = (print $class " mx-auto") }}
   {{- end -}}
