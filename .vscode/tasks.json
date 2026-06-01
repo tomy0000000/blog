@@ -73,7 +73,7 @@
       "problemMatcher": []
     },
     {
-      "label": "📅 Update post date",
+      "label": "✍🏻 Update post date",
       "type": "shell",
       "command": "sed",
       "args": [
@@ -94,7 +94,7 @@
       }
     },
     {
-      "label": "🖼 Optimize images",
+      "label": "✍🏻 Optimize images",
       "type": "shell",
       "command": "scripts/optimize_image.sh",
       "args": ["${fileDirname}"],
@@ -105,13 +105,26 @@
       "problemMatcher": []
     },
     {
-      "label": "⚙️ Update ignore list",
+      "label": "✍🏻 Update ignore list",
       "type": "process",
       "command": "scripts/generate_vscode_ignore.py",
       "presentation": {
         "reveal": "never"
       },
       "problemMatcher": []
+    },
+    {
+      "label": "✍🏻 Schedule newsletter",
+      "type": "npm",
+      "script": "email-send",
+      "problemMatcher": ["$tsc"]
+    },
+    {
+      "label": "✍🏻 Build blog",
+      "type": "npm",
+      "script": "blog-build",
+      "group": "build",
+      "problemMatcher": ["$tsc"]
     }
   ],
   "inputs": [

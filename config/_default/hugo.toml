@@ -9,6 +9,7 @@ timeZone = "Asia/Taipei"
 
 enableRobotsTXT = true
 summaryLength = 0
+ignoreFiles = ['AGENTS\.md$']
 
 [markup]
   [markup.goldmark]
@@ -21,6 +22,11 @@ summaryLength = 0
         # Support CJK emphasis rendering
         # e.g. 這個選項讓\ **「括弧本身」**\ 也會跟著變粗體，不需要前後空白來繞開 CommonMark 的語法。
         escapedSpace = true
+    [markup.goldmark.parser]
+      [markup.goldmark.parser.attribute]
+        block = true
+  [markup.highlight]
+    style = "dracula"
 
 [taxonomies]
   category = "categories"
@@ -44,9 +50,3 @@ summaryLength = 0
 [services]
   [services.x]
     disableInlineCSS = true
-
-[module]
-[[module.mounts]]
-    excludeFiles = 'README.md'
-    source = 'layouts'
-    target = 'layouts'
