@@ -1,0 +1,8 @@
+{{ $caption := .Get "caption" }}
+
+<figure class="my-4">
+  <div class="carousel-scroller overflow-x-auto gap-2 flex">{{ .Inner }}</div>
+  {{ with $caption }}
+  <figcaption class="text-center mt-1">{{ . | markdownify }}</figcaption>
+  {{ end }}
+</figure>
