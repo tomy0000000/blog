@@ -1,16 +1,16 @@
 #!/usr/bin/env python
 
 import json
-from datetime import datetime, timedelta
+from datetime import UTC, datetime, timedelta
 from pathlib import Path
 
 import frontmatter  # pip install python-frontmatter
 import json5  # pip install json5
-import pytz
 
 PROJECT_ROOT = Path(__file__).parent.parent
 PROJECT_SETTINGS = PROJECT_ROOT / ".vscode" / "settings.json"
-MONTH_AGO = datetime.now(pytz.timezone("UTC")) - timedelta(days=30)
+MONTH_AGO = datetime.now(UTC) - timedelta(days=30)
+
 
 def keep(post_dir: Path) -> bool:
     drafts = post_dir.glob("index.*.md")
@@ -23,6 +23,7 @@ def keep(post_dir: Path) -> bool:
             return True
 
     return False
+
 
 def update_ignore_list(ignored: dict) -> None:
     with open(PROJECT_SETTINGS, "r") as f:
@@ -42,6 +43,7 @@ def update_ignore_list(ignored: dict) -> None:
     with open(PROJECT_SETTINGS, "w") as f:
         json.dump(settings, f, indent=2, sort_keys=True)
 
+
 def main() -> None:
     posts = list(PROJECT_ROOT.glob("content/posts/*"))
     posts.sort()
@@ -53,6 +55,7 @@ def main() -> None:
         else:
             print(f"[KEEP   ] {post.name}")
     update_ignore_list(ignored)
+
 
 if __name__ == "__main__":
     main()
