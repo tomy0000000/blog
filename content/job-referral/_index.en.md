@@ -64,7 +64,7 @@ No word after 3 days? Feel free to nudge me.
 
 ## 🙌🏻 Step 4: Pay it forward
 
-Feel free to connect with me on LinkedIn if we haven't already.
+Let's connect on LinkedIn if we haven't already. If you have friends who are also interested in a referral, please have them reach out to me on LinkedIn before sharing this page.
 
 I know how exhausting and demoralizing job searching can be. I've been through it too, and what carried me through was the kindness of people who didn't have to show up for me, but did anyway. The candid feedback, the warm encouragement, the referrals from near-strangers, it meant more than they probably knew.
 
