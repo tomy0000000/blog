@@ -94,10 +94,29 @@
       }
     },
     {
+      "label": "🔍 Review post",
+      "type": "shell",
+      "command": "claude",
+      "args": [
+        {
+          "value": "/post-reviewer ${file}",
+          "quoting": "strong"
+        }
+      ],
+      "presentation": {
+        "reveal": "always",
+        "focus": true,
+        "panel": "new"
+      },
+      "problemMatcher": []
+    },
+    {
       "label": "✍🏻 Optimize images",
       "type": "shell",
       "command": "scripts/optimize_image.sh",
-      "args": ["${fileDirname}"],
+      "args": [
+        "${fileDirname}"
+      ],
       "presentation": {
         "reveal": "silent",
         "focus": false
@@ -117,14 +136,18 @@
       "label": "✍🏻 Schedule newsletter",
       "type": "npm",
       "script": "email-send",
-      "problemMatcher": ["$tsc"]
+      "problemMatcher": [
+        "$tsc"
+      ]
     },
     {
       "label": "✍🏻 Build blog",
       "type": "npm",
       "script": "blog-build",
       "group": "build",
-      "problemMatcher": ["$tsc"]
+      "problemMatcher": [
+        "$tsc"
+      ]
     }
   ],
   "inputs": [
@@ -137,14 +160,21 @@
       "id": "Language",
       "type": "pickString",
       "description": "Language of the post",
-      "options": ["en", "zh-tw"],
+      "options": [
+        "en",
+        "zh-tw"
+      ],
       "default": "zh-tw"
     },
     {
       "id": "Category",
       "type": "pickString",
       "description": "Category of the post",
-      "options": ["life", "tech", "dev"],
+      "options": [
+        "life",
+        "tech",
+        "dev"
+      ],
       "default": "life"
     }
   ]
