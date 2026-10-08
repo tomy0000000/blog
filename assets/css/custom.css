@@ -29,7 +29,7 @@ abbr[title]:focus::after {
 
 /* Add icons to indicate external links */
 /* https://christianoliff.com/blog/styling-external-links-with-an-icon-in-css/ */
-a svg {
+a > svg {
   fill: var(--tw-prose-body);
   width: 0.6em;
   height: 0.6em;
@@ -38,9 +38,14 @@ a svg {
   display: inline-block;
 }
 
+/* Space between a Congo icon and its link text */
+a > .icon {
+  margin-inline-end: 0.4em;
+}
+
 /* Hugo sometimes renders empty p and a tags */
 p:empty,
 a:empty,
-a svg:first-child {
+a > svg:first-child {
   display: none;
 }
