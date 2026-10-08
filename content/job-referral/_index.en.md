@@ -62,9 +62,13 @@ I send referrals in batches on most workdays. Once yours goes through, you'll re
 
 No word after 3 days? Feel free to nudge me.
 
+Know someone else looking for a referral? Instead of forwarding this page, please ask them to reach out to me on LinkedIn first.
+
+And please don't thank me with cash, gifts, or gift cards, directly or indirectly. Company policy doesn't allow me to accept them, and a quick note when you land the job means more anyway.
+
 ## 🙌🏻 Step 4: Pay it forward
 
-Let's connect on LinkedIn if we haven't already. If you have friends who are also interested in a referral, please have them reach out to me on LinkedIn before sharing this page.
+Let's connect on LinkedIn if we haven't already.
 
 I know how exhausting and demoralizing job searching can be. I've been through it too, and what carried me through was the kindness of people who didn't have to show up for me, but did anyway. The candid feedback, the warm encouragement, the referrals from near-strangers, it meant more than they probably knew.
 
@@ -72,8 +76,8 @@ This page is my small attempt to return that warmth to the world.
 
 So my only ask is this: when you land somewhere great, remember how this felt, and be that person for someone else. 🫶🏻
 
-With that, I wishing you all the best! Not just in the job search, but in everything that comes after. ✌🏻
+With that, I wish you all the best! Not just in the job search, but in everything that comes after. ✌🏻
 
 ---
 
-_Disclaimer: This page is a personal initiative and is not affiliated with, endorsed by, or representative of Robinhood Markets, Inc. in any way. I reserve the final discretion on all referral decisions._
+_Disclaimer: This page is a personal initiative and is not affiliated with, endorsed by, or representative of Robinhood Markets, Inc. in any way. I can not represent the company, nor am I acting on behalf of our recruitment team. I reserve the final discretion on all referral decisions._
