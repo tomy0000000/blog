@@ -17,6 +17,6 @@ I wholeheartedly love and devoted to finely crafted software that sparks joy, ju
 - 🧑🏻‍💻 Check the [project gallery](https://projects.tomy.me) and [GitHub](https://github.com/tomy0000000).
 - ✍🏻 My writings: I blog my life in [Chinese]({{< relref path="posts" lang="zh-tw" >}}), there are also some geeky posts in [English]({{< relref path="posts" lang="en" >}}).
 
-<!-- ## 🙋🏻‍♂️ Reach Out -->
+## 🙋🏻‍♂️ Reach Out
 
-<!-- TODO -->
+My social links can be found [here]({{< relref path="links" >}}).
