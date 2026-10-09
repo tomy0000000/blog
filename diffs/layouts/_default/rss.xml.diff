@@ -44,8 +44,8 @@
 >     <description>{{ $description }}</description>
 >     {{ with .Site.LanguageCode -}}<language>{{ . }}</language>{{ end }}
 >     {{ with .Site.Copyright -}}<copyright>{{ . | markdownify | plainify }}</copyright>{{ end }}
->     {{ with .Site.Author.email }}<managingEditor>{{ . }}{{ with $.Site.Author.name }} ({{ . }}){{ end }}</managingEditor>{{ end }}
->     {{ with .Site.Author.email }}<webMaster>{{ . }}{{ with $.Site.Author.name }} ({{ . }}){{ end }}</webMaster>{{ end }}
+>     {{ with .Site.Params.author.email }}<managingEditor>{{ . }}{{ with $.Site.Params.author.name }} ({{ . }}){{ end }}</managingEditor>{{ end }}
+>     {{ with .Site.Params.author.email }}<webMaster>{{ . }}{{ with $.Site.Params.author.name }} ({{ . }}){{ end }}</webMaster>{{ end }}
 >     {{ with .Site.Params.publishDate -}}<pubDate>{{ .Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>{{ end }}
 >     <lastBuildDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>
 >     {{ range .Site.Taxonomies.categories -}}
@@ -75,7 +75,7 @@
 31a60,77
 >       <description>{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ end }}{{ end }}</description>
 >       <content:encoded>{{ with .Content }}{{ printf "<![CDATA[%s]]>" . | safeHTML }}{{ else }}{{ if .IsPage }}{{ printf "<![CDATA[%s]]>" .Summary | safeHTML }}{{ end }}{{ end }}</content:encoded>
->       {{ with .Site.Author.email -}}<author>{{ . }}{{ with $.Site.Author.name }} ({{ . }}){{ end }}</author>{{ end }}
+>       {{ with .Site.Params.author.email -}}<author>{{ . }}{{ with $.Site.Params.author.name }} ({{ . }}){{ end }}</author>{{ end }}
 >       {{ with .Params.categories -}}{{ range . }}<category>{{ . }}</category>{{ end }}{{ end }}
 >       {{- $og_url := print "https://og.tomy.tech/api/blog?title=" (urlquery .Title) }}
 >       {{/* {{- $og_image := resources.GetRemote $og_url -}} */}}
