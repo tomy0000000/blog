@@ -1,5 +1,9 @@
 0a1
 > <!-- https://github.com/jpanther/congo/blob/v2.12.1/layouts/_partials/head.html -->
+59c60
+<   {{ if eq (site.Language.LanguageDirection | default "ltr") "rtl" }}
+---
+>   {{ if eq (site.Language.Direction | default "ltr") "rtl" }}
 131,132c132,133
 <   {{ template "_internal/opengraph.html" . }}
 <   {{ template "_internal/twitter_cards.html" . }}

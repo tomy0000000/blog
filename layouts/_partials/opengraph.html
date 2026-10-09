@@ -13,7 +13,7 @@
   <meta property="og:description" content="{{ trim . "\n\r\t " }}">
 {{- end }}
 
-{{- with or .Params.locale site.Language.LanguageCode }}
+{{- with or .Params.locale site.Language.Locale }}
   {{- $split := split . "-" -}}
   {{- $locale := index $split 0 -}}
   {{- if gt (len $split) 1 -}}

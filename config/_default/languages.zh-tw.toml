@@ -1,6 +1,6 @@
-languageCode = "zh-Hant"
-languageName = "🇹🇼 中文 (台灣)"
-languageDirection = "ltr"
+locale = "zh-Hant"
+label = "🇹🇼 中文 (台灣)"
+direction = "ltr"
 weight = 1
 hasCJKLanguage = true
 

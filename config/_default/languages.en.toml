@@ -1,6 +1,6 @@
-languageCode = "en"
-languageName = "🇺🇸 English (US)"
-languageDirection = "ltr"
+locale = "en"
+label = "🇺🇸 English (US)"
+direction = "ltr"
 weight = 2
 hasCJKLanguage = false
 

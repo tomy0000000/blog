@@ -24,7 +24,7 @@
     <title>{{ $title }}</title>
     <link>{{ .Permalink }}</link>
     <description>{{ $description }}</description>
-    {{ with .Site.LanguageCode -}}<language>{{ . }}</language>{{ end }}
+    {{ with .Site.Language.Locale -}}<language>{{ . }}</language>{{ end }}
     {{ with .Site.Copyright -}}<copyright>{{ . | markdownify | plainify }}</copyright>{{ end }}
     {{ with .Site.Params.author.email }}<managingEditor>{{ . }}{{ with $.Site.Params.author.name }} ({{ . }}){{ end }}</managingEditor>{{ end }}
     {{ with .Site.Params.author.email }}<webMaster>{{ . }}{{ with $.Site.Params.author.name }} ({{ . }}){{ end }}</webMaster>{{ end }}

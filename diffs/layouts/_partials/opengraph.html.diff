@@ -1,8 +1,10 @@
 0a1
 > <!-- https://github.com/gohugoio/hugo/blob/v0.148.2/tpl/tplimpl/embedded/templates/_partials/opengraph.html -->
-16c17,23
+15,16c16,23
+< {{- with or .Params.locale site.Language.LanguageCode }}
 <   <meta property="og:locale" content="{{ replace . `-` `_` }}">
 ---
+> {{- with or .Params.locale site.Language.Locale }}
 >   {{- $split := split . "-" -}}
 >   {{- $locale := index $split 0 -}}
 >   {{- if gt (len $split) 1 -}}
