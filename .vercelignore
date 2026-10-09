@@ -2,4 +2,5 @@
 /*
 !api
 !package.json
+!pnpm-lock.yaml
 !vercel.json
