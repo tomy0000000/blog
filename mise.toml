@@ -1,2 +1,5 @@
+[tools]
+hugo-extended = "0.155.0"
+
 [env]
 _.file = '.env'

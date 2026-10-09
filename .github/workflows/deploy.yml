@@ -66,11 +66,15 @@ jobs:
       - name: 🏗️ Build CSS
         run: npm run css-build
 
+      - name: 🐭 Setup mise
+        uses: jdx/mise-action@v4
+
+      - name: ⚙️ Setup Pages
+        id: pages
+        uses: actions/configure-pages@v4
+
       - name: 🏗️ Build site
-        uses: tomy0000000/actions/hugo-github-pages@main
-        with:
-          hugo_version: "0.155.0"
-          upload: false
+        run: hugo --gc --minify --baseURL ${{ steps.pages.outputs.base_url }}
 
       # Temporary fix before gohugoio/hugo#5161 is resolved
       - name: 🔧 Fix 404 Page
